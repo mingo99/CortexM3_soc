@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../../../Rtl_no_l2/Peripherals/ACC/IP/adder_32bit/sim/adder_32bit.vhd" \
+
+nosort

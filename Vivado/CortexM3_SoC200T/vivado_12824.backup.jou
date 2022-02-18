@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Jul 20 15:07:02 2020
+# Process ID: 12824
+# Current directory: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5936 G:\SoC\Projects\CortexM3_soc\Vivado\CortexM3_SoC200T\CortexM3_SoC200T.xpr
+# Log file: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/vivado.log
+# Journal file: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.xpr
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+reset_project
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1

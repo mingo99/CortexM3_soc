@@ -1,0 +1,2 @@
+adder_16bit.vhd,vhdl,xil_defaultlib,../../../../../../Rtl_no_l2/Peripherals/ACC/IP/adder_16bit_1/sim/adder_16bit.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

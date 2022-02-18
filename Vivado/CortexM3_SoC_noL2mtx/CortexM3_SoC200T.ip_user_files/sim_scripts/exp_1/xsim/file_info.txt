@@ -1,0 +1,2 @@
+exp.vhd,vhdl,xil_defaultlib,../../../../../../Rtl_no_l2/Peripherals/ACC/IP/exp_1/sim/exp.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

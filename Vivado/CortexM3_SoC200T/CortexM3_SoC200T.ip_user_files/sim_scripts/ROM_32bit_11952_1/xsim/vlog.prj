@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../../../Rtl/Peripherals/ACC/IP/ROM_32bit_11952_1/ROM_32bit_11952_sim_netlist.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

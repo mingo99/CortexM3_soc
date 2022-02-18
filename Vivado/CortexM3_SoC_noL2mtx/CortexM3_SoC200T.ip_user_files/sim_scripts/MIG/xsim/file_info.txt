@@ -1,0 +1,2 @@
+MIG_sim_netlist.v,verilog,xil_defaultlib,g:/SoC/Projects/CortexM3_soc/Rtl_no_l2/Peripherals/DDR/ip/MIG/MIG_sim_netlist.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

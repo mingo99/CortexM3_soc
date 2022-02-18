@@ -1,0 +1,2 @@
+FIFO_sim_netlist.v,verilog,xil_defaultlib,../../../../../../Rtl_camera/Peripherals/DDR/ip/FIFO/FIFO_sim_netlist.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,891 @@
+Component: ARM Compiler 5.06 update 6 (build 750) Tool: armlink [4d35ed]
+
+==============================================================================
+
+Section Cross References
+
+    acc.o(i.ACCConvDoneHandler) refers to acc.o(i.ACC_ClrCtrl) for ACC_ClrCtrl
+    acc.o(i.ACCConvDoneHandler) refers to acc.o(i.ACC_RegConfig) for ACC_RegConfig
+    acc.o(i.ACCConvDoneHandler) refers to acc.o(i.ACC_ConvEnable) for ACC_ConvEnable
+    acc.o(i.ACCConvDoneHandler) refers to acc.o(i.ACC_NmsEnable) for ACC_NmsEnable
+    acc.o(i.ACCConvDoneHandler) refers to acc.o(.data) for layer_cnt
+    acc.o(i.ACCNoFaceHandler) refers to acc.o(.data) for noface
+    acc.o(i.ACCReadResultsHandler) refers to acc.o(.data) for accdone_flag
+    acc.o(i.ACC_GetFeatureMap) refers to gpio.o(i.LED_LightUp) for LED_LightUp
+    acc.o(i.ACC_GetFeatureMap) refers to uart.o(i.uart_ReceiveChar) for uart_ReceiveChar
+    acc.o(i.ACC_GetFeatureMap) refers to gpio.o(i.LED_ShutDown) for LED_ShutDown
+    acc.o(i.ACC_GetImage) refers to gpio.o(i.LED_LightUp) for LED_LightUp
+    acc.o(i.ACC_GetImage) refers to uart.o(i.uart_ReceiveChar) for uart_ReceiveChar
+    acc.o(i.ACC_GetImage) refers to gpio.o(i.LED_ShutDown) for LED_ShutDown
+    acc.o(i.ACC_GetWeight) refers to gpio.o(i.LED_LightUp) for LED_LightUp
+    acc.o(i.ACC_GetWeight) refers to uart.o(i.uart_ReceiveChar) for uart_ReceiveChar
+    acc.o(i.ACC_GetWeight) refers to gpio.o(i.LED_ShutDown) for LED_ShutDown
+    acc.o(i.ACC_ImageInit) refers to camera.o(i.IMAGE_ClrRGBAValue) for IMAGE_ClrRGBAValue
+    acc.o(i.ACC_Init_Test) refers to acc.o(i.ACC_ClrCtrl) for ACC_ClrCtrl
+    acc.o(i.ACC_Init_Test) refers to acc.o(i.ACC_RegConfig) for ACC_RegConfig
+    acc.o(i.ACC_Init_Test) refers to acc.o(.data) for layer_cnt
+    acc.o(i.ACC_ReadResults) refers to acc.o(i.ACC_GetIsvalid) for ACC_GetIsvalid
+    acc.o(i.ACC_ReadResults) refers to memcpya.o(.text) for __aeabi_memcpy4
+    acc.o(i.ACC_RegInit) refers to acc.o(i.ACC_ClrCtrl) for ACC_ClrCtrl
+    acc.o(i.ACC_RegInit) refers to acc.o(i.ACC_RegConfig) for ACC_RegConfig
+    acc.o(i.ACC_RegInit) refers to acc.o(.data) for layer_cnt
+    acc.o(i.ACC_Start) refers to acc.o(i.ACC_ConvEnable) for ACC_ConvEnable
+    camera.o(i.CAMERA_Command) refers to camera.o(i.CAMERA_Start) for CAMERA_Start
+    camera.o(i.CAMERA_Command) refers to camera.o(i.CAMERA_Write_Byte) for CAMERA_Write_Byte
+    camera.o(i.CAMERA_Command) refers to camera.o(i.CAMERA_Stop) for CAMERA_Stop
+    camera.o(i.CAMERA_ImageCap) refers to camera.o(i.Set_CAMERA_DATA_STATE) for Set_CAMERA_DATA_STATE
+    camera.o(i.CAMERA_ImageCap) refers to gpio.o(i.LED_LightUp) for LED_LightUp
+    camera.o(i.CAMERA_ImageCap) refers to camera.o(i.Read_CAMERA_DATA_STATE) for Read_CAMERA_DATA_STATE
+    camera.o(i.CAMERA_ImageCap) refers to gpio.o(i.LED_ShutDown) for LED_ShutDown
+    camera.o(i.CAMERA_Init) refers to camera.o(i.Set_CAMERA_SDA_W) for Set_CAMERA_SDA_W
+    camera.o(i.CAMERA_Init) refers to camera.o(i.Clr_CAMERA_PWDN) for Clr_CAMERA_PWDN
+    camera.o(i.CAMERA_Init) refers to systick.o(i.Delay) for Delay
+    camera.o(i.CAMERA_Init) refers to camera.o(i.Set_CAMERA_RST) for Set_CAMERA_RST
+    camera.o(i.CAMERA_Init) refers to camera.o(i.CAMERA_Read_Reg) for CAMERA_Read_Reg
+    camera.o(i.CAMERA_Init) refers to camera.o(i.CAMERA_Command) for CAMERA_Command
+    camera.o(i.CAMERA_Init) refers to camera.o(.constdata) for camera_initial_reg
+    camera.o(i.CAMERA_Initial) refers to camera.o(i.Set_CAMERA_SDA_W) for Set_CAMERA_SDA_W
+    camera.o(i.CAMERA_Initial) refers to camera.o(i.Clr_CAMERA_PWDN) for Clr_CAMERA_PWDN
+    camera.o(i.CAMERA_Initial) refers to systick.o(i.Delay) for Delay
+    camera.o(i.CAMERA_Initial) refers to camera.o(i.Set_CAMERA_RST) for Set_CAMERA_RST
+    camera.o(i.CAMERA_Initial) refers to camera.o(i.CAMERA_Read_Reg) for CAMERA_Read_Reg
+    camera.o(i.CAMERA_Initial) refers to camera.o(i.CAMERA_Command) for CAMERA_Command
+    camera.o(i.CAMERA_Initial) refers to camera.o(.constdata) for camera_initial_reg
+    camera.o(i.CAMERA_NA) refers to systick.o(i.Delay) for Delay
+    camera.o(i.CAMERA_NA) refers to camera.o(i.Set_CAMERA_SDA) for Set_CAMERA_SDA
+    camera.o(i.CAMERA_NA) refers to camera.o(i.Set_CAMERA_SCL) for Set_CAMERA_SCL
+    camera.o(i.CAMERA_NA) refers to camera.o(i.Clr_CAMERA_SCL) for Clr_CAMERA_SCL
+    camera.o(i.CAMERA_NA) refers to camera.o(i.Clr_CAMERA_SDA) for Clr_CAMERA_SDA
+    camera.o(i.CAMERA_Read_Byte) refers to camera.o(i.Set_CAMERA_SDA_R) for Set_CAMERA_SDA_R
+    camera.o(i.CAMERA_Read_Byte) refers to systick.o(i.Delay) for Delay
+    camera.o(i.CAMERA_Read_Byte) refers to camera.o(i.Set_CAMERA_SCL) for Set_CAMERA_SCL
+    camera.o(i.CAMERA_Read_Byte) refers to camera.o(i.Read_CAMERA_SDA) for Read_CAMERA_SDA
+    camera.o(i.CAMERA_Read_Byte) refers to camera.o(i.Clr_CAMERA_SCL) for Clr_CAMERA_SCL
+    camera.o(i.CAMERA_Read_Byte) refers to camera.o(i.Set_CAMERA_SDA_W) for Set_CAMERA_SDA_W
+    camera.o(i.CAMERA_Read_Reg) refers to camera.o(i.CAMERA_Start) for CAMERA_Start
+    camera.o(i.CAMERA_Read_Reg) refers to camera.o(i.CAMERA_Write_Byte) for CAMERA_Write_Byte
+    camera.o(i.CAMERA_Read_Reg) refers to camera.o(i.CAMERA_Stop) for CAMERA_Stop
+    camera.o(i.CAMERA_Read_Reg) refers to systick.o(i.Delay) for Delay
+    camera.o(i.CAMERA_Read_Reg) refers to camera.o(i.CAMERA_Read_Byte) for CAMERA_Read_Byte
+    camera.o(i.CAMERA_Read_Reg) refers to camera.o(i.CAMERA_NA) for CAMERA_NA
+    camera.o(i.CAMERA_Start) refers to camera.o(i.Set_CAMERA_SDA) for Set_CAMERA_SDA
+    camera.o(i.CAMERA_Start) refers to camera.o(i.Set_CAMERA_SCL) for Set_CAMERA_SCL
+    camera.o(i.CAMERA_Start) refers to systick.o(i.Delay) for Delay
+    camera.o(i.CAMERA_Start) refers to camera.o(i.Clr_CAMERA_SDA) for Clr_CAMERA_SDA
+    camera.o(i.CAMERA_Start) refers to camera.o(i.Clr_CAMERA_SCL) for Clr_CAMERA_SCL
+    camera.o(i.CAMERA_Stop) refers to camera.o(i.Clr_CAMERA_SDA) for Clr_CAMERA_SDA
+    camera.o(i.CAMERA_Stop) refers to systick.o(i.Delay) for Delay
+    camera.o(i.CAMERA_Stop) refers to camera.o(i.Set_CAMERA_SCL) for Set_CAMERA_SCL
+    camera.o(i.CAMERA_Stop) refers to camera.o(i.Set_CAMERA_SDA) for Set_CAMERA_SDA
+    camera.o(i.CAMERA_Waite) refers to systick.o(i.Delay) for Delay
+    camera.o(i.CAMERA_Waite) refers to camera.o(i.Set_CAMERA_SCL) for Set_CAMERA_SCL
+    camera.o(i.CAMERA_Waite) refers to camera.o(i.Clr_CAMERA_SCL) for Clr_CAMERA_SCL
+    camera.o(i.CAMERA_Write_Byte) refers to camera.o(i.Set_CAMERA_SDA) for Set_CAMERA_SDA
+    camera.o(i.CAMERA_Write_Byte) refers to camera.o(i.Clr_CAMERA_SDA) for Clr_CAMERA_SDA
+    camera.o(i.CAMERA_Write_Byte) refers to systick.o(i.Delay) for Delay
+    camera.o(i.CAMERA_Write_Byte) refers to camera.o(i.Set_CAMERA_SCL) for Set_CAMERA_SCL
+    camera.o(i.CAMERA_Write_Byte) refers to camera.o(i.Clr_CAMERA_SCL) for Clr_CAMERA_SCL
+    camera.o(i.CAMERA_Write_Byte) refers to camera.o(i.Set_CAMERA_SDA_R) for Set_CAMERA_SDA_R
+    camera.o(i.CAMERA_Write_Byte) refers to camera.o(i.Set_CAMERA_SDA_W) for Set_CAMERA_SDA_W
+    camera.o(i.IMAGE_Process) refers to gpio.o(i.LED_LightUp) for LED_LightUp
+    camera.o(i.IMAGE_Process) refers to camera.o(i.Set_CAMERA_DATA_STATE) for Set_CAMERA_DATA_STATE
+    camera.o(i.IMAGE_Process) refers to camera.o(i.IMAGE_ScaleImage) for IMAGE_ScaleImage
+    camera.o(i.IMAGE_Process) refers to gpio.o(i.LED_ShutDown) for LED_ShutDown
+    camera.o(i.IMAGE_ScaleImage) refers to ffltui.o(.text) for __aeabi_ui2f
+    camera.o(i.IMAGE_ScaleImage) refers to fdiv.o(.text) for __aeabi_fdiv
+    camera.o(i.IMAGE_ScaleImage) refers to camera.o(i.IMAGE_ScalePixel) for IMAGE_ScalePixel
+    camera.o(i.IMAGE_ScalePixel) refers to ffltui.o(.text) for __aeabi_ui2f
+    camera.o(i.IMAGE_ScalePixel) refers to fadd.o(.text) for __aeabi_fsub
+    camera.o(i.IMAGE_ScalePixel) refers to fdiv.o(.text) for __aeabi_fdiv
+    camera.o(i.IMAGE_ScalePixel) refers to cfcmple.o(.text) for __aeabi_cfcmple
+    camera.o(i.IMAGE_ScalePixel) refers to f2d.o(.text) for __aeabi_f2d
+    camera.o(i.IMAGE_ScalePixel) refers to floor.o(i.floor) for floor
+    camera.o(i.IMAGE_ScalePixel) refers to dfixui.o(.text) for __aeabi_d2uiz
+    camera.o(i.IMAGE_ScalePixel) refers to camera.o(i.IMAGE_GetRGBValue) for IMAGE_GetRGBValue
+    camera.o(i.IMAGE_ScalePixel) refers to camera.o(i.IMAGE_FPNQ) for IMAGE_FPNQ
+    camera.o(i.IMAGE_ScalePixel) refers to fmul.o(.text) for __aeabi_fmul
+    camera.o(i.IMAGE_ScalePixel) refers to dadd.o(.text) for __aeabi_dadd
+    camera.o(i.IMAGE_ScalePixel) refers to camera.o(i.IMAGE_DstRGBValue) for IMAGE_DstRGBValue
+    dma.o(i.DMA_Image) refers to dma.o(i.DMA) for DMA
+    gpio.o(i.LED_LightUp) refers to gpio.o(i.Read_GPIO_Output) for Read_GPIO_Output
+    gpio.o(i.LED_LightUp) refers to gpio.o(i.Set_GPIO_Value) for Set_GPIO_Value
+    gpio.o(i.LED_ShutDown) refers to gpio.o(i.Read_GPIO_Output) for Read_GPIO_Output
+    gpio.o(i.LED_ShutDown) refers to gpio.o(i.Set_GPIO_Value) for Set_GPIO_Value
+    gpio.o(i.Read_Switch) refers to gpio.o(i.Read_GPIO_Input) for Read_GPIO_Input
+    keyboard.o(i.Key0Handler) refers to keyboard.o(.data) for key0_flag
+    keyboard.o(i.Key1Handler) refers to keyboard.o(.data) for key1_flag
+    keyboard.o(i.Key2Handler) refers to keyboard.o(.data) for key2_flag
+    keyboard.o(i.Key3Handler) refers to keyboard.o(.data) for key3_flag
+    keyboard.o(i.Key_Init) refers to keyboard.o(.data) for key0_flag
+    lcd.o(i.LCD_DMA) refers to lcd.o(i.LCD_PrepareDMA) for LCD_PrepareDMA
+    lcd.o(i.LCD_DMA) refers to dma.o(i.DMA) for DMA
+    lcd.o(i.LCD_DMA) refers to lcd.o(i.LCD_QuitDMA) for LCD_QuitDMA
+    lcd.o(i.LCD_Display) refers to lcd.o(i.LCD_DMA) for LCD_DMA
+    lcd.o(i.LCD_Draw_FaceBox) refers to acc.o(i.ACC_GetIsvalid) for ACC_GetIsvalid
+    lcd.o(i.LCD_Draw_FaceBox) refers to acc.o(i.ACC_ReadResults) for ACC_ReadResults
+    lcd.o(i.LCD_Draw_FaceBox) refers to memcpya.o(.text) for __aeabi_memcpy4
+    lcd.o(i.LCD_Draw_FaceBox) refers to lcd.o(i.LCD_Thick_Window) for LCD_Thick_Window
+    lcd.o(i.LCD_Draw_Window) refers to lcd.o(i.LCD_Fast_DrawPoint) for LCD_Fast_DrawPoint
+    lcd.o(i.LCD_Fast_DrawPoint) refers to lcd.o(i.LCD_WR_REG) for LCD_WR_REG
+    lcd.o(i.LCD_Fast_DrawPoint) refers to lcd.o(i.LCD_WR_DATA) for LCD_WR_DATA
+    lcd.o(i.LCD_Fast_DrawPoint) refers to lcd.o(i.MakeData) for MakeData
+    lcd.o(i.LCD_Full_Color) refers to lcd.o(i.LCD_WR_REG) for LCD_WR_REG
+    lcd.o(i.LCD_Full_Color) refers to lcd.o(i.LCD_WR_DATA) for LCD_WR_DATA
+    lcd.o(i.LCD_Init) refers to systick.o(i.Delay) for Delay
+    lcd.o(i.LCD_Init) refers to lcd.o(i.LCD_WR_REG) for LCD_WR_REG
+    lcd.o(i.LCD_Init) refers to lcd.o(i.LCD_WR_DATA) for LCD_WR_DATA
+    lcd.o(i.LCD_Init) refers to lcd.o(i.LCD_ReadReg) for LCD_ReadReg
+    lcd.o(i.LCD_Init) refers to lcd.o(i.LCD_Scan_Dir) for LCD_Scan_Dir
+    lcd.o(i.LCD_PrepareDMA) refers to lcd.o(i.LCD_WR_REG) for LCD_WR_REG
+    lcd.o(i.LCD_PrepareDMA) refers to lcd.o(i.LCD_WR_DATA) for LCD_WR_DATA
+    lcd.o(i.LCD_RD_DATA) refers to lcd.o(i.ReadData) for ReadData
+    lcd.o(i.LCD_RD_DATA) refers to systick.o(i.Delay) for Delay
+    lcd.o(i.LCD_ReadReg) refers to lcd.o(i.LCD_WR_REG) for LCD_WR_REG
+    lcd.o(i.LCD_ReadReg) refers to systick.o(i.Delay) for Delay
+    lcd.o(i.LCD_ReadReg) refers to lcd.o(i.LCD_RD_DATA) for LCD_RD_DATA
+    lcd.o(i.LCD_Scan_Dir) refers to lcd.o(i.LCD_WR_REG) for LCD_WR_REG
+    lcd.o(i.LCD_Scan_Dir) refers to lcd.o(i.LCD_WR_DATA) for LCD_WR_DATA
+    lcd.o(i.LCD_SetCursor) refers to lcd.o(i.LCD_WR_REG) for LCD_WR_REG
+    lcd.o(i.LCD_SetCursor) refers to lcd.o(i.LCD_WR_DATA) for LCD_WR_DATA
+    lcd.o(i.LCD_Thick_Window) refers to lcd.o(i.LCD_Draw_Window) for LCD_Draw_Window
+    lcd.o(i.LCD_WR_DATA) refers to systick.o(i.Delay) for Delay
+    lcd.o(i.LCD_WR_DATA) refers to lcd.o(i.MakeData) for MakeData
+    lcd.o(i.LCD_WR_REG) refers to systick.o(i.Delay) for Delay
+    lcd.o(i.LCD_WR_REG) refers to lcd.o(i.MakeData) for MakeData
+    main.o(i.main) refers to camera.o(i.CAMERA_ImageCap) for CAMERA_ImageCap
+    main.o(i.main) refers to lcd.o(i.LCD_Display) for LCD_Display
+    main.o(i.main) refers to resizer.o(i.Resizer_Start) for Resizer_Start
+    main.o(i.main) refers to lcd.o(i.LCD_Draw_FaceBox) for LCD_Draw_FaceBox
+    main.o(i.main) refers to gpio.o(i.LED_LightUp) for LED_LightUp
+    main.o(i.main) refers to timer.o(i.Timer_Reset) for Timer_Reset
+    main.o(i.main) refers to timer.o(i.Timer_Start) for Timer_Start
+    main.o(i.main) refers to timer.o(i.Timer_Show_Enable) for Timer_Show_Enable
+    main.o(i.main) refers to systick.o(i.Delay) for Delay
+    main.o(i.main) refers to gpio.o(i.LED_ShutDown) for LED_ShutDown
+    main.o(i.main) refers to keyboard.o(.data) for key0_flag
+    main.o(i.main) refers to acc.o(.data) for accdone_flag
+    resizer.o(i.ResizerDoneHandler) refers to acc.o(i.ACC_Start) for ACC_Start
+    retarget.o(i._ttywrch) refers to uart.o(i.uart_SendChar) for uart_SendChar
+    retarget.o(i.fgetc) refers to uart.o(i.uart_ReceiveChar) for uart_ReceiveChar
+    retarget.o(i.fgetc) refers to uart.o(i.uart_SendChar) for uart_SendChar
+    retarget.o(i.fputc) refers to uart.o(i.uart_SendChar) for uart_SendChar
+    startup_cm3ds.o(RESET) refers to startup_cm3ds.o(STACK) for __initial_sp
+    startup_cm3ds.o(RESET) refers to startup_cm3ds.o(.text) for Reset_Handler
+    startup_cm3ds.o(.text) refers to handler.o(i.NMIHandler) for NMIHandler
+    startup_cm3ds.o(.text) refers to handler.o(i.HardFaultHandler) for HardFaultHandler
+    startup_cm3ds.o(.text) refers to handler.o(i.MemManageHandler) for MemManageHandler
+    startup_cm3ds.o(.text) refers to handler.o(i.BusFaultHandler) for BusFaultHandler
+    startup_cm3ds.o(.text) refers to handler.o(i.UsageFaultHandler) for UsageFaultHandler
+    startup_cm3ds.o(.text) refers to handler.o(i.SVCHandler) for SVCHandler
+    startup_cm3ds.o(.text) refers to handler.o(i.DebugMonHandler) for DebugMonHandler
+    startup_cm3ds.o(.text) refers to handler.o(i.PendSVHandler) for PendSVHandler
+    startup_cm3ds.o(.text) refers to systick.o(i.SysTickHandler) for SysTickHandler
+    startup_cm3ds.o(.text) refers to uart.o(i.UARTRXHandler) for UARTRXHandler
+    startup_cm3ds.o(.text) refers to uart.o(i.UARTTXHandler) for UARTTXHandler
+    startup_cm3ds.o(.text) refers to uart.o(i.UARTOVRHandler) for UARTOVRHandler
+    startup_cm3ds.o(.text) refers to acc.o(i.ACCConvDoneHandler) for ACCConvDoneHandler
+    startup_cm3ds.o(.text) refers to acc.o(i.ACCNoFaceHandler) for ACCNoFaceHandler
+    startup_cm3ds.o(.text) refers to acc.o(i.ACCReadResultsHandler) for ACCReadResultsHandler
+    startup_cm3ds.o(.text) refers to keyboard.o(i.Key0Handler) for Key0Handler
+    startup_cm3ds.o(.text) refers to keyboard.o(i.Key1Handler) for Key1Handler
+    startup_cm3ds.o(.text) refers to keyboard.o(i.Key2Handler) for Key2Handler
+    startup_cm3ds.o(.text) refers to keyboard.o(i.Key3Handler) for Key3Handler
+    startup_cm3ds.o(.text) refers to resizer.o(i.ResizerDoneHandler) for ResizerDoneHandler
+    startup_cm3ds.o(.text) refers to system_init.o(i.SystemInit) for SystemInit
+    startup_cm3ds.o(.text) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    system_init.o(i.SystemCoreClockUpdate) refers to system_init.o(.data) for SystemCoreClock
+    system_init.o(i.SystemInit) refers to system_init.o(i.SystemCoreClockUpdate) for SystemCoreClockUpdate
+    system_init.o(i.SystemInit) refers to system_init.o(i.NVIC_EnableIRQ) for NVIC_EnableIRQ
+    system_init.o(i.SystemInit) refers to keyboard.o(i.Key_Init) for Key_Init
+    system_init.o(i.SystemInit) refers to gpio.o(i.Set_GPIO_Dir) for Set_GPIO_Dir
+    system_init.o(i.SystemInit) refers to camera.o(i.CAMERA_Init) for CAMERA_Init
+    system_init.o(i.SystemInit) refers to lcd.o(i.LCD_Init) for LCD_Init
+    system_init.o(i.SystemInit) refers to uart.o(i.uart_Init) for uart_Init
+    system_init.o(i.SystemInit) refers to acc.o(i.ACC_RegInit) for ACC_RegInit
+    system_init.o(i.SystemInit) refers to system_init.o(.data) for SystemCoreClock
+    systick.o(i.Delay) refers to systick.o(i.Set_SysTick_CTRL) for Set_SysTick_CTRL
+    systick.o(i.Delay) refers to systick.o(i.Set_SysTick_LOAD) for Set_SysTick_LOAD
+    systick.o(i.Delay) refers to systick.o(i.Set_SysTick_VALUE) for Set_SysTick_VALUE
+    systick.o(i.SysTickHandler) refers to systick.o(i.Set_SysTick_CTRL) for Set_SysTick_CTRL
+    test_acc.o(i.test_img) refers to uart.o(i.uart_ReceiveChar) for uart_ReceiveChar
+    timer.o(i.Timer_Start) refers to systick.o(i.Delay) for Delay
+    uart.o(i.uart_SendString) refers to strlen.o(.text) for strlen
+    uart.o(i.uart_SendString) refers to uart.o(i.uart_SendChar) for uart_SendChar
+    floor.o(i.__softfp_floor) refers (Special) to iusefp.o(.text) for __I$use$fp
+    floor.o(i.__softfp_floor) refers to floor.o(i.floor) for floor
+    floor.o(i.floor) refers (Special) to iusefp.o(.text) for __I$use$fp
+    floor.o(i.floor) refers to dadd.o(.text) for __aeabi_dadd
+    floor.o(i.floor) refers to cdrcmple.o(.text) for __aeabi_cdrcmple
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry8b.o(.ARM.Collect$$$$0000000A) for _main_cpp_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry9a.o(.ARM.Collect$$$$0000000B) for _main_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry5.o(.ARM.Collect$$$$00000004) for _main_scatterload
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry2.o(.ARM.Collect$$$$00000001) for _main_stk
+    fadd.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    fadd.o(.text) refers to fepilogue.o(.text) for _float_epilogue
+    fmul.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    fdiv.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    fdiv.o(.text) refers to fepilogue.o(.text) for _float_round
+    dadd.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    dadd.o(.text) refers to llshl.o(.text) for __aeabi_llsl
+    dadd.o(.text) refers to llsshr.o(.text) for __aeabi_lasr
+    dadd.o(.text) refers to depilogue.o(.text) for _double_epilogue
+    ffltui.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    ffltui.o(.text) refers to fepilogue.o(.text) for _float_epilogue
+    dfixui.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    dfixui.o(.text) refers to llushr.o(.text) for __aeabi_llsr
+    f2d.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    cfcmple.o(.text) refers (Special) to iusefp.o(.text) for __I$use$fp
+    entry2.o(.ARM.Collect$$$$00000001) refers to entry2.o(.ARM.Collect$$$$00002712) for __lit__00000000
+    entry2.o(.ARM.Collect$$$$00002712) refers to startup_cm3ds.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to startup_cm3ds.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    entry5.o(.ARM.Collect$$$$00000004) refers to init.o(.text) for __scatterload
+    entry9a.o(.ARM.Collect$$$$0000000B) refers to main.o(i.main) for main
+    entry9b.o(.ARM.Collect$$$$0000000C) refers to main.o(i.main) for main
+    depilogue.o(.text) refers to llshl.o(.text) for __aeabi_llsl
+    depilogue.o(.text) refers to llushr.o(.text) for __aeabi_llsr
+    init.o(.text) refers to entry5.o(.ARM.Collect$$$$00000004) for __main_after_scatterload
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing acc.o(.rev16_text), (4 bytes).
+    Removing acc.o(.revsh_text), (4 bytes).
+    Removing acc.o(i.ACC_GetFeatureMap), (128 bytes).
+    Removing acc.o(i.ACC_GetImage), (120 bytes).
+    Removing acc.o(i.ACC_GetWeight), (120 bytes).
+    Removing acc.o(i.ACC_ImageInit), (8 bytes).
+    Removing acc.o(i.ACC_Init_Test), (28 bytes).
+    Removing acc.o(i.ACC_NmsReturn), (12 bytes).
+    Removing camera.o(.rev16_text), (4 bytes).
+    Removing camera.o(.revsh_text), (4 bytes).
+    Removing camera.o(i.CAMERA_Initial), (780 bytes).
+    Removing camera.o(i.CAMERA_Waite), (24 bytes).
+    Removing camera.o(i.Clr_CAMERA_RST), (12 bytes).
+    Removing camera.o(i.IMAGE_ClrRGBAValue), (140 bytes).
+    Removing camera.o(i.IMAGE_DstRGBValue), (108 bytes).
+    Removing camera.o(i.IMAGE_FPNQ), (34 bytes).
+    Removing camera.o(i.IMAGE_GetRGBValue), (112 bytes).
+    Removing camera.o(i.IMAGE_Process), (44 bytes).
+    Removing camera.o(i.IMAGE_ScaleImage), (120 bytes).
+    Removing camera.o(i.IMAGE_ScalePixel), (564 bytes).
+    Removing camera.o(i.Set_CAMERA_PWDN), (12 bytes).
+    Removing dma.o(.rev16_text), (4 bytes).
+    Removing dma.o(.revsh_text), (4 bytes).
+    Removing dma.o(i.DMA_Image), (40 bytes).
+    Removing gpio.o(.rev16_text), (4 bytes).
+    Removing gpio.o(.revsh_text), (4 bytes).
+    Removing gpio.o(i.Read_GPIO_Dir), (12 bytes).
+    Removing gpio.o(i.Read_GPIO_Input), (12 bytes).
+    Removing gpio.o(i.Read_Switch), (28 bytes).
+    Removing handler.o(.rev16_text), (4 bytes).
+    Removing handler.o(.revsh_text), (4 bytes).
+    Removing keyboard.o(.rev16_text), (4 bytes).
+    Removing keyboard.o(.revsh_text), (4 bytes).
+    Removing lcd.o(.rev16_text), (4 bytes).
+    Removing lcd.o(.revsh_text), (4 bytes).
+    Removing lcd.o(i.LCD_Full_Color), (90 bytes).
+    Removing lcd.o(i.LCD_SetCursor), (44 bytes).
+    Removing main.o(.rev16_text), (4 bytes).
+    Removing main.o(.revsh_text), (4 bytes).
+    Removing resizer.o(.rev16_text), (4 bytes).
+    Removing resizer.o(.revsh_text), (4 bytes).
+    Removing retarget.o(.rev16_text), (4 bytes).
+    Removing retarget.o(.revsh_text), (4 bytes).
+    Removing retarget.o(i._sys_exit), (4 bytes).
+    Removing retarget.o(i._ttywrch), (16 bytes).
+    Removing retarget.o(i.ferror), (8 bytes).
+    Removing retarget.o(i.fgetc), (34 bytes).
+    Removing retarget.o(i.fputc), (32 bytes).
+    Removing retarget.o(.data), (8 bytes).
+    Removing startup_cm3ds.o(HEAP), (32768 bytes).
+    Removing system_init.o(.rev16_text), (4 bytes).
+    Removing system_init.o(.revsh_text), (4 bytes).
+    Removing systick.o(.rev16_text), (4 bytes).
+    Removing systick.o(.revsh_text), (4 bytes).
+    Removing systick.o(i.Read_SysTick_VALUE), (8 bytes).
+    Removing systick.o(i.SysTick_Init), (42 bytes).
+    Removing systick.o(i.SysTick_Stop), (28 bytes).
+    Removing test_acc.o(.rev16_text), (4 bytes).
+    Removing test_acc.o(.revsh_text), (4 bytes).
+    Removing test_acc.o(i.test_img), (116 bytes).
+    Removing timer.o(.rev16_text), (4 bytes).
+    Removing timer.o(.revsh_text), (4 bytes).
+    Removing timer.o(i.Timer_Pause), (12 bytes).
+    Removing uart.o(.rev16_text), (4 bytes).
+    Removing uart.o(.revsh_text), (4 bytes).
+    Removing uart.o(i.uart_ClearOverrunStatus), (14 bytes).
+    Removing uart.o(i.uart_ClearRxIRQ), (6 bytes).
+    Removing uart.o(i.uart_ClearTxIRQ), (6 bytes).
+    Removing uart.o(i.uart_GetBaudDivider), (6 bytes).
+    Removing uart.o(i.uart_GetOverrunStatus), (10 bytes).
+    Removing uart.o(i.uart_GetRxBufferFull), (10 bytes).
+    Removing uart.o(i.uart_GetRxIRQStatus), (10 bytes).
+    Removing uart.o(i.uart_GetTxBufferFull), (10 bytes).
+    Removing uart.o(i.uart_GetTxIRQStatus), (10 bytes).
+    Removing uart.o(i.uart_ReceiveChar), (20 bytes).
+    Removing uart.o(i.uart_SendChar), (20 bytes).
+    Removing uart.o(i.uart_SendString), (34 bytes).
+    Removing fadd.o(.text), (176 bytes).
+    Removing fmul.o(.text), (100 bytes).
+    Removing fdiv.o(.text), (124 bytes).
+    Removing dadd.o(.text), (334 bytes).
+    Removing ffltui.o(.text), (10 bytes).
+    Removing dfixui.o(.text), (50 bytes).
+    Removing f2d.o(.text), (38 bytes).
+    Removing cfcmple.o(.text), (20 bytes).
+    Removing fepilogue.o(.text), (110 bytes).
+    Removing depilogue.o(.text), (186 bytes).
+    Removing cdrcmple.o(.text), (48 bytes).
+
+88 unused section(s) (total 37140 bytes) removed from the image.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    RESET                                    0x00000000   Section      112  startup_cm3ds.o(RESET)
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llshl.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llushr.o ABSOLUTE
+    ../clib/microlib/longlong.c              0x00000000   Number         0  llsshr.o ABSOLUTE
+    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpyb.o ABSOLUTE
+    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpya.o ABSOLUTE
+    ../clib/microlib/string/strlen.c         0x00000000   Number         0  strlen.o ABSOLUTE
+    ../clib/microlib/stubs.s                 0x00000000   Number         0  iusefp.o ABSOLUTE
+    ../fplib/microlib/f2d.c                  0x00000000   Number         0  f2d.o ABSOLUTE
+    ../fplib/microlib/fpadd.c                0x00000000   Number         0  dadd.o ABSOLUTE
+    ../fplib/microlib/fpadd.c                0x00000000   Number         0  fadd.o ABSOLUTE
+    ../fplib/microlib/fpdiv.c                0x00000000   Number         0  fdiv.o ABSOLUTE
+    ../fplib/microlib/fpepilogue.c           0x00000000   Number         0  fepilogue.o ABSOLUTE
+    ../fplib/microlib/fpepilogue.c           0x00000000   Number         0  depilogue.o ABSOLUTE
+    ../fplib/microlib/fpfix.c                0x00000000   Number         0  dfixui.o ABSOLUTE
+    ../fplib/microlib/fpflt.c                0x00000000   Number         0  ffltui.o ABSOLUTE
+    ../fplib/microlib/fpmul.c                0x00000000   Number         0  fmul.o ABSOLUTE
+    ../mathlib/floor.c                       0x00000000   Number         0  floor.o ABSOLUTE
+    ..\Software\with_camera\Retarget.c       0x00000000   Number         0  retarget.o ABSOLUTE
+    ..\Software\with_camera\acc.c            0x00000000   Number         0  acc.o ABSOLUTE
+    ..\Software\with_camera\camera.c         0x00000000   Number         0  camera.o ABSOLUTE
+    ..\Software\with_camera\dma.c            0x00000000   Number         0  dma.o ABSOLUTE
+    ..\Software\with_camera\gpio.c           0x00000000   Number         0  gpio.o ABSOLUTE
+    ..\Software\with_camera\handler.c        0x00000000   Number         0  handler.o ABSOLUTE
+    ..\Software\with_camera\keyboard.c       0x00000000   Number         0  keyboard.o ABSOLUTE
+    ..\Software\with_camera\lcd.c            0x00000000   Number         0  lcd.o ABSOLUTE
+    ..\Software\with_camera\main.c           0x00000000   Number         0  main.o ABSOLUTE
+    ..\Software\with_camera\resizer.c        0x00000000   Number         0  resizer.o ABSOLUTE
+    ..\Software\with_camera\startup_CM3DS.s  0x00000000   Number         0  startup_cm3ds.o ABSOLUTE
+    ..\Software\with_camera\system_init.c    0x00000000   Number         0  system_init.o ABSOLUTE
+    ..\Software\with_camera\systick.c        0x00000000   Number         0  systick.o ABSOLUTE
+    ..\Software\with_camera\test_acc.c       0x00000000   Number         0  test_acc.o ABSOLUTE
+    ..\Software\with_camera\timer.c          0x00000000   Number         0  timer.o ABSOLUTE
+    ..\Software\with_camera\uart.c           0x00000000   Number         0  uart.o ABSOLUTE
+    ..\\Software\\with_camera\\Retarget.c    0x00000000   Number         0  retarget.o ABSOLUTE
+    ..\\Software\\with_camera\\acc.c         0x00000000   Number         0  acc.o ABSOLUTE
+    ..\\Software\\with_camera\\camera.c      0x00000000   Number         0  camera.o ABSOLUTE
+    ..\\Software\\with_camera\\dma.c         0x00000000   Number         0  dma.o ABSOLUTE
+    ..\\Software\\with_camera\\gpio.c        0x00000000   Number         0  gpio.o ABSOLUTE
+    ..\\Software\\with_camera\\handler.c     0x00000000   Number         0  handler.o ABSOLUTE
+    ..\\Software\\with_camera\\keyboard.c    0x00000000   Number         0  keyboard.o ABSOLUTE
+    ..\\Software\\with_camera\\lcd.c         0x00000000   Number         0  lcd.o ABSOLUTE
+    ..\\Software\\with_camera\\main.c        0x00000000   Number         0  main.o ABSOLUTE
+    ..\\Software\\with_camera\\resizer.c     0x00000000   Number         0  resizer.o ABSOLUTE
+    ..\\Software\\with_camera\\system_init.c 0x00000000   Number         0  system_init.o ABSOLUTE
+    ..\\Software\\with_camera\\systick.c     0x00000000   Number         0  systick.o ABSOLUTE
+    ..\\Software\\with_camera\\test_acc.c    0x00000000   Number         0  test_acc.o ABSOLUTE
+    ..\\Software\\with_camera\\timer.c       0x00000000   Number         0  timer.o ABSOLUTE
+    ..\\Software\\with_camera\\uart.c        0x00000000   Number         0  uart.o ABSOLUTE
+    cdrcmple.s                               0x00000000   Number         0  cdrcmple.o ABSOLUTE
+    cfcmple.s                                0x00000000   Number         0  cfcmple.o ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    handlers.s                               0x00000000   Number         0  handlers.o ABSOLUTE
+    init.s                                   0x00000000   Number         0  init.o ABSOLUTE
+    .ARM.Collect$$$$00000000                 0x00000070   Section        0  entry.o(.ARM.Collect$$$$00000000)
+    .ARM.Collect$$$$00000001                 0x00000070   Section        4  entry2.o(.ARM.Collect$$$$00000001)
+    .ARM.Collect$$$$00000004                 0x00000074   Section        4  entry5.o(.ARM.Collect$$$$00000004)
+    .ARM.Collect$$$$00000008                 0x00000078   Section        0  entry7b.o(.ARM.Collect$$$$00000008)
+    .ARM.Collect$$$$0000000A                 0x00000078   Section        0  entry8b.o(.ARM.Collect$$$$0000000A)
+    .ARM.Collect$$$$0000000B                 0x00000078   Section        8  entry9a.o(.ARM.Collect$$$$0000000B)
+    .ARM.Collect$$$$0000000D                 0x00000080   Section        0  entry10a.o(.ARM.Collect$$$$0000000D)
+    .ARM.Collect$$$$0000000F                 0x00000080   Section        0  entry11a.o(.ARM.Collect$$$$0000000F)
+    .ARM.Collect$$$$00002712                 0x00000080   Section        4  entry2.o(.ARM.Collect$$$$00002712)
+    __lit__00000000                          0x00000080   Data           4  entry2.o(.ARM.Collect$$$$00002712)
+    .text                                    0x00000084   Section      180  startup_cm3ds.o(.text)
+    .text                                    0x00000138   Section        0  memcpya.o(.text)
+    .text                                    0x0000015c   Section       36  init.o(.text)
+    i.ACCConvDoneHandler                     0x00000180   Section        0  acc.o(i.ACCConvDoneHandler)
+    i.ACCNoFaceHandler                       0x000001bc   Section        0  acc.o(i.ACCNoFaceHandler)
+    i.ACCReadResultsHandler                  0x000001c8   Section        0  acc.o(i.ACCReadResultsHandler)
+    i.ACC_ClrCtrl                            0x000001d4   Section        0  acc.o(i.ACC_ClrCtrl)
+    i.ACC_ConvEnable                         0x000001e0   Section        0  acc.o(i.ACC_ConvEnable)
+    i.ACC_GetIsvalid                         0x000001ec   Section        0  acc.o(i.ACC_GetIsvalid)
+    i.ACC_NmsEnable                          0x00000208   Section        0  acc.o(i.ACC_NmsEnable)
+    i.ACC_ReadResults                        0x00000214   Section        0  acc.o(i.ACC_ReadResults)
+    i.ACC_RegConfig                          0x0000028c   Section        0  acc.o(i.ACC_RegConfig)
+    i.ACC_RegInit                            0x00000828   Section        0  acc.o(i.ACC_RegInit)
+    i.ACC_Start                              0x00000844   Section        0  acc.o(i.ACC_Start)
+    i.BusFaultHandler                        0x0000084c   Section        0  handler.o(i.BusFaultHandler)
+    i.CAMERA_Command                         0x0000084e   Section        0  camera.o(i.CAMERA_Command)
+    i.CAMERA_ImageCap                        0x00000878   Section        0  camera.o(i.CAMERA_ImageCap)
+    i.CAMERA_Init                            0x00000898   Section        0  camera.o(i.CAMERA_Init)
+    i.CAMERA_NA                              0x00000ba4   Section        0  camera.o(i.CAMERA_NA)
+    i.CAMERA_Read_Byte                       0x00000bd0   Section        0  camera.o(i.CAMERA_Read_Byte)
+    i.CAMERA_Read_Reg                        0x00000c0e   Section        0  camera.o(i.CAMERA_Read_Reg)
+    i.CAMERA_Start                           0x00000c4e   Section        0  camera.o(i.CAMERA_Start)
+    i.CAMERA_Stop                            0x00000c6e   Section        0  camera.o(i.CAMERA_Stop)
+    i.CAMERA_Write_Byte                      0x00000c90   Section        0  camera.o(i.CAMERA_Write_Byte)
+    i.Clr_CAMERA_PWDN                        0x00000cec   Section        0  camera.o(i.Clr_CAMERA_PWDN)
+    i.Clr_CAMERA_SCL                         0x00000cf8   Section        0  camera.o(i.Clr_CAMERA_SCL)
+    i.Clr_CAMERA_SDA                         0x00000d04   Section        0  camera.o(i.Clr_CAMERA_SDA)
+    i.DMA                                    0x00000d10   Section        0  dma.o(i.DMA)
+    i.DebugMonHandler                        0x00000d24   Section        0  handler.o(i.DebugMonHandler)
+    i.Delay                                  0x00000d26   Section        0  systick.o(i.Delay)
+    i.HardFaultHandler                       0x00000d46   Section        0  handler.o(i.HardFaultHandler)
+    i.Key0Handler                            0x00000d48   Section        0  keyboard.o(i.Key0Handler)
+    i.Key1Handler                            0x00000d54   Section        0  keyboard.o(i.Key1Handler)
+    i.Key2Handler                            0x00000d60   Section        0  keyboard.o(i.Key2Handler)
+    i.Key3Handler                            0x00000d6c   Section        0  keyboard.o(i.Key3Handler)
+    i.Key_Init                               0x00000d78   Section        0  keyboard.o(i.Key_Init)
+    i.LCD_DMA                                0x00000d9c   Section        0  lcd.o(i.LCD_DMA)
+    i.LCD_Display                            0x00000dc0   Section        0  lcd.o(i.LCD_Display)
+    i.LCD_Draw_FaceBox                       0x00000dd4   Section        0  lcd.o(i.LCD_Draw_FaceBox)
+    i.LCD_Draw_Window                        0x00000e64   Section        0  lcd.o(i.LCD_Draw_Window)
+    i.LCD_Fast_DrawPoint                     0x00000ed8   Section        0  lcd.o(i.LCD_Fast_DrawPoint)
+    i.LCD_Init                               0x00000f2c   Section        0  lcd.o(i.LCD_Init)
+    i.LCD_PrepareDMA                         0x000011a8   Section        0  lcd.o(i.LCD_PrepareDMA)
+    i.LCD_QuitDMA                            0x00001204   Section        0  lcd.o(i.LCD_QuitDMA)
+    i.LCD_RD_DATA                            0x00001214   Section        0  lcd.o(i.LCD_RD_DATA)
+    i.LCD_ReadReg                            0x00001240   Section        0  lcd.o(i.LCD_ReadReg)
+    i.LCD_Scan_Dir                           0x00001256   Section        0  lcd.o(i.LCD_Scan_Dir)
+    i.LCD_Thick_Window                       0x000012ea   Section        0  lcd.o(i.LCD_Thick_Window)
+    i.LCD_WR_DATA                            0x00001338   Section        0  lcd.o(i.LCD_WR_DATA)
+    i.LCD_WR_REG                             0x0000136c   Section        0  lcd.o(i.LCD_WR_REG)
+    i.LED_LightUp                            0x000013a0   Section        0  gpio.o(i.LED_LightUp)
+    i.LED_ShutDown                           0x000013c0   Section        0  gpio.o(i.LED_ShutDown)
+    i.MakeData                               0x000013e0   Section        0  lcd.o(i.MakeData)
+    i.MemManageHandler                       0x00001448   Section        0  handler.o(i.MemManageHandler)
+    i.NMIHandler                             0x0000144a   Section        0  handler.o(i.NMIHandler)
+    i.NVIC_EnableIRQ                         0x0000144c   Section        0  system_init.o(i.NVIC_EnableIRQ)
+    NVIC_EnableIRQ                           0x0000144d   Thumb Code    22  system_init.o(i.NVIC_EnableIRQ)
+    i.PendSVHandler                          0x00001462   Section        0  handler.o(i.PendSVHandler)
+    i.ReadData                               0x00001464   Section        0  lcd.o(i.ReadData)
+    i.Read_CAMERA_DATA_STATE                 0x00001488   Section        0  camera.o(i.Read_CAMERA_DATA_STATE)
+    i.Read_CAMERA_SDA                        0x00001494   Section        0  camera.o(i.Read_CAMERA_SDA)
+    i.Read_GPIO_Output                       0x000014a0   Section        0  gpio.o(i.Read_GPIO_Output)
+    i.ResizerDoneHandler                     0x000014ac   Section        0  resizer.o(i.ResizerDoneHandler)
+    i.Resizer_Start                          0x000014b4   Section        0  resizer.o(i.Resizer_Start)
+    i.SVCHandler                             0x000014c0   Section        0  handler.o(i.SVCHandler)
+    i.Set_CAMERA_DATA_STATE                  0x000014c4   Section        0  camera.o(i.Set_CAMERA_DATA_STATE)
+    i.Set_CAMERA_RST                         0x000014d0   Section        0  camera.o(i.Set_CAMERA_RST)
+    i.Set_CAMERA_SCL                         0x000014dc   Section        0  camera.o(i.Set_CAMERA_SCL)
+    i.Set_CAMERA_SDA                         0x000014e8   Section        0  camera.o(i.Set_CAMERA_SDA)
+    i.Set_CAMERA_SDA_R                       0x000014f4   Section        0  camera.o(i.Set_CAMERA_SDA_R)
+    i.Set_CAMERA_SDA_W                       0x00001500   Section        0  camera.o(i.Set_CAMERA_SDA_W)
+    i.Set_GPIO_Dir                           0x0000150c   Section        0  gpio.o(i.Set_GPIO_Dir)
+    i.Set_GPIO_Value                         0x00001518   Section        0  gpio.o(i.Set_GPIO_Value)
+    i.Set_SysTick_CTRL                       0x00001524   Section        0  systick.o(i.Set_SysTick_CTRL)
+    i.Set_SysTick_LOAD                       0x0000152c   Section        0  systick.o(i.Set_SysTick_LOAD)
+    i.Set_SysTick_VALUE                      0x00001534   Section        0  systick.o(i.Set_SysTick_VALUE)
+    i.SysTickHandler                         0x0000153c   Section        0  systick.o(i.SysTickHandler)
+    i.SystemCoreClockUpdate                  0x00001558   Section        0  system_init.o(i.SystemCoreClockUpdate)
+    i.SystemInit                             0x00001568   Section        0  system_init.o(i.SystemInit)
+    i.Timer_Reset                            0x000015f0   Section        0  timer.o(i.Timer_Reset)
+    i.Timer_Show_Enable                      0x000015fc   Section        0  timer.o(i.Timer_Show_Enable)
+    i.Timer_Start                            0x00001608   Section        0  timer.o(i.Timer_Start)
+    i.UARTOVRHandler                         0x00001620   Section        0  uart.o(i.UARTOVRHandler)
+    i.UARTRXHandler                          0x00001622   Section        0  uart.o(i.UARTRXHandler)
+    i.UARTTXHandler                          0x00001624   Section        0  uart.o(i.UARTTXHandler)
+    i.UsageFaultHandler                      0x00001626   Section        0  handler.o(i.UsageFaultHandler)
+    i.__scatterload_copy                     0x00001628   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x00001636   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x00001638   Section       14  handlers.o(i.__scatterload_zeroinit)
+    i.main                                   0x00001648   Section        0  main.o(i.main)
+    i.uart_Init                              0x000016e0   Section        0  uart.o(i.uart_Init)
+    .constdata                               0x00001738   Section     4769  camera.o(.constdata)
+    .data                                    0x20000000   Section        3  acc.o(.data)
+    .data                                    0x20000003   Section        4  keyboard.o(.data)
+    .data                                    0x20000008   Section        4  system_init.o(.data)
+    STACK                                    0x20000010   Section    32768  startup_cm3ds.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv4$P$D$K$B$S$PE$A:L22UL41UL21$X:L11$S22US41US21$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OTIME$ROPI$IEEEJ$EBA8$MICROLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __ARM_use_no_argv                        0x00000000   Number         0  main.o ABSOLUTE
+    __Vectors                                0x00000000   Data           4  startup_cm3ds.o(RESET)
+    __cpp_initialize__aeabi_                  - Undefined Weak Reference
+    __cxa_finalize                            - Undefined Weak Reference
+    __decompress                              - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    _microlib_exit                            - Undefined Weak Reference
+    __Vectors_End                            0x00000070   Data           0  startup_cm3ds.o(RESET)
+    __Vectors_Size                           0x00000070   Number         0  startup_cm3ds.o ABSOLUTE
+    __main                                   0x00000071   Thumb Code     0  entry.o(.ARM.Collect$$$$00000000)
+    _main_stk                                0x00000071   Thumb Code     0  entry2.o(.ARM.Collect$$$$00000001)
+    _main_scatterload                        0x00000075   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    __main_after_scatterload                 0x00000079   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    _main_clock                              0x00000079   Thumb Code     0  entry7b.o(.ARM.Collect$$$$00000008)
+    _main_cpp_init                           0x00000079   Thumb Code     0  entry8b.o(.ARM.Collect$$$$0000000A)
+    _main_init                               0x00000079   Thumb Code     0  entry9a.o(.ARM.Collect$$$$0000000B)
+    __rt_final_cpp                           0x00000081   Thumb Code     0  entry10a.o(.ARM.Collect$$$$0000000D)
+    __rt_final_exit                          0x00000081   Thumb Code     0  entry11a.o(.ARM.Collect$$$$0000000F)
+    Reset_Handler                            0x00000085   Thumb Code     8  startup_cm3ds.o(.text)
+    NMI_Handler                              0x0000008d   Thumb Code     8  startup_cm3ds.o(.text)
+    HardFault_Handler                        0x00000095   Thumb Code     8  startup_cm3ds.o(.text)
+    MemManage_Handler                        0x0000009d   Thumb Code     8  startup_cm3ds.o(.text)
+    BusFault_Handler                         0x000000a5   Thumb Code     8  startup_cm3ds.o(.text)
+    UsageFault_Handler                       0x000000ad   Thumb Code     8  startup_cm3ds.o(.text)
+    SVC_Handler                              0x000000b5   Thumb Code     8  startup_cm3ds.o(.text)
+    DebugMon_Handler                         0x000000bd   Thumb Code     8  startup_cm3ds.o(.text)
+    PendSV_Handler                           0x000000c5   Thumb Code     8  startup_cm3ds.o(.text)
+    SysTick_Handler                          0x000000cd   Thumb Code     8  startup_cm3ds.o(.text)
+    UARTRX_Handler                           0x000000d5   Thumb Code     8  startup_cm3ds.o(.text)
+    UARTTX_Handler                           0x000000dd   Thumb Code     8  startup_cm3ds.o(.text)
+    UARTOVR_Handler                          0x000000e5   Thumb Code     8  startup_cm3ds.o(.text)
+    ACCConvDone_Handler                      0x000000ed   Thumb Code     8  startup_cm3ds.o(.text)
+    ACCNoFace_Handler                        0x000000f5   Thumb Code     8  startup_cm3ds.o(.text)
+    ACCReadResults_Handler                   0x000000fd   Thumb Code     8  startup_cm3ds.o(.text)
+    DMAWakeup_Handler                        0x00000105   Thumb Code     2  startup_cm3ds.o(.text)
+    KEY0_Handler                             0x00000107   Thumb Code     8  startup_cm3ds.o(.text)
+    KEY1_Handler                             0x0000010f   Thumb Code     8  startup_cm3ds.o(.text)
+    KEY2_Handler                             0x00000117   Thumb Code     8  startup_cm3ds.o(.text)
+    KEY3_Handler                             0x0000011f   Thumb Code     8  startup_cm3ds.o(.text)
+    RESIZERDone_Handler                      0x00000127   Thumb Code     8  startup_cm3ds.o(.text)
+    __aeabi_memcpy                           0x00000139   Thumb Code    36  memcpya.o(.text)
+    __aeabi_memcpy4                          0x00000139   Thumb Code     0  memcpya.o(.text)
+    __aeabi_memcpy8                          0x00000139   Thumb Code     0  memcpya.o(.text)
+    __scatterload                            0x0000015d   Thumb Code    28  init.o(.text)
+    __scatterload_rt2                        0x0000015d   Thumb Code     0  init.o(.text)
+    ACCConvDoneHandler                       0x00000181   Thumb Code    56  acc.o(i.ACCConvDoneHandler)
+    ACCNoFaceHandler                         0x000001bd   Thumb Code     8  acc.o(i.ACCNoFaceHandler)
+    ACCReadResultsHandler                    0x000001c9   Thumb Code     8  acc.o(i.ACCReadResultsHandler)
+    ACC_ClrCtrl                              0x000001d5   Thumb Code     8  acc.o(i.ACC_ClrCtrl)
+    ACC_ConvEnable                           0x000001e1   Thumb Code     8  acc.o(i.ACC_ConvEnable)
+    ACC_GetIsvalid                           0x000001ed   Thumb Code    22  acc.o(i.ACC_GetIsvalid)
+    ACC_NmsEnable                            0x00000209   Thumb Code     8  acc.o(i.ACC_NmsEnable)
+    ACC_ReadResults                          0x00000215   Thumb Code   114  acc.o(i.ACC_ReadResults)
+    ACC_RegConfig                            0x0000028d   Thumb Code  1410  acc.o(i.ACC_RegConfig)
+    ACC_RegInit                              0x00000829   Thumb Code    22  acc.o(i.ACC_RegInit)
+    ACC_Start                                0x00000845   Thumb Code     8  acc.o(i.ACC_Start)
+    BusFaultHandler                          0x0000084d   Thumb Code     2  handler.o(i.BusFaultHandler)
+    CAMERA_Command                           0x0000084f   Thumb Code    42  camera.o(i.CAMERA_Command)
+    CAMERA_ImageCap                          0x00000879   Thumb Code    32  camera.o(i.CAMERA_ImageCap)
+    CAMERA_Init                              0x00000899   Thumb Code   764  camera.o(i.CAMERA_Init)
+    CAMERA_NA                                0x00000ba5   Thumb Code    44  camera.o(i.CAMERA_NA)
+    CAMERA_Read_Byte                         0x00000bd1   Thumb Code    62  camera.o(i.CAMERA_Read_Byte)
+    CAMERA_Read_Reg                          0x00000c0f   Thumb Code    64  camera.o(i.CAMERA_Read_Reg)
+    CAMERA_Start                             0x00000c4f   Thumb Code    32  camera.o(i.CAMERA_Start)
+    CAMERA_Stop                              0x00000c6f   Thumb Code    34  camera.o(i.CAMERA_Stop)
+    CAMERA_Write_Byte                        0x00000c91   Thumb Code    92  camera.o(i.CAMERA_Write_Byte)
+    Clr_CAMERA_PWDN                          0x00000ced   Thumb Code     8  camera.o(i.Clr_CAMERA_PWDN)
+    Clr_CAMERA_SCL                           0x00000cf9   Thumb Code     8  camera.o(i.Clr_CAMERA_SCL)
+    Clr_CAMERA_SDA                           0x00000d05   Thumb Code     8  camera.o(i.Clr_CAMERA_SDA)
+    DMA                                      0x00000d11   Thumb Code    16  dma.o(i.DMA)
+    DebugMonHandler                          0x00000d25   Thumb Code     2  handler.o(i.DebugMonHandler)
+    Delay                                    0x00000d27   Thumb Code    32  systick.o(i.Delay)
+    HardFaultHandler                         0x00000d47   Thumb Code     2  handler.o(i.HardFaultHandler)
+    Key0Handler                              0x00000d49   Thumb Code     8  keyboard.o(i.Key0Handler)
+    Key1Handler                              0x00000d55   Thumb Code     8  keyboard.o(i.Key1Handler)
+    Key2Handler                              0x00000d61   Thumb Code     8  keyboard.o(i.Key2Handler)
+    Key3Handler                              0x00000d6d   Thumb Code     8  keyboard.o(i.Key3Handler)
+    Key_Init                                 0x00000d79   Thumb Code    20  keyboard.o(i.Key_Init)
+    LCD_DMA                                  0x00000d9d   Thumb Code    32  lcd.o(i.LCD_DMA)
+    LCD_Display                              0x00000dc1   Thumb Code    16  lcd.o(i.LCD_Display)
+    LCD_Draw_FaceBox                         0x00000dd5   Thumb Code   144  lcd.o(i.LCD_Draw_FaceBox)
+    LCD_Draw_Window                          0x00000e65   Thumb Code   116  lcd.o(i.LCD_Draw_Window)
+    LCD_Fast_DrawPoint                       0x00000ed9   Thumb Code    78  lcd.o(i.LCD_Fast_DrawPoint)
+    LCD_Init                                 0x00000f2d   Thumb Code   618  lcd.o(i.LCD_Init)
+    LCD_PrepareDMA                           0x000011a9   Thumb Code    86  lcd.o(i.LCD_PrepareDMA)
+    LCD_QuitDMA                              0x00001205   Thumb Code    12  lcd.o(i.LCD_QuitDMA)
+    LCD_RD_DATA                              0x00001215   Thumb Code    38  lcd.o(i.LCD_RD_DATA)
+    LCD_ReadReg                              0x00001241   Thumb Code    22  lcd.o(i.LCD_ReadReg)
+    LCD_Scan_Dir                             0x00001257   Thumb Code   148  lcd.o(i.LCD_Scan_Dir)
+    LCD_Thick_Window                         0x000012eb   Thumb Code    76  lcd.o(i.LCD_Thick_Window)
+    LCD_WR_DATA                              0x00001339   Thumb Code    48  lcd.o(i.LCD_WR_DATA)
+    LCD_WR_REG                               0x0000136d   Thumb Code    46  lcd.o(i.LCD_WR_REG)
+    LED_LightUp                              0x000013a1   Thumb Code    32  gpio.o(i.LED_LightUp)
+    LED_ShutDown                             0x000013c1   Thumb Code    32  gpio.o(i.LED_ShutDown)
+    MakeData                                 0x000013e1   Thumb Code   100  lcd.o(i.MakeData)
+    MemManageHandler                         0x00001449   Thumb Code     2  handler.o(i.MemManageHandler)
+    NMIHandler                               0x0000144b   Thumb Code     2  handler.o(i.NMIHandler)
+    PendSVHandler                            0x00001463   Thumb Code     2  handler.o(i.PendSVHandler)
+    ReadData                                 0x00001465   Thumb Code    32  lcd.o(i.ReadData)
+    Read_CAMERA_DATA_STATE                   0x00001489   Thumb Code     6  camera.o(i.Read_CAMERA_DATA_STATE)
+    Read_CAMERA_SDA                          0x00001495   Thumb Code     6  camera.o(i.Read_CAMERA_SDA)
+    Read_GPIO_Output                         0x000014a1   Thumb Code     8  gpio.o(i.Read_GPIO_Output)
+    ResizerDoneHandler                       0x000014ad   Thumb Code     8  resizer.o(i.ResizerDoneHandler)
+    Resizer_Start                            0x000014b5   Thumb Code     8  resizer.o(i.Resizer_Start)
+    SVCHandler                               0x000014c1   Thumb Code     2  handler.o(i.SVCHandler)
+    Set_CAMERA_DATA_STATE                    0x000014c5   Thumb Code     6  camera.o(i.Set_CAMERA_DATA_STATE)
+    Set_CAMERA_RST                           0x000014d1   Thumb Code     8  camera.o(i.Set_CAMERA_RST)
+    Set_CAMERA_SCL                           0x000014dd   Thumb Code     8  camera.o(i.Set_CAMERA_SCL)
+    Set_CAMERA_SDA                           0x000014e9   Thumb Code     8  camera.o(i.Set_CAMERA_SDA)
+    Set_CAMERA_SDA_R                         0x000014f5   Thumb Code     8  camera.o(i.Set_CAMERA_SDA_R)
+    Set_CAMERA_SDA_W                         0x00001501   Thumb Code     8  camera.o(i.Set_CAMERA_SDA_W)
+    Set_GPIO_Dir                             0x0000150d   Thumb Code     6  gpio.o(i.Set_GPIO_Dir)
+    Set_GPIO_Value                           0x00001519   Thumb Code     6  gpio.o(i.Set_GPIO_Value)
+    Set_SysTick_CTRL                         0x00001525   Thumb Code     8  systick.o(i.Set_SysTick_CTRL)
+    Set_SysTick_LOAD                         0x0000152d   Thumb Code     8  systick.o(i.Set_SysTick_LOAD)
+    Set_SysTick_VALUE                        0x00001535   Thumb Code     8  systick.o(i.Set_SysTick_VALUE)
+    SysTickHandler                           0x0000153d   Thumb Code    22  systick.o(i.SysTickHandler)
+    SystemCoreClockUpdate                    0x00001559   Thumb Code     8  system_init.o(i.SystemCoreClockUpdate)
+    SystemInit                               0x00001569   Thumb Code   130  system_init.o(i.SystemInit)
+    Timer_Reset                              0x000015f1   Thumb Code     8  timer.o(i.Timer_Reset)
+    Timer_Show_Enable                        0x000015fd   Thumb Code     8  timer.o(i.Timer_Show_Enable)
+    Timer_Start                              0x00001609   Thumb Code    20  timer.o(i.Timer_Start)
+    UARTOVRHandler                           0x00001621   Thumb Code     2  uart.o(i.UARTOVRHandler)
+    UARTRXHandler                            0x00001623   Thumb Code     2  uart.o(i.UARTRXHandler)
+    UARTTXHandler                            0x00001625   Thumb Code     2  uart.o(i.UARTTXHandler)
+    UsageFaultHandler                        0x00001627   Thumb Code     2  handler.o(i.UsageFaultHandler)
+    __scatterload_copy                       0x00001629   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x00001637   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x00001639   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    main                                     0x00001649   Thumb Code   130  main.o(i.main)
+    uart_Init                                0x000016e1   Thumb Code    88  uart.o(i.uart_Init)
+    camera_initial_reg                       0x00001738   Data         789  camera.o(.constdata)
+    OV5640_AF_FW                             0x00001a4d   Data        3933  camera.o(.constdata)
+    OV5640_LIGHTMODE_TBL                     0x000029aa   Data           7  camera.o(.constdata)
+    OV5640_SATURATION_TBL                    0x000029b1   Data           6  camera.o(.constdata)
+    RGB565_QVGA                              0x000029b7   Data          34  camera.o(.constdata)
+    Region$$Table$$Base                      0x000029dc   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x000029fc   Number         0  anon$$obj.o(Region$$Table)
+    layer_cnt                                0x20000000   Data           1  acc.o(.data)
+    accdone_flag                             0x20000001   Data           1  acc.o(.data)
+    noface                                   0x20000002   Data           1  acc.o(.data)
+    key3_flag                                0x20000003   Data           1  keyboard.o(.data)
+    key2_flag                                0x20000004   Data           1  keyboard.o(.data)
+    key1_flag                                0x20000005   Data           1  keyboard.o(.data)
+    key0_flag                                0x20000006   Data           1  keyboard.o(.data)
+    SystemCoreClock                          0x20000008   Data           4  system_init.o(.data)
+    __initial_sp                             0x20008010   Data           0  startup_cm3ds.o(STACK)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x00000071
+
+  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x00002a08, Max: 0x00010000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x000029fc, Max: 0x00010000, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x00000000   0x00000070   Data   RO          788    RESET               startup_cm3ds.o
+    0x00000070   0x00000070   0x00000000   Code   RO         1069  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x00000070   0x00000070   0x00000004   Code   RO         1094    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x00000074   0x00000074   0x00000004   Code   RO         1097    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x00000078   0x00000078   0x00000000   Code   RO         1099    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x00000078   0x00000078   0x00000000   Code   RO         1101    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x00000078   0x00000078   0x00000008   Code   RO         1102    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x00000080   0x00000080   0x00000000   Code   RO         1104    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x00000080   0x00000080   0x00000000   Code   RO         1106    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x00000080   0x00000080   0x00000004   Code   RO         1095    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x00000084   0x00000084   0x000000b4   Code   RO          789    .text               startup_cm3ds.o
+    0x00000138   0x00000138   0x00000024   Code   RO         1072    .text               mc_w.l(memcpya.o)
+    0x0000015c   0x0000015c   0x00000024   Code   RO         1121    .text               mc_w.l(init.o)
+    0x00000180   0x00000180   0x0000003c   Code   RO            3    i.ACCConvDoneHandler  acc.o
+    0x000001bc   0x000001bc   0x0000000c   Code   RO            4    i.ACCNoFaceHandler  acc.o
+    0x000001c8   0x000001c8   0x0000000c   Code   RO            5    i.ACCReadResultsHandler  acc.o
+    0x000001d4   0x000001d4   0x0000000c   Code   RO            6    i.ACC_ClrCtrl       acc.o
+    0x000001e0   0x000001e0   0x0000000c   Code   RO            7    i.ACC_ConvEnable    acc.o
+    0x000001ec   0x000001ec   0x0000001c   Code   RO           10    i.ACC_GetIsvalid    acc.o
+    0x00000208   0x00000208   0x0000000c   Code   RO           14    i.ACC_NmsEnable     acc.o
+    0x00000214   0x00000214   0x00000078   Code   RO           16    i.ACC_ReadResults   acc.o
+    0x0000028c   0x0000028c   0x0000059c   Code   RO           17    i.ACC_RegConfig     acc.o
+    0x00000828   0x00000828   0x0000001c   Code   RO           18    i.ACC_RegInit       acc.o
+    0x00000844   0x00000844   0x00000008   Code   RO           19    i.ACC_Start         acc.o
+    0x0000084c   0x0000084c   0x00000002   Code   RO          451    i.BusFaultHandler   handler.o
+    0x0000084e   0x0000084e   0x0000002a   Code   RO          145    i.CAMERA_Command    camera.o
+    0x00000878   0x00000878   0x00000020   Code   RO          146    i.CAMERA_ImageCap   camera.o
+    0x00000898   0x00000898   0x0000030c   Code   RO          147    i.CAMERA_Init       camera.o
+    0x00000ba4   0x00000ba4   0x0000002c   Code   RO          149    i.CAMERA_NA         camera.o
+    0x00000bd0   0x00000bd0   0x0000003e   Code   RO          150    i.CAMERA_Read_Byte  camera.o
+    0x00000c0e   0x00000c0e   0x00000040   Code   RO          151    i.CAMERA_Read_Reg   camera.o
+    0x00000c4e   0x00000c4e   0x00000020   Code   RO          152    i.CAMERA_Start      camera.o
+    0x00000c6e   0x00000c6e   0x00000022   Code   RO          153    i.CAMERA_Stop       camera.o
+    0x00000c90   0x00000c90   0x0000005c   Code   RO          155    i.CAMERA_Write_Byte  camera.o
+    0x00000cec   0x00000cec   0x0000000c   Code   RO          156    i.Clr_CAMERA_PWDN   camera.o
+    0x00000cf8   0x00000cf8   0x0000000c   Code   RO          158    i.Clr_CAMERA_SCL    camera.o
+    0x00000d04   0x00000d04   0x0000000c   Code   RO          159    i.Clr_CAMERA_SDA    camera.o
+    0x00000d10   0x00000d10   0x00000014   Code   RO          363    i.DMA               dma.o
+    0x00000d24   0x00000d24   0x00000002   Code   RO          452    i.DebugMonHandler   handler.o
+    0x00000d26   0x00000d26   0x00000020   Code   RO          837    i.Delay             systick.o
+    0x00000d46   0x00000d46   0x00000002   Code   RO          453    i.HardFaultHandler  handler.o
+    0x00000d48   0x00000d48   0x0000000c   Code   RO          513    i.Key0Handler       keyboard.o
+    0x00000d54   0x00000d54   0x0000000c   Code   RO          514    i.Key1Handler       keyboard.o
+    0x00000d60   0x00000d60   0x0000000c   Code   RO          515    i.Key2Handler       keyboard.o
+    0x00000d6c   0x00000d6c   0x0000000c   Code   RO          516    i.Key3Handler       keyboard.o
+    0x00000d78   0x00000d78   0x00000024   Code   RO          517    i.Key_Init          keyboard.o
+    0x00000d9c   0x00000d9c   0x00000024   Code   RO          568    i.LCD_DMA           lcd.o
+    0x00000dc0   0x00000dc0   0x00000014   Code   RO          569    i.LCD_Display       lcd.o
+    0x00000dd4   0x00000dd4   0x00000090   Code   RO          570    i.LCD_Draw_FaceBox  lcd.o
+    0x00000e64   0x00000e64   0x00000074   Code   RO          571    i.LCD_Draw_Window   lcd.o
+    0x00000ed8   0x00000ed8   0x00000054   Code   RO          572    i.LCD_Fast_DrawPoint  lcd.o
+    0x00000f2c   0x00000f2c   0x0000027c   Code   RO          574    i.LCD_Init          lcd.o
+    0x000011a8   0x000011a8   0x0000005c   Code   RO          575    i.LCD_PrepareDMA    lcd.o
+    0x00001204   0x00001204   0x00000010   Code   RO          576    i.LCD_QuitDMA       lcd.o
+    0x00001214   0x00001214   0x0000002c   Code   RO          577    i.LCD_RD_DATA       lcd.o
+    0x00001240   0x00001240   0x00000016   Code   RO          578    i.LCD_ReadReg       lcd.o
+    0x00001256   0x00001256   0x00000094   Code   RO          579    i.LCD_Scan_Dir      lcd.o
+    0x000012ea   0x000012ea   0x0000004c   Code   RO          581    i.LCD_Thick_Window  lcd.o
+    0x00001336   0x00001336   0x00000002   PAD
+    0x00001338   0x00001338   0x00000034   Code   RO          582    i.LCD_WR_DATA       lcd.o
+    0x0000136c   0x0000136c   0x00000034   Code   RO          583    i.LCD_WR_REG        lcd.o
+    0x000013a0   0x000013a0   0x00000020   Code   RO          389    i.LED_LightUp       gpio.o
+    0x000013c0   0x000013c0   0x00000020   Code   RO          390    i.LED_ShutDown      gpio.o
+    0x000013e0   0x000013e0   0x00000068   Code   RO          584    i.MakeData          lcd.o
+    0x00001448   0x00001448   0x00000002   Code   RO          454    i.MemManageHandler  handler.o
+    0x0000144a   0x0000144a   0x00000002   Code   RO          455    i.NMIHandler        handler.o
+    0x0000144c   0x0000144c   0x00000016   Code   RO          795    i.NVIC_EnableIRQ    system_init.o
+    0x00001462   0x00001462   0x00000002   Code   RO          456    i.PendSVHandler     handler.o
+    0x00001464   0x00001464   0x00000024   Code   RO          585    i.ReadData          lcd.o
+    0x00001488   0x00001488   0x0000000c   Code   RO          167    i.Read_CAMERA_DATA_STATE  camera.o
+    0x00001494   0x00001494   0x0000000c   Code   RO          168    i.Read_CAMERA_SDA   camera.o
+    0x000014a0   0x000014a0   0x0000000c   Code   RO          393    i.Read_GPIO_Output  gpio.o
+    0x000014ac   0x000014ac   0x00000008   Code   RO          710    i.ResizerDoneHandler  resizer.o
+    0x000014b4   0x000014b4   0x0000000c   Code   RO          711    i.Resizer_Start     resizer.o
+    0x000014c0   0x000014c0   0x00000002   Code   RO          457    i.SVCHandler        handler.o
+    0x000014c2   0x000014c2   0x00000002   PAD
+    0x000014c4   0x000014c4   0x0000000c   Code   RO          169    i.Set_CAMERA_DATA_STATE  camera.o
+    0x000014d0   0x000014d0   0x0000000c   Code   RO          171    i.Set_CAMERA_RST    camera.o
+    0x000014dc   0x000014dc   0x0000000c   Code   RO          172    i.Set_CAMERA_SCL    camera.o
+    0x000014e8   0x000014e8   0x0000000c   Code   RO          173    i.Set_CAMERA_SDA    camera.o
+    0x000014f4   0x000014f4   0x0000000c   Code   RO          174    i.Set_CAMERA_SDA_R  camera.o
+    0x00001500   0x00001500   0x0000000c   Code   RO          175    i.Set_CAMERA_SDA_W  camera.o
+    0x0000150c   0x0000150c   0x0000000c   Code   RO          395    i.Set_GPIO_Dir      gpio.o
+    0x00001518   0x00001518   0x0000000c   Code   RO          396    i.Set_GPIO_Value    gpio.o
+    0x00001524   0x00001524   0x00000008   Code   RO          839    i.Set_SysTick_CTRL  systick.o
+    0x0000152c   0x0000152c   0x00000008   Code   RO          840    i.Set_SysTick_LOAD  systick.o
+    0x00001534   0x00001534   0x00000008   Code   RO          841    i.Set_SysTick_VALUE  systick.o
+    0x0000153c   0x0000153c   0x0000001c   Code   RO          842    i.SysTickHandler    systick.o
+    0x00001558   0x00001558   0x00000010   Code   RO          796    i.SystemCoreClockUpdate  system_init.o
+    0x00001568   0x00001568   0x00000088   Code   RO          797    i.SystemInit        system_init.o
+    0x000015f0   0x000015f0   0x0000000c   Code   RO          920    i.Timer_Reset       timer.o
+    0x000015fc   0x000015fc   0x0000000c   Code   RO          921    i.Timer_Show_Enable  timer.o
+    0x00001608   0x00001608   0x00000018   Code   RO          922    i.Timer_Start       timer.o
+    0x00001620   0x00001620   0x00000002   Code   RO          957    i.UARTOVRHandler    uart.o
+    0x00001622   0x00001622   0x00000002   Code   RO          958    i.UARTRXHandler     uart.o
+    0x00001624   0x00001624   0x00000002   Code   RO          959    i.UARTTXHandler     uart.o
+    0x00001626   0x00001626   0x00000002   Code   RO          458    i.UsageFaultHandler  handler.o
+    0x00001628   0x00001628   0x0000000e   Code   RO         1125    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x00001636   0x00001636   0x00000002   Code   RO         1126    i.__scatterload_null  mc_w.l(handlers.o)
+    0x00001638   0x00001638   0x0000000e   Code   RO         1127    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x00001646   0x00001646   0x00000002   PAD
+    0x00001648   0x00001648   0x00000098   Code   RO          690    i.main              main.o
+    0x000016e0   0x000016e0   0x00000058   Code   RO          969    i.uart_Init         uart.o
+    0x00001738   0x00001738   0x000012a1   Data   RO          176    .constdata          camera.o
+    0x000029d9   0x000029d9   0x00000003   PAD
+    0x000029dc   0x000029dc   0x00000020   Data   RO         1123    Region$$Table       anon$$obj.o
+
+
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x000029fc, Size: 0x00008010, Max: 0x00010000, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x000029fc   0x00000003   Data   RW           20    .data               acc.o
+    0x20000003   0x000029ff   0x00000004   Data   RW          518    .data               keyboard.o
+    0x20000007   0x00002a03   0x00000001   PAD
+    0x20000008   0x00002a04   0x00000004   Data   RW          798    .data               system_init.o
+    0x2000000c   0x00002a08   0x00000004   PAD
+    0x20000010        -       0x00008000   Zero   RW          786    STACK               startup_cm3ds.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+      1740        432          0          3          0      17070   acc.o
+      1314         66       4769          0          0      16728   camera.o
+        20          4          0          0          0        554   dma.o
+       100         16          0          0          0       2384   gpio.o
+        16          0          0          0          0       3360   handler.o
+        84         32          0          4          0       2425   keyboard.o
+      1678         74          0          0          0       9239   lcd.o
+       152         22          0          0          0        575   main.o
+        20          4          0          0          0        877   resizer.o
+       180         10        112          0      32768       1332   startup_cm3ds.o
+       174         14          0          4          0      31018   system_init.o
+        84          6          0          0          0       2335   systick.o
+        48         12          0          0          0       1288   timer.o
+        94          0          0          0          0       2669   uart.o
+
+    ----------------------------------------------------------------------
+      5708        692       4916         12      32772      91854   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+         4          0          3          1          4          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         0          0          0          0          0          0   entry.o
+         0          0          0          0          0          0   entry10a.o
+         0          0          0          0          0          0   entry11a.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         0          0          0          0          0          0   entry8b.o
+         8          4          0          0          0          0   entry9a.o
+        30          0          0          0          0          0   handlers.o
+        36          8          0          0          0         68   init.o
+        36          0          0          0          0         68   memcpya.o
+
+    ----------------------------------------------------------------------
+       124         16          0          0          0        136   Library Totals
+         2          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+       122         16          0          0          0        136   mc_w.l
+
+    ----------------------------------------------------------------------
+       124         16          0          0          0        136   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+      5832        708       4916         12      32772      88034   Grand Totals
+      5832        708       4916         12      32772      88034   ELF Image Totals
+      5832        708       4916         12          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                10748 (  10.50kB)
+    Total RW  Size (RW Data + ZI Data)             32784 (  32.02kB)
+    Total ROM Size (Code + RO Data + RW Data)      10760 (  10.51kB)
+
+==============================================================================
+

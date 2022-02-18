@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a200tfbg484-2" LaunchTime="1634743088">
+  <File Type="OPT-HWDEF" Name="CortexM3_Soc.hwdef"/>
+  <File Type="ROUTE-BUS-SKEW" Name="CortexM3_Soc_bus_skew_routed.rpt"/>
+  <File Type="PA-DCP" Name="CortexM3_Soc.dcp"/>
+  <File Type="BITSTR-BMM" Name="CortexM3_Soc_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="CortexM3_Soc_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="CortexM3_Soc_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="CortexM3_Soc_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="CortexM3_Soc.tcl"/>
+  <File Type="OPT-TIMING" Name="CortexM3_Soc_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="CortexM3_Soc_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="CortexM3_Soc_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="CortexM3_Soc_reports.tcl"/>
+  <File Type="OPT-DRC" Name="CortexM3_Soc_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="CortexM3_Soc_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="CortexM3_Soc_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="CortexM3_Soc_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="CortexM3_Soc_placed.dcp"/>
+  <File Type="PLACE-IO" Name="CortexM3_Soc_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="CortexM3_Soc_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="CortexM3_Soc_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="CortexM3_Soc_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="CortexM3_Soc_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="CortexM3_Soc_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="CortexM3_Soc_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="CortexM3_Soc_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="CortexM3_Soc_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="CortexM3_Soc.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="CortexM3_Soc_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="CortexM3_Soc_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="CortexM3_Soc_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="CortexM3_Soc.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="CortexM3_Soc_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="CortexM3_Soc_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="CortexM3_Soc_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="CortexM3_Soc_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="CortexM3_Soc_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="CortexM3_Soc_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="CortexM3_Soc_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="CortexM3_Soc.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="CortexM3_Soc_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="CortexM3_Soc_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="CortexM3_Soc_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="CortexM3_Soc_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="CortexM3_Soc_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="CortexM3_Soc_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="CortexM3_Soc_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="CortexM3_Soc_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="CortexM3_Soc_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="CortexM3_Soc_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="CortexM3_Soc_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="CortexM3_Soc_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="CortexM3_Soc_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="CortexM3_Soc_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="CortexM3_Soc_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="CortexM3_Soc_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="CortexM3_Soc_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="CortexM3_Soc_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="CortexM3_Soc_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="CortexM3_Soc_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="CortexM3_Soc.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="CortexM3_Soc_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="CortexM3_Soc.rbt"/>
+  <File Type="BITSTR-NKY" Name="CortexM3_Soc.nky"/>
+  <File Type="PDI-FILE" Name="CortexM3_Soc.pdi"/>
+  <File Type="RCFI_FILE" Name="CortexM3_Soc.rcfi"/>
+  <File Type="CFI_FILE" Name="CortexM3_Soc.cfi"/>
+  <File Type="RNPI_FILE" Name="CortexM3_Soc.rnpi"/>
+  <File Type="NPI_FILE" Name="CortexM3_Soc.npi"/>
+  <File Type="RBD_FILE" Name="CortexM3_Soc.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="CortexM3_Soc.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="CortexM3_Soc.sysdef"/>
+  <File Type="BG-BGN" Name="CortexM3_Soc.bgn"/>
+  <File Type="BG-DRC" Name="CortexM3_Soc.drc"/>
+  <File Type="RDI-RDI" Name="CortexM3_Soc.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_DecS0.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/Resizer/mult_8_8_16/mult_8_8_16.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/Resizer/UROM/UROM.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/Resizer/u.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/IP/RAM_81bit_32/RAM_81bit_32.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/GPIO/ahb_to_gpio.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/IP/multi_0point2/multi_0point2.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/IP/ROM_32bit_11952_1/ROM_32bit_11952.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/ACC.coefiles/anchors.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/Resizer/VROM/VROM.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/Resizer/v.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/DDR/ip/MMCM/MMCM.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/Camera/ahb_to_camera.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/IP/RAM_16bit_16_1/RAM_16bit_16.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Apb_Sys/cmsdk_apb_slave_mux.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/IP/adder_32bit/adder_32bit.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_OutStgM3.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_OutStgM1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/IP/RAM_16bit_1225_1/RAM_16bit_1225.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/pool_unit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/IP/ROM_16bit_1368_1/ROM_16bit_1368.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/ACC.coefiles/bias.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Top/IP/PLL/PLL.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_default_slave.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/Camera/camera.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_ArbM0.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_ArbM2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/DDR/DDR.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/Resizer/ROM_8bit_260/ROM_8bit_260.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/Resizer/SrcI.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/conv.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Apb_Sys/cmsdk_ahb_to_apb.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_ArbM8.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/DDR/ip/FIFO/FIFO.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_OutStgM9.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_InStg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_ArbM4.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_DecS4.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_OutStgM7.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/IP/adder_16bit_1/adder_16bit.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_ArbM6.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_DecS2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_OutStgM5.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/Camera/Block_DualPort_RAM.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/IP/subtracter_16bit/subtracter_16bit.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Top/Soc_System.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/KeyBoard.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/IP/exp_1/exp.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/DMA/DMAC.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/nms3.0.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/Resizer/mult_16_8_24/mult_16_8_24.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/Resizer/Resizer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/cmsdk_apb_uart.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/Sram/cmsdk_fpga_sram.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/IP/RAM_15bit_32_1/RAM_15bit_32.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/apb_timer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/DMA/FIFO.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_OutStgM4.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_OutStgM2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/LCD_DMA.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_OutStgM0.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Core/cortexm3ds_logic.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/DMA/DMA.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/DDR/ip/AHB_to_AXI_1/AHB_to_AXI.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/MAC_unit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_ArbM1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/DDR/ip/MIG/MIG.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/DDR/ip/MIG/mig_a.prj">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="ScopedToCell" Val="MIG"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_ArbM3.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/Resizer/CalcuArray.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_ArbM9.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/Resizer/ROM_9bit_260/ROM_9bit_260.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/Resizer/SrcJ.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_DecS5.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/IP/multi_16bit_p1_1/multi_16bit_p1.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/IP/RAM_14bit_32_1/RAM_14bit_32.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_ArbM5.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_DecS3.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_OutStgM8.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/Sram/cmsdk_ahb_to_sram.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/ACC.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/ACC/IP/multi_16bit_1/multi_16bit.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_ArbM7.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_DecS1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Bus/Ahb_Sys/AhbMtx/AhbMtx_OutStgM6.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Rtl_no_l2/Peripherals/GPIO/gpio.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CortexM3_Soc"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../constrs/con_pin.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PPRDIR/../constrs/con_pin.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Performance_NetDelay_high" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design">
+      <Option Id="Directive">2</Option>
+    </Step>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1">
+      <Option Id="Directive">2</Option>
+    </Step>
+    <Step Id="route_design">
+      <Option Id="Directive">1</Option>
+    </Step>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream">
+      <Option Id="BinFile">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="VROM_synth_1" LaunchPart="xc7a200tfbg484-2" LaunchTime="1630997908">
+  <File Type="PA-TCL" Name="VROM.tcl"/>
+  <File Type="REPORTS-TCL" Name="VROM_reports.tcl"/>
+  <File Type="RDS-RDS" Name="VROM.vds"/>
+  <File Type="RDS-UTIL" Name="VROM_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="VROM_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="VROM.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/VROM">
+    <File Path="$PPRDIR/../../Rtl/Peripherals/Resizer/VROM/VROM.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="VROM"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/VROM">
+    <File Path="$PPRDIR/../../Rtl/Peripherals/Resizer/VROM/VROM.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="VROM"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

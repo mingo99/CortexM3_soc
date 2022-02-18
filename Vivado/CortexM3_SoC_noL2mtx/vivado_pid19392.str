@@ -1,0 +1,450 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 19392
+License: Customer
+
+Current time: 	Tue Oct 19 23:30:31 CST 2021
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Available disk space: 39 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Xilinx/Vivado2019.2/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	D:/Xilinx/Vivado2019.2/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	ASUS
+User home directory: C:/Users/ASUS
+User working directory: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC_noL2mtx
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Xilinx/Vivado2019.2/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado2019.2/Vivado/2019.2
+RDI_DATADIR: D:/Xilinx/Vivado2019.2/Vivado/2019.2/data
+RDI_BINDIR: D:/Xilinx/Vivado2019.2/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado2019.2/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC_noL2mtx/vivado.log
+Vivado journal file location: 	G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC_noL2mtx/vivado.jou
+Engine tmp dir: 	G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC_noL2mtx/.Xil/Vivado-19392-MINGO-ASUS
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/Vivado2019.2/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado2019.2/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Xilinx/Vivado2019.2/Vivado/2019.2
+XILINX_VIVADO: D:/Xilinx/Vivado2019.2/Vivado/2019.2
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado2019.2/Vivado/2019.2
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 596 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: G:\SoC\Projects\CortexM3_soc\Vivado\CortexM3_SoC_noL2mtx\CortexM3_SoC200T.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC_noL2mtx/CortexM3_SoC200T.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 640 MB. GUI used memory: 50 MB. Current time: 10/19/21, 11:30:33 PM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 58 MB (+58624kb) [00:00:27]
+// [Engine Memory]: 719 MB (+602384kb) [00:00:27]
+// [GUI Memory]: 74 MB (+13771kb) [00:00:29]
+// [Engine Memory]: 779 MB (+24904kb) [00:00:29]
+// [GUI Memory]: 80 MB (+1841kb) [00:00:29]
+// [GUI Memory]: 87 MB (+3685kb) [00:00:31]
+// [GUI Memory]: 95 MB (+3781kb) [00:00:31]
+// [Engine Memory]: 822 MB (+4189kb) [00:00:31]
+// [GUI Memory]: 101 MB (+742kb) [00:00:32]
+// [GUI Memory]: 107 MB (+1498kb) [00:00:32]
+// [GUI Memory]: 123 MB (+11121kb) [00:00:32]
+// [Engine Memory]: 866 MB (+2936kb) [00:00:32]
+// WARNING: HEventQueue.dispatchEvent() is taking  6593 ms.
+// Tcl Message: open_project G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC_noL2mtx/CortexM3_SoC200T.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado2019.2/Vivado/2019.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 876 MB. GUI used memory: 78 MB. Current time: 10/19/21, 11:30:50 PM CST
+// [GUI Memory]: 137 MB (+8106kb) [00:00:35]
+// WARNING: HEventQueue.dispatchEvent() is taking  3301 ms.
+// [Engine Memory]: 1,068 MB (+166600kb) [00:00:37]
+// WARNING: HEventQueue.dispatchEvent() is taking  1589 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 907.391 ; gain = 298.391 
+// [Engine Memory]: 1,317 MB (+204967kb) [00:00:39]
+// Project name: CortexM3_SoC200T; location: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC_noL2mtx; part: xc7a200tfbg484-2
+dismissDialog("Open Project"); // bB (cr)
+// [GUI Memory]: 148 MB (+4257kb) [00:00:42]
+// Elapsed time: 178 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aL (aI, cr)
+// Tcl Command: 'rdi::info_commands {remove*}'
+// Tcl Command: 'rdi::info_commands {remove*}'
+// Tcl Command: 'rdi::info_commands {remove_*}'
+// Tcl Command: 'rdi::info_commands {remove_fi*}'
+// Tcl Command: 'rdi::info_commands {remove_files*}'
+// Tcl Command: 'rdi::info_commands {get*}'
+// Tcl Command: 'rdi::info_commands {get_*}'
+// Tcl Command: 'rdi::info_commands {get_files*}'
+// Elapsed time: 13 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "remove_files [get_files]", true); // aF (ac, cr)
+// Tcl Command: 'remove_files [get_files]'
+// Tcl Command: 'remove_files [get_files]'
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: remove_files [get_files] 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bB (cr):  Tcl Command Line : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Top/IP/PLL/PLL.xci' from fileset 'PLL' to fileset 'sources_1'. 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// [GUI Memory]: 156 MB (+84kb) [00:03:55]
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/mult_16_8_24/mult_16_8_24.xci' from fileset 'mult_16_8_24' to fileset 'sources_1'. 
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/mult_8_8_16/mult_8_8_16.xci' from fileset 'mult_8_8_16' to fileset 'sources_1'. 
+// TclEventType: RUN_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,362 MB. GUI used memory: 94 MB. Current time: 10/19/21, 11:34:13 PM CST
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/FIFO/FIFO.xci' from fileset 'FIFO' to fileset 'sources_1'. 
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/MIG/MIG.xci' from fileset 'MIG' to fileset 'sources_1'. 
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/AHB_to_AXI_1/AHB_to_AXI.xci' from fileset 'AHB_to_AXI' to fileset 'sources_1'. 
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/multi_16bit_p1_1/multi_16bit_p1.xci' from fileset 'multi_16bit_p1' to fileset 'sources_1'. 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_14bit_32_1/RAM_14bit_32.xci' from fileset 'RAM_14bit_32' to fileset 'sources_1'. 
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/adder_16bit_1/adder_16bit.xci' from fileset 'adder_16bit' to fileset 'sources_1'. 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_81bit_32/RAM_81bit_32.xci' from fileset 'RAM_81bit_32' to fileset 'sources_1'. 
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/MMCM/MMCM.xci' from fileset 'MMCM' to fileset 'sources_1'. 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/exp_1/exp.xci' from fileset 'exp' to fileset 'sources_1'. 
+// TclEventType: RUN_DELETE
+// [GUI Memory]: 167 MB (+3730kb) [00:04:06]
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_15bit_32_1/RAM_15bit_32.xci' from fileset 'RAM_15bit_32' to fileset 'sources_1'. 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/adder_32bit/adder_32bit.xci' from fileset 'adder_32bit' to fileset 'sources_1'. 
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/subtracter_16bit/subtracter_16bit.xci' from fileset 'subtracter_16bit' to fileset 'sources_1'. 
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/ROM_32bit_11952_1/ROM_32bit_11952.xci' from fileset 'ROM_32bit_11952' to fileset 'sources_1'. 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_16bit_16_1/RAM_16bit_16.xci' from fileset 'RAM_16bit_16' to fileset 'sources_1'. 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/ROM_9bit_260/ROM_9bit_260.xci' from fileset 'ROM_9bit_260' to fileset 'sources_1'. 
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/VROM/VROM.xci' from fileset 'VROM' to fileset 'sources_1'. 
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/ROM_8bit_260/ROM_8bit_260.xci' from fileset 'ROM_8bit_260' to fileset 'sources_1'. 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/multi_16bit_1/multi_16bit.xci' from fileset 'multi_16bit' to fileset 'sources_1'. 
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 177 MB (+1043kb) [00:04:14]
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 188 MB (+2253kb) [00:04:14]
+// TclEventType: RUN_DELETE
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/UROM/UROM.xci' from fileset 'UROM' to fileset 'sources_1'. 
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/ROM_16bit_1368_1/ROM_16bit_1368.xci' from fileset 'ROM_16bit_1368' to fileset 'sources_1'. 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: INFO: [Project 1-386] Moving file 'G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_16bit_1225_1/RAM_16bit_1225.xci' from fileset 'RAM_16bit_1225' to fileset 'sources_1'. 
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE

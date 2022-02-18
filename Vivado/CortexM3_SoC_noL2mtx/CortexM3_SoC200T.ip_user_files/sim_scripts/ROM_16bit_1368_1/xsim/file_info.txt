@@ -1,0 +1,2 @@
+ROM_16bit_1368.v,verilog,xil_defaultlib,../../../../../../Rtl_no_l2/Peripherals/ACC/IP/ROM_16bit_1368_1/sim/ROM_16bit_1368.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

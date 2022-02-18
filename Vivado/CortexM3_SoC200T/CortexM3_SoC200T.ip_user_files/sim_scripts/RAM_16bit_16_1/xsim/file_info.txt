@@ -1,0 +1,2 @@
+RAM_16bit_16_sim_netlist.v,verilog,xil_defaultlib,../../../../../../Rtl/Peripherals/ACC/IP/RAM_16bit_16_1/RAM_16bit_16_sim_netlist.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

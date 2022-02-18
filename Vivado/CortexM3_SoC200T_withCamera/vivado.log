@@ -1,0 +1,540 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Oct 13 20:23:49 2021
+# Process ID: 1872
+# Current directory: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13860 G:\SoC\Projects\CortexM3_soc\Vivado\CortexM3_SoC200T_withCamera\CortexM3_SoC200T.xpr
+# Log file: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/vivado.log
+# Journal file: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado2019.2/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 813.027 ; gain = 199.871
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.2
+  **** Build date : Nov  6 2019 at 22:12:23
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2019.2.0
+  **** Build date : Nov 07 2019-13:28:22
+    ** Copyright 2017-2019 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1059.844 ; gain = 6.887
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+open_hw_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2299.652 ; gain = 1239.809
+set_property PROGRAM.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.bit} [get_hw_devices xc7a200t_0]
+set_property PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_1' at location 'uuid_3B505A030738513C98471D25F5B1F848' from probes file, since it cannot be found on the programmed device.
+create_hw_cfgmem -hw_device [get_hw_devices xc7a200t_0] -mem_dev [lindex [get_cfgmem_parts {mt25ql128-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2322.129 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 2322.129 ; gain = 0.000
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+ERROR: [Labtools 27-3428] Ila core [hw_ila_1] clock has stopped. Unable to arm ILA core.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+ERROR: [Labtools 27-3428] Ila core [hw_ila_1] clock has stopped. Unable to arm ILA core.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2021-Oct-13 20:29:33
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2021-Oct-13 20:29:38
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+ERROR: [Labtools 27-3428] Ila core [hw_ila_1] clock has stopped. Unable to arm ILA core.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+ERROR: [Labtools 27-3428] Ila core [hw_ila_1] clock has stopped. Unable to arm ILA core.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Oct-13 20:31:38
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2021-Oct-13 20:31:47
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2021-Oct-13 20:31:55
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes CAMERA_VSYNC_IBUF -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE neq8'hXX [get_hw_probes CAMERA_DATA_IBUF -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE neq8'h00 [get_hw_probes CAMERA_DATA_IBUF -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Oct-13 20:32:54
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Oct-13 20:33:28
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Oct-13 20:33:28
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2021-Oct-13 20:33:39
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2021-Oct-13 20:33:42
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Oct-13 20:34:01
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Oct-13 20:34:01
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+close_hw_manager
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_8_8_16/mult_8_8_16.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/subtracter_16bit/subtracter_16bit.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/RAM_15bit_32_1/RAM_15bit_32.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/RAM_16bit_16_1/RAM_16bit_16.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/MMCM/MMCM.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/ROM_8bit_260/ROM_8bit_260.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/exp_1/exp.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/MIG/MIG.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/multi_16bit_1/multi_16bit.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/ROM_16bit_1368_1/ROM_16bit_1368.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/multi_0point2/multi_0point2.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/FIFO/FIFO.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/UROM/UROM.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/VROM/VROM.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/AHB_to_AXI_1/AHB_to_AXI.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/ROM_9bit_260/ROM_9bit_260.xci' is already up-to-date
+[Wed Oct 13 20:51:00 2021] Launched synth_1...
+Run output will be captured here: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.2
+  **** Build date : Nov  6 2019 at 22:12:23
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2019.2.0
+  **** Build date : Nov 07 2019-13:28:22
+    ** Copyright 2017-2019 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 2322.129 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+create_hw_cfgmem -hw_device [get_hw_devices xc7a200t_0] -mem_dev [lindex [get_cfgmem_parts {mt25ql128-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {G:/SoC/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {G:/SoC/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {G:/SoC/CortexM3_Soc.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2322.129 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 2322.129 ; gain = 0.000
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+WARNING: Simulation object CAMEARA/state was not found in the design.
+WARNING: Simulation object CAMEARA/syn_valid was not found in the design.
+WARNING: Simulation object CAMEARA/syn_valid_reg__0 was not found in the design.
+WARNING: Simulation object CAMEARA/syn_vsync was not found in the design.
+WARNING: Simulation object CAMERA_DATA_IBUF was not found in the design.
+WARNING: Simulation object CAMERA_HREF_IBUF was not found in the design.
+WARNING: Simulation object CAMERA_PWDN_OBUF was not found in the design.
+WARNING: Simulation object CAMERA_RST_OBUF was not found in the design.
+WARNING: Simulation object CAMERA_SCL_OBUF was not found in the design.
+WARNING: Simulation object CAMERA_VSYNC_IBUF was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]]
+WARNING: Simulation object AHB_to_CAMERA/sdai was not found in the design.
+WARNING: Simulation object AHB_to_CAMERA/sdao was not found in the design.
+WARNING: Simulation object AHB_to_CAMERA/ram_state was not found in the design.
+WARNING: Simulation object CAMEARA/DATA_VALID was not found in the design.
+launch_runs impl_1 -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_8_8_16/mult_8_8_16.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/subtracter_16bit/subtracter_16bit.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/RAM_15bit_32_1/RAM_15bit_32.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/RAM_16bit_16_1/RAM_16bit_16.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/MMCM/MMCM.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/ROM_8bit_260/ROM_8bit_260.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/exp_1/exp.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/MIG/MIG.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/multi_16bit_1/multi_16bit.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/ROM_16bit_1368_1/ROM_16bit_1368.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/multi_0point2/multi_0point2.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/FIFO/FIFO.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/UROM/UROM.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/VROM/VROM.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/AHB_to_AXI_1/AHB_to_AXI.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/ROM_9bit_260/ROM_9bit_260.xci' is already up-to-date
+[Wed Oct 13 21:04:22 2021] Launched impl_1...
+Run output will be captured here: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/runme.log
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {DDR/HREADY} }
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {DDR/HBURST} {DDR/HREADY} {DDR/HREADYOUT} {DDR/HRESP} {DDR/HSEL} {DDR/HSIZE} {DDR/HTRANS} {DDR/HWRITE} }
+set_property TRIGGER_COMPARE_VALUE eq2'h2 [get_hw_probes DDR/HTRANS -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE eq2'b10 [get_hw_probes DDR/HTRANS -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b0 [get_hw_probes DDR/HWRITE -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+ERROR: [Labtools 27-3428] Ila core [hw_ila_1] clock has stopped. Unable to arm ILA core.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Oct-13 21:08:08
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_8_8_16/mult_8_8_16.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/subtracter_16bit/subtracter_16bit.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/RAM_15bit_32_1/RAM_15bit_32.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/RAM_16bit_16_1/RAM_16bit_16.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/MMCM/MMCM.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/ROM_8bit_260/ROM_8bit_260.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/exp_1/exp.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/MIG/MIG.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/multi_16bit_1/multi_16bit.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/ROM_16bit_1368_1/ROM_16bit_1368.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/multi_0point2/multi_0point2.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/FIFO/FIFO.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/UROM/UROM.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/VROM/VROM.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/AHB_to_AXI_1/AHB_to_AXI.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/ROM_9bit_260/ROM_9bit_260.xci' is already up-to-date
+[Wed Oct 13 21:37:00 2021] Launched impl_1...
+Run output will be captured here: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/runme.log
+set_property PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2462.488 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {CAMERA_DATA_IBUF} {CAMERA_HREF_IBUF} {CAMERA_VSYNC_IBUF} }
+add_wave -into {hw_ila_data_2.wcfg} -radix hex { {AHB_to_CAMERA/sdai} {AHB_to_CAMERA/sdao} {CAMEARA/DATA_VALID} {CAMEARA/state} {CAMERA_PWDN_OBUF} {CAMERA_RST_OBUF} {CAMERA_SCL_OBUF} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2021-Oct-13 21:43:34
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Oct-13 21:43:45
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Oct-13 21:43:45
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE eq8'hXX [get_hw_probes CAMERA_DATA_IBUF -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes CAMERA_VSYNC_IBUF -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Oct-13 21:44:01
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2021-Oct-13 21:44:13
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.hw/backup/hw_ila_data_2.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2021-Oct-13 21:51:47
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Oct-13 21:51:49
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Oct-13 21:52:14
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_8_8_16/mult_8_8_16.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/subtracter_16bit/subtracter_16bit.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/RAM_15bit_32_1/RAM_15bit_32.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/RAM_16bit_16_1/RAM_16bit_16.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/MMCM/MMCM.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/ROM_8bit_260/ROM_8bit_260.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/exp_1/exp.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/MIG/MIG.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/multi_16bit_1/multi_16bit.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/ROM_16bit_1368_1/ROM_16bit_1368.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/multi_0point2/multi_0point2.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/FIFO/FIFO.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/UROM/UROM.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/VROM/VROM.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/AHB_to_AXI_1/AHB_to_AXI.xci' is already up-to-date
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/ROM_9bit_260/ROM_9bit_260.xci' is already up-to-date
+[Wed Oct 13 22:19:46 2021] Launched synth_1...
+Run output will be captured here: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/runme.log
+[Wed Oct 13 22:19:47 2021] Launched impl_1...
+Run output will be captured here: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.2
+  **** Build date : Nov  6 2019 at 22:12:23
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2019.2.0
+  **** Build date : Nov 07 2019-13:28:22
+    ** Copyright 2017-2019 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 3362.918 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+create_hw_cfgmem -hw_device [get_hw_devices xc7a200t_0] -mem_dev [lindex [get_cfgmem_parts {mt25ql128-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {G:/SoC/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {G:/SoC/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {G:/SoC/CortexM3_Soc.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 3362.918 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 3362.918 ; gain = 0.000
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+WARNING: Simulation object CAMERA_DATA_IBUF was not found in the design.
+WARNING: Simulation object CAMERA_HREF_IBUF was not found in the design.
+WARNING: Simulation object CAMERA_VSYNC_IBUF was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]]
+WARNING: Simulation object AHB_to_CAMERA/sdai was not found in the design.
+WARNING: Simulation object AHB_to_CAMERA/sdao was not found in the design.
+WARNING: Simulation object CAMEARA/DATA_VALID was not found in the design.
+WARNING: Simulation object CAMEARA/state was not found in the design.
+WARNING: Simulation object CAMERA_PWDN_OBUF was not found in the design.
+WARNING: Simulation object CAMERA_RST_OBUF was not found in the design.
+WARNING: Simulation object CAMERA_SCL_OBUF was not found in the design.
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {ACC/conv_pool/status} {DDR/HBURST} {DDR/HREADY} {DDR/HREADYOUT} {DDR/HRESP} {DDR/HSEL} {DDR/HSIZE} {DDR/HTRANS} {DDR/HWRITE} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Oct-13 22:48:54
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2021-Oct-13 22:49:11
+INFO: [Labtools 27-3304] ILA Waveform data saved to file G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {G:/SoC/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {G:/SoC/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {G:/SoC/CortexM3_Soc.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 3362.918 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+refresh_hw_device: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3362.918 ; gain = 0.000
+set_property PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3362.918 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_1' at location 'uuid_3B505A030738513C98471D25F5B1F848' from probes file, since it cannot be found on the programmed device.
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_1' at location 'uuid_3B505A030738513C98471D25F5B1F848' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3362.918 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7a200t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_1' at location 'uuid_3B505A030738513C98471D25F5B1F848' from probes file, since it cannot be found on the programmed device.
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+ERROR: [Labtools 27-3412] Mismatch between the design programmed into the device 'xc7a200t' (JTAG device index = '0'
+ and the probes file(s) 'G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx'.
+ The hw_probe 'AHB_to_CAMERA/sdai' in the probes file has port index '5'. This port location for the ILA core at location (uuid_3B505A030738513C98471D25F5B1F848), does not support a data probe.
+.
+Resolution: 
+1) Ensure that the clock signal connected to the debug core and/or debug hub is clean and free-running.
+2) Ensure that the clock connected to the debug core and/or debug hub meets all timing constraints.
+3) Ensure that the JTAG clock frequency is 2.5x times slower than the frequency of the clock connected to your debug hub.
+save_wave_config {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+set_property PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3362.918 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+ERROR: [Labtools 27-3412] Mismatch between the design programmed into the device 'xc7a200t' (JTAG device index = '0'
+ and the probes file(s) 'G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx'.
+ The hw_probe 'CAMERA_DATA_IBUF' in the probes file has port index '0'. This port location for the ILA core at location (uuid_23E7D65A79BC59F7BC47406C1714DFAE), does not support a data probe.
+.
+Resolution: 
+1) Ensure that the clock signal connected to the debug core and/or debug hub is clean and free-running.
+2) Ensure that the clock connected to the debug core and/or debug hub meets all timing constraints.
+3) Ensure that the JTAG clock frequency is 2.5x times slower than the frequency of the clock connected to your debug hub.
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+set_property PROGRAM.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.bit} [get_hw_devices xc7a200t_0]
+set_property PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+create_hw_cfgmem -hw_device [get_hw_devices xc7a200t_0] -mem_dev [lindex [get_cfgmem_parts {mt25ql128-spi-x1_x2_x4}] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+WARNING: Simulation object ACC/conv_pool/status was not found in the design.
+WARNING: Simulation object DDR/HBURST was not found in the design.
+WARNING: Simulation object DDR/HREADY was not found in the design.
+WARNING: Simulation object DDR/HREADYOUT was not found in the design.
+WARNING: Simulation object DDR/HRESP was not found in the design.
+WARNING: Simulation object DDR/HSEL was not found in the design.
+WARNING: Simulation object DDR/HSIZE was not found in the design.
+WARNING: Simulation object DDR/HTRANS was not found in the design.
+WARNING: Simulation object DDR/HWRITE was not found in the design.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {CAMERA_DATA_IBUF} {CAMERA_HREF_IBUF} {CAMERA_VSYNC_IBUF} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2021-Oct-13 22:57:20
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]
+ERROR: [Labtools 27-1395] Unable to arm ILA 'hw_ila_2'. The core clock is slow or no core clock connected for this ILA or the ILA core may not meet timing.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2021-Oct-13 22:58:31
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Oct-13 22:58:35
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Oct-13 22:58:42
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2021-Oct-13 22:58:44
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+ERROR: [Labtools 27-3312] Data read from hw_ila [hw_ila_1] is corrupted. Unable to upload waveform.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2021-Oct-13 22:58:44
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2021-Oct-13 22:58:45
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2021-Oct-13 22:58:46
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2021-Oct-13 22:58:49
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2021-Oct-13 22:58:52
+set_property PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 3362.918 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+ERROR: [Labtools 27-3412] Mismatch between the design programmed into the device 'xc7a200t' (JTAG device index = '0'
+ and the probes file(s) 'G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx'.
+ The hw_probe 'AHB_to_CAMERA/sdai' in the probes file has port index '5'. This port location for the ILA core at location (uuid_3B505A030738513C98471D25F5B1F848), does not support a data probe.
+.
+Resolution: 
+1) Ensure that the clock signal connected to the debug core and/or debug hub is clean and free-running.
+2) Ensure that the clock connected to the debug core and/or debug hub meets all timing constraints.
+3) Ensure that the JTAG clock frequency is 2.5x times slower than the frequency of the clock connected to your debug hub.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a200t_0] -filter {CELL_NAME=~""}]
+ERROR: [Labtools 27-188] Use refresh_hw_device command, with a valid [debug_nets.ltx] file before running this command.
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.FILES [list "G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+startgroup 
+create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a200t_0] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a200t_0] 0]]; program_hw_devices [lindex [get_hw_devices xc7a200t_0] 0]; refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0];
+INFO: [Labtools 27-3164] End of startup status: HIGH
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 1 SPI core(s).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location 'uuid_23E7D65A79BC59F7BC47406C1714DFAE' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_1' at location 'uuid_3B505A030738513C98471D25F5B1F848' from probes file, since it cannot be found on the programmed device.
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+Mfg ID : 20   Memory Type : ba   Memory Capacity : 18   Device ID 1 : 0   Device ID 2 : 0
+Performing Erase Operation...
+Erase Operation successful.
+Performing Program and Verify Operations...
+Program/Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:03 ; elapsed = 00:03:34 . Memory (MB): peak = 3362.918 ; gain = 0.000
+endgroup
+save_wave_config {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+save_wave_config {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wcfg}
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 13 23:15:50 2021...

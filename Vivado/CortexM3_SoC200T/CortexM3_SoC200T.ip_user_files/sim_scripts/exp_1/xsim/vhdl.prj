@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../../../Rtl/Peripherals/ACC/IP/exp_1/sim/exp.vhd" \
+
+nosort

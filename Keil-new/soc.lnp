@@ -1,0 +1,21 @@
+--cpu Cortex-M3
+".\acc.o"
+".\camera.o"
+".\dma.o"
+".\gpio.o"
+".\handler.o"
+".\keyboard.o"
+".\lcd.o"
+".\main.o"
+".\resizer.o"
+".\retarget.o"
+".\startup_cm3ds.o"
+".\system_init.o"
+".\systick.o"
+".\test_acc.o"
+".\timer.o"
+".\uart.o"
+--library_type=microlib --strict --scatter ".\soc.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\soc.map" -o .\soc.axf

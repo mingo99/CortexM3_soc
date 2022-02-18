@@ -1,0 +1,1 @@
+vopt -64 +acc -l elaborate.log -L xpm -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -work dist_mem_gen_v8_0_13 dist_mem_gen_v8_0_13.ROM_32bit_11952 dist_mem_gen_v8_0_13.glbl -o ROM_32bit_11952_opt

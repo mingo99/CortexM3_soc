@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Sep  9 21:42:28 2021
+# Process ID: 14072
+# Current directory: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19016 G:\SoC\Projects\CortexM3_soc\Vivado\CortexM3_SoC200T_withCamera\CortexM3_SoC200T.xpr
+# Log file: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/vivado.log
+# Journal file: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.xpr
+remove_files
+remove_files [get_files ]

@@ -1,0 +1,149 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Oct 13 17:06:00 2021
+# Process ID: 2248
+# Current directory: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13456 G:\SoC\Projects\CortexM3_soc\Vivado\CortexM3_SoC200T\CortexM3_SoC200T.xpr
+# Log file: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/vivado.log
+# Journal file: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado2019.2/Vivado/2019.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'PLL' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Top/IP/PLL/PLL.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PLL' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Top/IP/PLL/PLL_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PLL' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Top/IP/PLL/PLL_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PLL' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Top/IP/PLL/PLL_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PLL' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Top/IP/PLL/PLL_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'FIFO' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/FIFO/FIFO.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'FIFO' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/FIFO/FIFO_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'FIFO' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/FIFO/FIFO_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'FIFO' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/FIFO/FIFO_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'FIFO' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/FIFO/FIFO_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MIG' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/MIG/MIG.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MIG' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/MIG/MIG_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MIG' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/MIG/MIG_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MIG' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/MIG/MIG_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MIG' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/MIG/MIG_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'multi_16bit_p1' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/multi_16bit_p1_1/multi_16bit_p1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'multi_16bit_p1' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/multi_16bit_p1_1/multi_16bit_p1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'multi_16bit_p1' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/multi_16bit_p1_1/multi_16bit_p1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'multi_16bit_p1' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/multi_16bit_p1_1/multi_16bit_p1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'multi_16bit_p1' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/multi_16bit_p1_1/multi_16bit_p1_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_14bit_32' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_14bit_32_1/RAM_14bit_32.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_14bit_32' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_14bit_32_1/RAM_14bit_32_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_14bit_32' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_14bit_32_1/RAM_14bit_32_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_14bit_32' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_14bit_32_1/RAM_14bit_32_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_14bit_32' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_14bit_32_1/RAM_14bit_32_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'adder_16bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/adder_16bit_1/adder_16bit.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'adder_16bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/adder_16bit_1/adder_16bit_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'adder_16bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/adder_16bit_1/adder_16bit_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'adder_16bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/adder_16bit_1/adder_16bit_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'adder_16bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/adder_16bit_1/adder_16bit_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_81bit_32' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_81bit_32/RAM_81bit_32.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_81bit_32' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_81bit_32/RAM_81bit_32_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_81bit_32' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_81bit_32/RAM_81bit_32_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_81bit_32' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_81bit_32/RAM_81bit_32_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_81bit_32' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_81bit_32/RAM_81bit_32_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MMCM' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/MMCM/MMCM.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MMCM' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/MMCM/MMCM_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MMCM' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/MMCM/MMCM_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MMCM' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/MMCM/MMCM_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MMCM' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/MMCM/MMCM_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'adder_32bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/adder_32bit/adder_32bit.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'adder_32bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/adder_32bit/adder_32bit_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'adder_32bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/adder_32bit/adder_32bit_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'adder_32bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/adder_32bit/adder_32bit_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'adder_32bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/adder_32bit/adder_32bit_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_32bit_11952' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/ROM_32bit_11952_1/ROM_32bit_11952.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_32bit_11952' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/ROM_32bit_11952_1/ROM_32bit_11952_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_32bit_11952' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/ROM_32bit_11952_1/ROM_32bit_11952_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_32bit_11952' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/ROM_32bit_11952_1/ROM_32bit_11952_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_32bit_11952' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/ROM_32bit_11952_1/ROM_32bit_11952_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_9bit_260' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/ROM_9bit_260/ROM_9bit_260.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_9bit_260' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/ROM_9bit_260/ROM_9bit_260_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_9bit_260' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/ROM_9bit_260/ROM_9bit_260_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_9bit_260' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/ROM_9bit_260/ROM_9bit_260_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_9bit_260' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/ROM_9bit_260/ROM_9bit_260_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'VROM' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/VROM/VROM.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'VROM' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/VROM/VROM_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'VROM' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/VROM/VROM_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'VROM' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/VROM/VROM_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'VROM' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/VROM/VROM_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_8bit_260' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/ROM_8bit_260/ROM_8bit_260.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_8bit_260' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/ROM_8bit_260/ROM_8bit_260_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_8bit_260' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/ROM_8bit_260/ROM_8bit_260_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_8bit_260' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/ROM_8bit_260/ROM_8bit_260_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_8bit_260' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/ROM_8bit_260/ROM_8bit_260_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'UROM' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/UROM/UROM.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'UROM' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/UROM/UROM_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'UROM' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/UROM/UROM_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'UROM' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/UROM/UROM_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'UROM' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/UROM/UROM_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_16bit_1225' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_16bit_1225_1/RAM_16bit_1225.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_16bit_1225' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_16bit_1225_1/RAM_16bit_1225_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_16bit_1225' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_16bit_1225_1/RAM_16bit_1225_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_16bit_1225' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_16bit_1225_1/RAM_16bit_1225_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_16bit_1225' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_16bit_1225_1/RAM_16bit_1225_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:45 . Memory (MB): peak = 889.609 ; gain = 276.980
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.2
+  **** Build date : Nov  6 2019 at 22:12:23
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2019.2.0
+  **** Build date : Nov 07 2019-13:28:22
+    ** Copyright 2017-2019 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 1422.547 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+open_hw_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2376.898 ; gain = 954.352
+set_property PROGRAM.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.bit} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a200t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a200t (JTAG device index = 0) is not programmed (DONE status = 0).
+create_hw_cfgmem -hw_device [get_hw_devices xc7a200t_0] -mem_dev [lindex [get_cfgmem_parts {mt25ql128-spi-x1_x2_x4}] 0]
+set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.FILES [list "G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+startgroup 
+create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a200t_0] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a200t_0] 0]]; program_hw_devices [lindex [get_hw_devices xc7a200t_0] 0]; refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0];
+INFO: [Labtools 27-3164] End of startup status: HIGH
+INFO: [Labtools 27-2302] Device xc7a200t (JTAG device index = 0) is programmed with a design that has 1 SPI core(s).
+program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a200t_0] 0]]
+Mfg ID : 20   Memory Type : ba   Memory Capacity : 18   Device ID 1 : 0   Device ID 2 : 0
+Performing Erase Operation...
+Erase Operation successful.
+Performing Program and Verify Operations...
+Program/Verify Operation successful.
+INFO: [Labtoolstcl 44-377] Flash programming completed successfully
+program_hw_cfgmem: Time (s): cpu = 00:00:06 ; elapsed = 00:03:51 . Memory (MB): peak = 2453.957 ; gain = 7.789
+endgroup
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 13 17:17:20 2021...

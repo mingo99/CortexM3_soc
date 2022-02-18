@@ -1,0 +1,1 @@
+--relax --debug typical --mt auto -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ROM_32bit_11952 dist_mem_gen_v8_0_13.ROM_32bit_11952 dist_mem_gen_v8_0_13.glbl -log elaborate.log

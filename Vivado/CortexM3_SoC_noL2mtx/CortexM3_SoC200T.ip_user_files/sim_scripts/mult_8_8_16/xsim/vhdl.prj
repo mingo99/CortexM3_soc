@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../../../Rtl_no_l2/Peripherals/Resizer/mult_8_8_16/sim/mult_8_8_16.vhd" \
+
+nosort

@@ -1,0 +1,2 @@
+mult_8_8_16.vhd,vhdl,xil_defaultlib,../../../../../../Rtl_no_l2/Peripherals/Resizer/mult_8_8_16/sim/mult_8_8_16.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

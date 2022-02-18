@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="RAM_14bit_32_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/RAM_14bit_32_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="FIFO_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/FIFO_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="PLL_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/PLL_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MIG_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/MIG_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="RAM_81bit_32_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/RAM_81bit_32_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mult_8_8_16_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/mult_8_8_16_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MMCM_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/MMCM_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="exp_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/exp_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ROM_32bit_11952_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/ROM_32bit_11952_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="RAM_16bit_16_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/RAM_16bit_16_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ROM_8bit_260_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/ROM_8bit_260_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="adder_16bit_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/adder_16bit_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="adder_32bit_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/adder_32bit_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="subtracter_16bit_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/subtracter_16bit_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ROM_9bit_260_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/ROM_9bit_260_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="multi_16bit_p1_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/multi_16bit_p1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="VROM_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/VROM_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="RAM_15bit_32_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/RAM_15bit_32_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="multi_16bit_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/multi_16bit_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UROM_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/UROM_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ROM_16bit_1368_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/ROM_16bit_1368_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="AHB_to_AXI_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/AHB_to_AXI_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="RAM_16bit_1225_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/RAM_16bit_1225_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="multi_0point2_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/multi_0point2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="RAM_14bit_32_synth_1"/>
+		<Parent Id="FIFO_synth_1"/>
+		<Parent Id="PLL_synth_1"/>
+		<Parent Id="MIG_synth_1"/>
+		<Parent Id="RAM_81bit_32_synth_1"/>
+		<Parent Id="mult_8_8_16_synth_1"/>
+		<Parent Id="MMCM_synth_1"/>
+		<Parent Id="exp_synth_1"/>
+		<Parent Id="ROM_32bit_11952_synth_1"/>
+		<Parent Id="RAM_16bit_16_synth_1"/>
+		<Parent Id="ROM_8bit_260_synth_1"/>
+		<Parent Id="adder_16bit_synth_1"/>
+		<Parent Id="adder_32bit_synth_1"/>
+		<Parent Id="subtracter_16bit_synth_1"/>
+		<Parent Id="ROM_9bit_260_synth_1"/>
+		<Parent Id="multi_16bit_p1_synth_1"/>
+		<Parent Id="VROM_synth_1"/>
+		<Parent Id="RAM_15bit_32_synth_1"/>
+		<Parent Id="multi_16bit_synth_1"/>
+		<Parent Id="UROM_synth_1"/>
+		<Parent Id="ROM_16bit_1368_synth_1"/>
+		<Parent Id="AHB_to_AXI_synth_1"/>
+		<Parent Id="RAM_16bit_1225_synth_1"/>
+		<Parent Id="multi_0point2_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="RAM_14bit_32_synth_1"/>
+		<Parent Id="FIFO_synth_1"/>
+		<Parent Id="PLL_synth_1"/>
+		<Parent Id="MIG_synth_1"/>
+		<Parent Id="RAM_81bit_32_synth_1"/>
+		<Parent Id="mult_8_8_16_synth_1"/>
+		<Parent Id="MMCM_synth_1"/>
+		<Parent Id="exp_synth_1"/>
+		<Parent Id="ROM_32bit_11952_synth_1"/>
+		<Parent Id="RAM_16bit_16_synth_1"/>
+		<Parent Id="ROM_8bit_260_synth_1"/>
+		<Parent Id="adder_16bit_synth_1"/>
+		<Parent Id="adder_32bit_synth_1"/>
+		<Parent Id="subtracter_16bit_synth_1"/>
+		<Parent Id="ROM_9bit_260_synth_1"/>
+		<Parent Id="multi_16bit_p1_synth_1"/>
+		<Parent Id="VROM_synth_1"/>
+		<Parent Id="RAM_15bit_32_synth_1"/>
+		<Parent Id="multi_16bit_synth_1"/>
+		<Parent Id="UROM_synth_1"/>
+		<Parent Id="ROM_16bit_1368_synth_1"/>
+		<Parent Id="AHB_to_AXI_synth_1"/>
+		<Parent Id="RAM_16bit_1225_synth_1"/>
+		<Parent Id="multi_0point2_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

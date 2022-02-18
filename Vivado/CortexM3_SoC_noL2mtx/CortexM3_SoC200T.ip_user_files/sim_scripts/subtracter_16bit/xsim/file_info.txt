@@ -1,0 +1,2 @@
+subtracter_16bit.vhd,vhdl,xil_defaultlib,../../../../../../Rtl_no_l2/Peripherals/ACC/IP/subtracter_16bit/sim/subtracter_16bit.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

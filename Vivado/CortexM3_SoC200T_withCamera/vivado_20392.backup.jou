@@ -1,0 +1,206 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Sep  9 21:50:34 2021
+# Process ID: 20392
+# Current directory: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16352 G:\SoC\Projects\CortexM3_soc\Vivado\CortexM3_SoC200T_withCamera\CortexM3_SoC200T.xpr
+# Log file: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/vivado.log
+# Journal file: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.xpr
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/KeyBoard.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Core/cortexm3ds_logic.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DMA/DMA.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Sram/cmsdk_ahb_to_sram.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Sram/cmsdk_fpga_sram.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/DDR.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DMA/DMAC.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/ACC.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/Resizer.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbSyncBridge/cmsdk_ahb_to_ahb_sync.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Camera/ahb_to_camera.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Camera/Camera_Capture.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/LCD_DMA.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/GPIO/ahb_to_gpio.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/GPIO/gpio.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Apb_Sys/cmsdk_ahb_to_apb.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Apb_Sys/cmsdk_apb_slave_mux.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/cmsdk_apb_uart.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/apb_timer.v] -no_script -reset -force -quiet
+remove_files  {G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/KeyBoard.v G:/SoC/Projects/CortexM3_soc/Rtl/Core/cortexm3ds_logic.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DMA/DMA.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Sram/cmsdk_ahb_to_sram.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Sram/cmsdk_fpga_sram.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/DDR.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DMA/DMAC.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/ACC.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/Resizer.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbSyncBridge/cmsdk_ahb_to_ahb_sync.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Camera/ahb_to_camera.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Camera/Camera_Capture.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/LCD_DMA.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/GPIO/ahb_to_gpio.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/GPIO/gpio.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Apb_Sys/cmsdk_ahb_to_apb.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Apb_Sys/cmsdk_apb_slave_mux.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/cmsdk_apb_uart.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/apb_timer.v}
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Top/Soc_System.v] -no_script -reset -force -quiet
+remove_files  G:/SoC/Projects/CortexM3_soc/Rtl/Top/Soc_System.v
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/conv.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/nms3.0.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/CalcuArray.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS0.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS1.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS2.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS3.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS4.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS5.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM0.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM1.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM2.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM3.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM4.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM5.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM6.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM7.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_DecS0.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_OutStg.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/AHB_to_AXI_1/AHB_to_AXI.xci] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_InStg.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_InStg.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Camera/Block_DualPort_RAM.v] -no_script -reset -force -quiet
+remove_files  {G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/conv.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/nms3.0.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Resizer/CalcuArray.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS0.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS1.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS2.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS3.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS4.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS5.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM0.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM1.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM2.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM3.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM4.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM5.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM6.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM7.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_DecS0.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_OutStg.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/AHB_to_AXI_1/AHB_to_AXI.xci G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_InStg.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_InStg.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/Camera/Block_DualPort_RAM.v}
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbSyncBridge/cmsdk_ahb_to_ahb_sync_error_canc.v] -no_script -reset -force -quiet
+remove_files  G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbSyncBridge/cmsdk_ahb_to_ahb_sync_error_canc.v
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DMA/FIFO.v] -no_script -reset -force -quiet
+remove_files  G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DMA/FIFO.v
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/MAC_unit.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/pool_unit.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM0.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM1.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM2.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM3.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM4.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM5.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM6.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM7.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_default_slave.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_Arb.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_default_slave.v] -no_script -reset -force -quiet
+remove_files  {G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/MAC_unit.v G:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/pool_unit.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM0.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM1.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM2.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM3.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM4.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM5.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM6.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM7.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_default_slave.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_Arb.v G:/SoC/Projects/CortexM3_soc/Rtl/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_default_slave.v}
+add_files {G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/cmsdk_ahb_default_slave.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/RAM_14bit_32_1/RAM_14bit_32.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/CalcuArray.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbAsyncBridge/cmsdk_ahb_to_ahb_apb_async_master.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM1.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM5.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_8_8_16/mult_8_8_16.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM3.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM7.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/LCD.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/MAC_unit.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/subtracter_16bit/subtracter_16bit.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DMA/FIFO.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_DecS0.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_InStg.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/pool_unit.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/DDR.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbAsyncBridge/cmsdk_ahb_to_ahb_apb_async_slave.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/apb_timer.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Sram/cmsdk_fpga_sram.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/multi_16bit_p1_1/multi_16bit_p1.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM4.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/RAM_15bit_32_1/RAM_15bit_32.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/RAM_16bit_16_1/RAM_16bit_16.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS4.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM2.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/RAM_81bit_32/RAM_81bit_32.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbAsyncBridge/cmsdk_ahb_to_ahb_apb_async_launch.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbAsyncBridge/cmsdk_ahb_to_ahb_apb_async_synchronizer.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_InStg.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS2.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM0.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DMA/DMAC.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/adder_16bit_1/adder_16bit.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS0.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/MMCM/MMCM.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/cmsdk_apb_uart.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/ROM_32bit_11952_1/ROM_32bit_11952.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_default_slave.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbSyncBridge/cmsdk_ahb_to_ahb_sync_error_canc.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/ROM_8bit_260/ROM_8bit_260.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbAsyncBridge/cmsdk_ahb_to_ahb_apb_async.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM6.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/exp_1/exp.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbSyncBridge/cmsdk_ahb_to_ahb_sync.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/LCD_DMA.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/MIG/MIG.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_OutStg.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/GPIO/ahb_to_gpio.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_lite.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/multi_16bit_1/multi_16bit.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM2.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/ROM_16bit_1368_1/ROM_16bit_1368.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM0.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/multi_0point2/multi_0point2.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/FIFO/FIFO.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM6.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/RAM_16bit_1225_1/RAM_16bit_1225.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM4.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_Arb.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Apb_Sys/cmsdk_ahb_to_apb.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/Camera_Capture.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Apb_Sys/cmsdk_apb_slave_mux.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/UROM/UROM.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/VROM/VROM.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/KeyBoard.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM5.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS5.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM3.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS3.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM1.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS1.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/camera.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/ahb_to_camera.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/Block_DualPort_RAM.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/Resizer.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/IP/PLL/PLL.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_default_slave.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Core/cortexm3ds_logic.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/GPIO/gpio.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/IP/adder_32bit/adder_32bit.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/AHB_to_AXI_1/AHB_to_AXI.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DMA/DMA.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Sram/cmsdk_ahb_to_sram.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/ROM_9bit_260/ROM_9bit_260.xci G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbAsyncBridge/cmsdk_ahb_to_ahb_apb_async_sample_and_hold.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM7.v}
+export_ip_user_files -of_objects  [get_files  G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/AHB_to_AXI_1/AHB_to_AXI.xci] -lib_map_path [list {modelsim=G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.cache/compile_simlib/modelsim} {questa=G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.cache/compile_simlib/questa} {riviera=G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.cache/compile_simlib/riviera} {activehdl=G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.cache/compile_simlib/activehdl}] -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/cmsdk_ahb_default_slave.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/LCD.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/Camera_Capture.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_lite.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbAsyncBridge/cmsdk_ahb_to_ahb_apb_async.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v] -no_script -reset -force -quiet
+remove_files  {G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/cmsdk_ahb_default_slave.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/LCD.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/Camera_Capture.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_lite.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbAsyncBridge/cmsdk_ahb_to_ahb_apb_async.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v}
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/MAC_unit.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/pool_unit.v] -no_script -reset -force -quiet
+remove_files  {G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/MAC_unit.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/pool_unit.v}
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbAsyncBridge/cmsdk_ahb_to_ahb_apb_async_launch.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbAsyncBridge/cmsdk_ahb_to_ahb_apb_async_master.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbAsyncBridge/cmsdk_ahb_to_ahb_apb_async_sample_and_hold.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbAsyncBridge/cmsdk_ahb_to_ahb_apb_async_slave.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbAsyncBridge/cmsdk_ahb_to_ahb_apb_async_synchronizer.v] -no_script -reset -force -quiet
+remove_files  {G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbAsyncBridge/cmsdk_ahb_to_ahb_apb_async_launch.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbAsyncBridge/cmsdk_ahb_to_ahb_apb_async_master.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbAsyncBridge/cmsdk_ahb_to_ahb_apb_async_sample_and_hold.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbAsyncBridge/cmsdk_ahb_to_ahb_apb_async_slave.v G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbAsyncBridge/cmsdk_ahb_to_ahb_apb_async_synchronizer.v}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 8192 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+create_debug_core u_ila_1 ila
+set_property C_DATA_DEPTH 8192 [get_debug_cores u_ila_1]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_1]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_1]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_1]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_1]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_1]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_1]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_1]
+connect_debug_port u_ila_0/clk [get_nets [list pclk ]]
+connect_debug_port u_ila_1/clk [get_nets [list SynClock.Global_CLK_PLL/inst/clk_50M ]]
+set_property port_width 8 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {CAMERA_DATA_IBUF[0]} {CAMERA_DATA_IBUF[1]} {CAMERA_DATA_IBUF[2]} {CAMERA_DATA_IBUF[3]} {CAMERA_DATA_IBUF[4]} {CAMERA_DATA_IBUF[5]} {CAMERA_DATA_IBUF[6]} {CAMERA_DATA_IBUF[7]} ]]
+set_property port_width 1 [get_debug_ports u_ila_1/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe0]
+connect_debug_port u_ila_1/probe0 [get_nets [list CAMERA_HREF_IBUF ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe1]
+connect_debug_port u_ila_1/probe1 [get_nets [list CAMERA_PWDN_OBUF ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe2]
+connect_debug_port u_ila_1/probe2 [get_nets [list CAMERA_RST_OBUF ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe3]
+connect_debug_port u_ila_1/probe3 [get_nets [list CAMERA_SCL_OBUF ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe4]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe4]
+connect_debug_port u_ila_1/probe4 [get_nets [list CAMERA_VSYNC_IBUF ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe5]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe5]
+connect_debug_port u_ila_1/probe5 [get_nets [list AHB_to_CAMERA/sdai ]]
+create_debug_port u_ila_1 probe
+set_property port_width 1 [get_debug_ports u_ila_1/probe6]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe6]
+connect_debug_port u_ila_1/probe6 [get_nets [list AHB_to_CAMERA/sdao ]]
+save_constraints
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+report_utilization -name utilization_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list {GPIO[15]} {GPIO[14]} {GPIO[13]} {GPIO[12]} {GPIO[11]} {GPIO[10]} {GPIO[9]} {GPIO[8]} {GPIO[7]} {GPIO[6]} {GPIO[5]} {GPIO[4]} {GPIO[3]} {GPIO[2]} {GPIO[1]} {GPIO[0]}]]
+set_property package_pin "" [get_ports [list  {GPIO[15]}]]
+set_property package_pin "" [get_ports [list  {GPIO[14]}]]
+set_property is_loc_fixed true [get_ports [list  {GPIO[15]} {GPIO[14]} {GPIO[13]} {GPIO[12]} {GPIO[11]} {GPIO[10]} {GPIO[9]} {GPIO[8]} {GPIO[7]} {GPIO[6]} {GPIO[5]} {GPIO[4]} {GPIO[3]} {GPIO[2]} {GPIO[1]} {GPIO[0]}]]
+set_property is_loc_fixed true [get_ports [list  {GPIO[15]} {GPIO[14]} {GPIO[13]} {GPIO[12]} {GPIO[11]} {GPIO[10]} {GPIO[9]} {GPIO[8]} {GPIO[7]} {GPIO[6]} {GPIO[5]} {GPIO[4]} {GPIO[3]} {GPIO[2]} {GPIO[1]} {GPIO[0]}]]
+set_property package_pin "" [get_ports [list  {GPIO[15]}]]
+place_ports {GPIO[0]} M21
+place_ports {GPIO[1]} H13
+place_ports {GPIO[2]} K21
+place_ports {GPIO[3]} J14
+place_ports {GPIO[4]} J15
+place_ports {GPIO[5]} G15
+place_ports {GPIO[6]} G17
+place_ports {GPIO[7]} J22
+place_ports {GPIO[8]} R19
+place_ports {GPIO[9]} T20
+place_ports {GPIO[10]} T21
+place_ports {GPIO[11]} U21
+place_ports {GPIO[12]} U22
+place_ports {GPIO[13]} W22
+place_ports {GPIO[14]} W21
+place_ports {GPIO[15]} V22
+save_constraints
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property DRIVE 16 [get_ports [list {GPIO[15]} {GPIO[14]} {GPIO[13]} {GPIO[12]} {GPIO[11]} {GPIO[10]} {GPIO[9]} {GPIO[8]} {GPIO[7]} {GPIO[6]} {GPIO[5]} {GPIO[4]} {GPIO[3]} {GPIO[2]} {GPIO[1]} {GPIO[0]}]]
+save_constraints -force
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.bit} [get_hw_devices xc7a200t_0]
+set_property PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+current_hw_device [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]
+create_hw_cfgmem -hw_device [get_hw_devices xc7a200t_0] -mem_dev [lindex [get_cfgmem_parts {mt25ql128-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property FULL_PROBES.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.ltx} [get_hw_devices xc7a200t_0]
+set_property PROGRAM.FILE {G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1/CortexM3_Soc.bit} [get_hw_devices xc7a200t_0]
+program_hw_devices [get_hw_devices xc7a200t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a200t_0] 0]

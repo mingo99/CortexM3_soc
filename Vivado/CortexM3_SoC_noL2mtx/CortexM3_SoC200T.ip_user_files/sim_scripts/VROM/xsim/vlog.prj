@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../../../Rtl_no_l2/Peripherals/Resizer/VROM/sim/VROM.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

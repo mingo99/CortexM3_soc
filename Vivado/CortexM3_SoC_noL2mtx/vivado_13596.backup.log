@@ -1,0 +1,126 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Jul 20 16:12:09 2020
+# Process ID: 13596
+# Current directory: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14268 G:\SoC\Projects\CortexM3_soc\Vivado\CortexM3_SoC200T\CortexM3_SoC200T.xpr
+# Log file: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/vivado.log
+# Journal file: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'AHB_to_AXI' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/AHB_to_AXI_1/AHB_to_AXI.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'AHB_to_AXI' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/AHB_to_AXI_1/AHB_to_AXI_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'AHB_to_AXI' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/AHB_to_AXI_1/AHB_to_AXI_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'AHB_to_AXI' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/AHB_to_AXI_1/AHB_to_AXI_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'AHB_to_AXI' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/AHB_to_AXI_1/AHB_to_AXI_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_16bit_1368' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/ROM_16bit_1368_1/ROM_16bit_1368.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_16bit_1368' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/ROM_16bit_1368_1/ROM_16bit_1368_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_16bit_1368' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/ROM_16bit_1368_1/ROM_16bit_1368_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_16bit_1368' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/ROM_16bit_1368_1/ROM_16bit_1368_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_16bit_1368' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/ROM_16bit_1368_1/ROM_16bit_1368_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'FIFO' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/FIFO/FIFO.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'FIFO' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/FIFO/FIFO_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'FIFO' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/FIFO/FIFO_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'FIFO' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/FIFO/FIFO_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'FIFO' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/FIFO/FIFO_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_16bit_16' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_16bit_16_1/RAM_16bit_16.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_16bit_16' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_16bit_16_1/RAM_16bit_16_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_16bit_16' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_16bit_16_1/RAM_16bit_16_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_16bit_16' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_16bit_16_1/RAM_16bit_16_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'RAM_16bit_16' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/RAM_16bit_16_1/RAM_16bit_16_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'subtracter_16bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/subtracter_16bit/subtracter_16bit.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'subtracter_16bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/subtracter_16bit/subtracter_16bit_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'subtracter_16bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/subtracter_16bit/subtracter_16bit_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'subtracter_16bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/subtracter_16bit/subtracter_16bit_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'subtracter_16bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/subtracter_16bit/subtracter_16bit_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'multi_16bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/multi_16bit_1/multi_16bit.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'multi_16bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/multi_16bit_1/multi_16bit_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'multi_16bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/multi_16bit_1/multi_16bit_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'multi_16bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/multi_16bit_1/multi_16bit_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'multi_16bit' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/multi_16bit_1/multi_16bit_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MIG' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/MIG/MIG.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MIG' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/MIG/MIG_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MIG' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/MIG/MIG_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MIG' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/MIG/MIG_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'MIG' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/DDR/ip/MIG/MIG_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_32bit_11952' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/ROM_32bit_11952_1/ROM_32bit_11952.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_32bit_11952' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/ROM_32bit_11952_1/ROM_32bit_11952_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_32bit_11952' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/ROM_32bit_11952_1/ROM_32bit_11952_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_32bit_11952' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/ROM_32bit_11952_1/ROM_32bit_11952_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ROM_32bit_11952' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Peripherals/ACC/IP/ROM_32bit_11952_1/ROM_32bit_11952_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PLL' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Top/IP/PLL/PLL.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PLL' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Top/IP/PLL/PLL_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PLL' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Top/IP/PLL/PLL_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PLL' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Top/IP/PLL/PLL_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'PLL' generated file not found 'g:/SoC/Projects/CortexM3_soc/Rtl/Top/IP/PLL/PLL_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:01:11 . Memory (MB): peak = 837.074 ; gain = 246.656
+reset_run AHB_to_AXI_synth_1
+reset_run ROM_16bit_1368_synth_1
+reset_run FIFO_synth_1
+reset_run RAM_16bit_16_synth_1
+reset_run subtracter_16bit_synth_1
+reset_run multi_16bit_synth_1
+reset_run MIG_synth_1
+reset_run ROM_32bit_11952_synth_1
+reset_run PLL_synth_1
+reset_run synth_1
+reset_run RAM_81bit_32_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run adder_32bit_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run RAM_16bit_1225_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+reset_run multi_0point2_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Couldn't access process for termination
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Jul 20 16:15:30 2020] Launched RAM_81bit_32_synth_1, adder_32bit_synth_1, RAM_16bit_1225_synth_1, multi_0point2_synth_1, AHB_to_AXI_synth_1, ROM_16bit_1368_synth_1, FIFO_synth_1, RAM_16bit_16_synth_1, subtracter_16bit_synth_1, multi_16bit_synth_1, MIG_synth_1, ROM_32bit_11952_synth_1, PLL_synth_1, synth_1...
+Run output will be captured here:
+RAM_81bit_32_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/RAM_81bit_32_synth_1/runme.log
+adder_32bit_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/adder_32bit_synth_1/runme.log
+RAM_16bit_1225_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/RAM_16bit_1225_synth_1/runme.log
+multi_0point2_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/multi_0point2_synth_1/runme.log
+AHB_to_AXI_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/AHB_to_AXI_synth_1/runme.log
+ROM_16bit_1368_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/ROM_16bit_1368_synth_1/runme.log
+FIFO_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/FIFO_synth_1/runme.log
+RAM_16bit_16_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/RAM_16bit_16_synth_1/runme.log
+subtracter_16bit_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/subtracter_16bit_synth_1/runme.log
+multi_16bit_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/multi_16bit_synth_1/runme.log
+MIG_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/MIG_synth_1/runme.log
+ROM_32bit_11952_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/ROM_32bit_11952_synth_1/runme.log
+PLL_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/PLL_synth_1/runme.log
+synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/synth_1/runme.log
+[Mon Jul 20 16:15:33 2020] Launched impl_1...
+Run output will be captured here: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 940.266 ; gain = 23.961
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Jul 20 16:16:01 2020] Launched AHB_to_AXI_synth_1, ROM_16bit_1368_synth_1, FIFO_synth_1, RAM_16bit_16_synth_1, subtracter_16bit_synth_1, multi_16bit_synth_1, MIG_synth_1, ROM_32bit_11952_synth_1, PLL_synth_1, synth_1...
+Run output will be captured here:
+AHB_to_AXI_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/AHB_to_AXI_synth_1/runme.log
+ROM_16bit_1368_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/ROM_16bit_1368_synth_1/runme.log
+FIFO_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/FIFO_synth_1/runme.log
+RAM_16bit_16_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/RAM_16bit_16_synth_1/runme.log
+subtracter_16bit_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/subtracter_16bit_synth_1/runme.log
+multi_16bit_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/multi_16bit_synth_1/runme.log
+MIG_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/MIG_synth_1/runme.log
+ROM_32bit_11952_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/ROM_32bit_11952_synth_1/runme.log
+PLL_synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/PLL_synth_1/runme.log
+synth_1: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/synth_1/runme.log
+[Mon Jul 20 16:16:03 2020] Launched impl_1...
+Run output will be captured here: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.runs/impl_1/runme.log

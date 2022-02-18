@@ -1,0 +1,105 @@
+Dependencies for Project 'soc', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (..\Software\with_camera\acc.c)(0x613F3FA8)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"D:\Program Files\Keil\Keil_v5\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.7.0\Device\CMSDK_CM3\Include"-I"D:\Program Files\Keil\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DCMSDK_CM3-o .\acc.o --omf_browse .\acc.crf --depend .\acc.d)
+I (..\Software\with_camera\CortexM3.h)(0x613F3F0E)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Software\with_camera\core_cm3.h)(0x5E54FF60)
+I (..\Software\with_camera\core_cmInstr.h)(0x5E54FA30)
+I (..\Software\with_camera\core_cmFunc.h)(0x5E54FA30)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (..\Software\with_camera\camera.c)(0x613CAE4E)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"D:\Program Files\Keil\Keil_v5\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.7.0\Device\CMSDK_CM3\Include"-I"D:\Program Files\Keil\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DCMSDK_CM3-o .\camera.o --omf_browse .\camera.crf --depend .\camera.d)
+I (..\Software\with_camera\CortexM3.h)(0x613F3F0E)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Software\with_camera\core_cm3.h)(0x5E54FF60)
+I (..\Software\with_camera\core_cmInstr.h)(0x5E54FA30)
+I (..\Software\with_camera\core_cmFunc.h)(0x5E54FA30)
+I (..\Software\with_camera\camera_initial_reg_file.h)(0x5F0F0B10)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9AD212)
+F (..\Software\with_camera\camera_initial_reg_file.h)(0x5F0F0B10)()
+F (..\Software\with_camera\core_cm3.h)(0x5E54FF60)()
+F (..\Software\with_camera\core_cmFunc.h)(0x5E54FA30)()
+F (..\Software\with_camera\core_cmInstr.h)(0x5E54FA30)()
+F (..\Software\with_camera\CortexM3.h)(0x613F3F0E)()
+F (..\Software\with_camera\dma.c)(0x5F15CB36)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"D:\Program Files\Keil\Keil_v5\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.7.0\Device\CMSDK_CM3\Include"-I"D:\Program Files\Keil\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DCMSDK_CM3-o .\dma.o --omf_browse .\dma.crf --depend .\dma.d)
+I (..\Software\with_camera\CortexM3.h)(0x613F3F0E)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Software\with_camera\core_cm3.h)(0x5E54FF60)
+I (..\Software\with_camera\core_cmInstr.h)(0x5E54FA30)
+I (..\Software\with_camera\core_cmFunc.h)(0x5E54FA30)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (..\Software\with_camera\gpio.c)(0x5F4F9D10)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"D:\Program Files\Keil\Keil_v5\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.7.0\Device\CMSDK_CM3\Include"-I"D:\Program Files\Keil\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DCMSDK_CM3-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (..\Software\with_camera\CortexM3.h)(0x613F3F0E)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Software\with_camera\core_cm3.h)(0x5E54FF60)
+I (..\Software\with_camera\core_cmInstr.h)(0x5E54FA30)
+I (..\Software\with_camera\core_cmFunc.h)(0x5E54FA30)
+F (..\Software\with_camera\handler.c)(0x5EEB6B53)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"D:\Program Files\Keil\Keil_v5\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.7.0\Device\CMSDK_CM3\Include"-I"D:\Program Files\Keil\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DCMSDK_CM3-o .\handler.o --omf_browse .\handler.crf --depend .\handler.d)
+I (..\Software\with_camera\CortexM3.h)(0x613F3F0E)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Software\with_camera\core_cm3.h)(0x5E54FF60)
+I (..\Software\with_camera\core_cmInstr.h)(0x5E54FA30)
+I (..\Software\with_camera\core_cmFunc.h)(0x5E54FA30)
+F (..\Software\with_camera\keyboard.c)(0x5F0F0B5D)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"D:\Program Files\Keil\Keil_v5\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.7.0\Device\CMSDK_CM3\Include"-I"D:\Program Files\Keil\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DCMSDK_CM3-o .\keyboard.o --omf_browse .\keyboard.crf --depend .\keyboard.d)
+I (..\Software\with_camera\CortexM3.h)(0x613F3F0E)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Software\with_camera\core_cm3.h)(0x5E54FF60)
+I (..\Software\with_camera\core_cmInstr.h)(0x5E54FA30)
+I (..\Software\with_camera\core_cmFunc.h)(0x5E54FA30)
+F (..\Software\with_camera\lcd.c)(0x613F56C3)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"D:\Program Files\Keil\Keil_v5\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.7.0\Device\CMSDK_CM3\Include"-I"D:\Program Files\Keil\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DCMSDK_CM3-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (..\Software\with_camera\CortexM3.h)(0x613F3F0E)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Software\with_camera\core_cm3.h)(0x5E54FF60)
+I (..\Software\with_camera\core_cmInstr.h)(0x5E54FA30)
+I (..\Software\with_camera\core_cmFunc.h)(0x5E54FA30)
+F (..\Software\with_camera\main.c)(0x61401FCA)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"D:\Program Files\Keil\Keil_v5\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.7.0\Device\CMSDK_CM3\Include"-I"D:\Program Files\Keil\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DCMSDK_CM3-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\Software\with_camera\CortexM3.h)(0x613F3F0E)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Software\with_camera\core_cm3.h)(0x5E54FF60)
+I (..\Software\with_camera\core_cmInstr.h)(0x5E54FA30)
+I (..\Software\with_camera\core_cmFunc.h)(0x5E54FA30)
+F (..\Software\with_camera\resizer.c)(0x5F4A43E0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"D:\Program Files\Keil\Keil_v5\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.7.0\Device\CMSDK_CM3\Include"-I"D:\Program Files\Keil\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DCMSDK_CM3-o .\resizer.o --omf_browse .\resizer.crf --depend .\resizer.d)
+I (..\Software\with_camera\CortexM3.h)(0x613F3F0E)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Software\with_camera\core_cm3.h)(0x5E54FF60)
+I (..\Software\with_camera\core_cmInstr.h)(0x5E54FA30)
+I (..\Software\with_camera\core_cmFunc.h)(0x5E54FA30)
+F (..\Software\with_camera\Retarget.c)(0x5ED38A70)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"D:\Program Files\Keil\Keil_v5\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.7.0\Device\CMSDK_CM3\Include"-I"D:\Program Files\Keil\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DCMSDK_CM3-o .\retarget.o --omf_browse .\retarget.crf --depend .\retarget.d)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (..\Software\with_camera\CortexM3.h)(0x613F3F0E)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Software\with_camera\core_cm3.h)(0x5E54FF60)
+I (..\Software\with_camera\core_cmInstr.h)(0x5E54FA30)
+I (..\Software\with_camera\core_cmFunc.h)(0x5E54FA30)
+F (..\Software\with_camera\startup_CM3DS.s)(0x5F4A15D7)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-I"D:\Program Files\Keil\Keil_v5\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.7.0\Device\CMSDK_CM3\Include"-I"D:\Program Files\Keil\Keil_v5\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 529" --pd "CMSDK_CM3 SETA 1"--list .\listings\startup_cm3ds.lst --xref -o .\startup_cm3ds.o --depend .\startup_cm3ds.d)
+F (..\Software\with_camera\system_init.c)(0x613E02E7)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"D:\Program Files\Keil\Keil_v5\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.7.0\Device\CMSDK_CM3\Include"-I"D:\Program Files\Keil\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DCMSDK_CM3-o .\system_init.o --omf_browse .\system_init.crf --depend .\system_init.d)
+I (..\Software\with_camera\CortexM3.h)(0x613F3F0E)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Software\with_camera\core_cm3.h)(0x5E54FF60)
+I (..\Software\with_camera\core_cmInstr.h)(0x5E54FA30)
+I (..\Software\with_camera\core_cmFunc.h)(0x5E54FA30)
+F (..\Software\with_camera\systick.c)(0x5F0EF169)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"D:\Program Files\Keil\Keil_v5\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.7.0\Device\CMSDK_CM3\Include"-I"D:\Program Files\Keil\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DCMSDK_CM3-o .\systick.o --omf_browse .\systick.crf --depend .\systick.d)
+I (..\Software\with_camera\CortexM3.h)(0x613F3F0E)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Software\with_camera\core_cm3.h)(0x5E54FF60)
+I (..\Software\with_camera\core_cmInstr.h)(0x5E54FA30)
+I (..\Software\with_camera\core_cmFunc.h)(0x5E54FA30)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (..\Software\with_camera\test_acc.c)(0x61344865)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"D:\Program Files\Keil\Keil_v5\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.7.0\Device\CMSDK_CM3\Include"-I"D:\Program Files\Keil\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DCMSDK_CM3-o .\test_acc.o --omf_browse .\test_acc.crf --depend .\test_acc.d)
+I (..\Software\with_camera\CortexM3.h)(0x613F3F0E)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Software\with_camera\core_cm3.h)(0x5E54FF60)
+I (..\Software\with_camera\core_cmInstr.h)(0x5E54FA30)
+I (..\Software\with_camera\core_cmFunc.h)(0x5E54FA30)
+F (..\Software\with_camera\timer.c)(0x5F5097A4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"D:\Program Files\Keil\Keil_v5\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.7.0\Device\CMSDK_CM3\Include"-I"D:\Program Files\Keil\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DCMSDK_CM3-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
+I (..\Software\with_camera\CortexM3.h)(0x613F3F0E)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Software\with_camera\core_cm3.h)(0x5E54FF60)
+I (..\Software\with_camera\core_cmInstr.h)(0x5E54FA30)
+I (..\Software\with_camera\core_cmFunc.h)(0x5E54FA30)
+F (..\Software\with_camera\uart.c)(0x5EEB6B2B)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-I"D:\Program Files\Keil\Keil_v5\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.7.0\Device\CMSDK_CM3\Include"-I"D:\Program Files\Keil\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="529" -DCMSDK_CM3-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (..\Software\with_camera\CortexM3.h)(0x613F3F0E)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (..\Software\with_camera\core_cm3.h)(0x5E54FF60)
+I (..\Software\with_camera\core_cmInstr.h)(0x5E54FA30)
+I (..\Software\with_camera\core_cmFunc.h)(0x5E54FA30)
+I (D:\Program Files\Keil\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AD218)

@@ -1,0 +1,2 @@
+ila_nms.v,verilog,xil_defaultlib,../../../../CortexM3_SoC200T.srcs/sources_1/ip/ila_nms/sim/ila_nms.v,incdir="../../../../CortexM3_SoC200T.srcs/sources_1/ip/ila_nms/hdl/verilog"
+glbl.v,Verilog,xil_defaultlib,glbl.v

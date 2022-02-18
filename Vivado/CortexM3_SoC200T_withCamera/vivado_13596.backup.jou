@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Jul 20 16:12:09 2020
+# Process ID: 13596
+# Current directory: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14268 G:\SoC\Projects\CortexM3_soc\Vivado\CortexM3_SoC200T\CortexM3_SoC200T.xpr
+# Log file: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/vivado.log
+# Journal file: G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T/CortexM3_SoC200T.xpr
+reset_run AHB_to_AXI_synth_1
+reset_run ROM_16bit_1368_synth_1
+reset_run FIFO_synth_1
+reset_run RAM_16bit_16_synth_1
+reset_run subtracter_16bit_synth_1
+reset_run multi_16bit_synth_1
+reset_run MIG_synth_1
+reset_run ROM_32bit_11952_synth_1
+reset_run PLL_synth_1
+reset_run synth_1
+reset_run RAM_81bit_32_synth_1
+reset_run adder_32bit_synth_1
+reset_run RAM_16bit_1225_synth_1
+reset_run multi_0point2_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

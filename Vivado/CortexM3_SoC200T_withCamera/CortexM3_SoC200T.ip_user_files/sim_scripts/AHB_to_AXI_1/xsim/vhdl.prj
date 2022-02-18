@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../../../Rtl_camera/Peripherals/DDR/ip/AHB_to_AXI_1/sim/AHB_to_AXI.vhd" \
+
+nosort

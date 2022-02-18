@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../../../Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24_sim_netlist.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

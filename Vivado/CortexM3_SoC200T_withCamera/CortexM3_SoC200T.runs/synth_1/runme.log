@@ -1,0 +1,2174 @@
+
+*** Running vivado
+    with args -log CortexM3_Soc.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source CortexM3_Soc.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source CortexM3_Soc.tcl -notrace
+Command: synth_design -top CortexM3_Soc -part xc7a200tfbg484-2 -fanout_limit 100 -fsm_extraction one_hot -keep_equivalent_registers -resource_sharing off -no_lc -shreg_min_size 5
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Device 21-403] Loading part xc7a200tfbg484-2
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1948 
+WARNING: [Synth 8-2611] redeclaration of ansi port dout is not allowed [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/MAC_unit.v:91]
+WARNING: [Synth 8-6901] identifier 'extend' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/MAC_unit.v:50]
+WARNING: [Synth 8-2611] redeclaration of ansi port to_be_relu is not allowed [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/pool_unit.v:15]
+WARNING: [Synth 8-6901] identifier 'accu_max' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/pool_unit.v:26]
+WARNING: [Synth 8-6901] identifier 'accu_max' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/pool_unit.v:26]
+WARNING: [Synth 8-6901] identifier 'gnr_cfg' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:67]
+WARNING: [Synth 8-6901] identifier 'n_rt_addr' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:67]
+WARNING: [Synth 8-6901] identifier 'c_rt_addr' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:67]
+WARNING: [Synth 8-6901] identifier 'gnr_cfg' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:69]
+WARNING: [Synth 8-6901] identifier 'n_trans' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:69]
+WARNING: [Synth 8-6901] identifier 'c_trans' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:69]
+WARNING: [Synth 8-6901] identifier 'conv_out_bus' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:77]
+WARNING: [Synth 8-6901] identifier 's_addr1' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:87]
+WARNING: [Synth 8-6901] identifier 'gnr_cfg' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:88]
+WARNING: [Synth 8-6901] identifier 'c_side_info' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:89]
+WARNING: [Synth 8-6901] identifier 'c_f_base_addr' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:90]
+WARNING: [Synth 8-6901] identifier 'c_w_base_addr' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:91]
+WARNING: [Synth 8-6901] identifier 'c_b_base_addr' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:92]
+WARNING: [Synth 8-6901] identifier 'c_pb_base_addr' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:93]
+WARNING: [Synth 8-6901] identifier 'c_brom_base_addr' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:94]
+WARNING: [Synth 8-6901] identifier 'gnr_ctrl' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:95]
+WARNING: [Synth 8-6901] identifier 'final_result' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:96]
+WARNING: [Synth 8-6901] identifier 'gnr_ctrl' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:106]
+WARNING: [Synth 8-6901] identifier 'gnr_ctrl' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:107]
+WARNING: [Synth 8-6901] identifier 'gnr_ctrl' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:108]
+WARNING: [Synth 8-6901] identifier 'gnr_ctrl' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:109]
+WARNING: [Synth 8-6901] identifier 'gnr_ctrl' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:110]
+WARNING: [Synth 8-6901] identifier 'p_Nif' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:143]
+WARNING: [Synth 8-6901] identifier 'p_Nif' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:144]
+WARNING: [Synth 8-6901] identifier 'Nif' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:144]
+WARNING: [Synth 8-6901] identifier 'multi_win' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:147]
+WARNING: [Synth 8-6901] identifier 'p_nh' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:150]
+WARNING: [Synth 8-6901] identifier 'p_nw' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:150]
+WARNING: [Synth 8-6901] identifier 'multi_win' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:155]
+WARNING: [Synth 8-6901] identifier 'multi_win' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:155]
+WARNING: [Synth 8-6901] identifier 'is_out_pad' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:156]
+WARNING: [Synth 8-6901] identifier 'multi_win' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:159]
+WARNING: [Synth 8-6901] identifier 'p_nh' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:162]
+WARNING: [Synth 8-6901] identifier 'n' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:162]
+WARNING: [Synth 8-6901] identifier 'p_nw' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:163]
+WARNING: [Synth 8-6901] identifier 'n' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:163]
+WARNING: [Synth 8-6901] identifier 'p_nh' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:164]
+WARNING: [Synth 8-6901] identifier 'p_nw' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:165]
+WARNING: [Synth 8-6901] identifier 'p_k' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:169]
+WARNING: [Synth 8-6901] identifier 'c_brom_base_addr' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:169]
+WARNING: [Synth 8-6901] identifier 'c_brom_base_addr' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:169]
+WARNING: [Synth 8-6901] identifier 'p_k_full' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:177]
+WARNING: [Synth 8-6901] identifier 'p_k_full' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:336]
+WARNING: [Synth 8-6901] identifier 'sift_addr' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:46]
+WARNING: [Synth 8-6901] identifier 'decode_addr' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:47]
+WARNING: [Synth 8-6901] identifier 'sift_rd' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:49]
+WARNING: [Synth 8-6901] identifier 'decode_rd' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:50]
+WARNING: [Synth 8-6901] identifier 'no_face' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:54]
+WARNING: [Synth 8-6901] identifier 'nms_done' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:55]
+WARNING: [Synth 8-6901] identifier 'remain_num' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:66]
+WARNING: [Synth 8-6901] identifier 'sift_done' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:68]
+WARNING: [Synth 8-6901] identifier 'sort_done' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:71]
+WARNING: [Synth 8-6901] identifier 'decode_done' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:72]
+WARNING: [Synth 8-6901] identifier 'nms_done' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:73]
+WARNING: [Synth 8-6901] identifier 'sift_done' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:94]
+WARNING: [Synth 8-6901] identifier 'retain' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:99]
+WARNING: [Synth 8-6901] identifier 'retain' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:100]
+WARNING: [Synth 8-6901] identifier 'swap' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:164]
+WARNING: [Synth 8-6901] identifier 'real_sort_addr' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:168]
+WARNING: [Synth 8-6901] identifier 'decode_idx_addr' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:169]
+WARNING: [Synth 8-6901] identifier 'reg2' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:175]
+WARNING: [Synth 8-6901] identifier 'reg4' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:178]
+WARNING: [Synth 8-6901] identifier 'which_cls' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:200]
+WARNING: [Synth 8-6901] identifier 'sift_done' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:206]
+WARNING: [Synth 8-6901] identifier 'to_swap' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:223]
+WARNING: [Synth 8-6901] identifier 'cnt1' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:224]
+WARNING: [Synth 8-6901] identifier 'compare2' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:235]
+WARNING: [Synth 8-6901] identifier 'sort_addr_full' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:264]
+WARNING: [Synth 8-6901] identifier 'rise_len' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:273]
+WARNING: [Synth 8-6901] identifier 'to_swap' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:273]
+WARNING: [Synth 8-6901] identifier 'decode_done' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:345]
+WARNING: [Synth 8-6901] identifier 'DecodeStateInd' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:348]
+WARNING: [Synth 8-6901] identifier 'DecodeStateInd' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:349]
+WARNING: [Synth 8-6901] identifier 'DecodeStateInd' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:350]
+WARNING: [Synth 8-6901] identifier 'DecodeStateInd' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:351]
+WARNING: [Synth 8-6901] identifier 'DecodeStateInd' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:352]
+WARNING: [Synth 8-6901] identifier 'DecodeStateInd' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:353]
+WARNING: [Synth 8-6901] identifier 'DecodeStateInd' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:354]
+WARNING: [Synth 8-6901] identifier 'DecodeStateInd' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:355]
+WARNING: [Synth 8-6901] identifier 'exp_out_valid' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:362]
+WARNING: [Synth 8-6901] identifier 'exp_out_valid' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:363]
+WARNING: [Synth 8-6901] identifier 're_wr' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:599]
+WARNING: [Synth 8-6901] identifier 'mbuff_nms_addr' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:603]
+WARNING: [Synth 8-6901] identifier 'cycle_done' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:633]
+WARNING: [Synth 8-6901] identifier 'nms_retain' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:637]
+WARNING: [Synth 8-6901] identifier 'cycle_done' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:676]
+WARNING: [Synth 8-6901] identifier 'cycle_done' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:690]
+WARNING: [Synth 8-6901] identifier 'cycle_done' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:712]
+WARNING: [Synth 8-6901] identifier 'nms_retain' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/nms3.0.v:719]
+WARNING: [Synth 8-2611] redeclaration of ansi port conv_work is not allowed [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:71]
+WARNING: [Synth 8-2611] redeclaration of ansi port conv_done2 is not allowed [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:81]
+WARNING: [Synth 8-2611] redeclaration of ansi port status is not allowed [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:100]
+WARNING: [Synth 8-2611] redeclaration of ansi port cnt14 is not allowed [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:116]
+WARNING: [Synth 8-2611] redeclaration of ansi port cnt15 is not allowed [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:116]
+WARNING: [Synth 8-2611] redeclaration of ansi port cnt16 is not allowed [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:117]
+WARNING: [Synth 8-2611] redeclaration of ansi port cnt6 is not allowed [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:344]
+WARNING: [Synth 8-2611] redeclaration of ansi port cnt5 is not allowed [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:345]
+WARNING: [Synth 8-2611] redeclaration of ansi port cnt4 is not allowed [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:346]
+WARNING: [Synth 8-2611] redeclaration of ansi port pool_status is not allowed [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:1227]
+WARNING: [Synth 8-2611] redeclaration of ansi port cnt11 is not allowed [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:1719]
+WARNING: [Synth 8-2611] redeclaration of ansi port cnt12 is not allowed [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:1719]
+WARNING: [Synth 8-2611] redeclaration of ansi port cnt13 is not allowed [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:1719]
+WARNING: [Synth 8-6901] identifier 'wr_fb' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:58]
+WARNING: [Synth 8-6901] identifier 'back_done' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:60]
+WARNING: [Synth 8-6901] identifier 'back' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:60]
+WARNING: [Synth 8-6901] identifier 'pre_back' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:60]
+WARNING: [Synth 8-6901] identifier 'wr_fb' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:61]
+WARNING: [Synth 8-6901] identifier 'wr_w' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:61]
+WARNING: [Synth 8-6901] identifier 'back' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:64]
+WARNING: [Synth 8-6901] identifier 'back_done' is used before its declaration [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/conv.v:64]
+INFO: [Common 17-14] Message 'Synth 8-6901' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-2254] instance name 'GPIO' matches net/port name [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v:1332]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 996.719 ; gain = 286.512
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'CortexM3_Soc' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v:2]
+	Parameter SimPresent bound to: 0 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v:33]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v:34]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v:35]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v:38]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v:39]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v:40]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [D:/Xilinx/Vivado2019.2/Vivado/2019.2/scripts/rt/data/unisim_comp.v:1075]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (1#1) [D:/Xilinx/Vivado2019.2/Vivado/2019.2/scripts/rt/data/unisim_comp.v:1075]
+INFO: [Synth 8-6157] synthesizing module 'PLL' [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/PLL_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'PLL' (2#1) [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/PLL_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [D:/Xilinx/Vivado2019.2/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (3#1) [D:/Xilinx/Vivado2019.2/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196]
+INFO: [Synth 8-6157] synthesizing module 'KeyBoard' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/KeyBoard.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'KeyBoard' (4#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/KeyBoard.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cortexm3ds_logic' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Core/cortexm3ds_logic.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'cortexm3ds_logic' (5#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Core/cortexm3ds_logic.v:27]
+WARNING: [Synth 8-7023] instance 'CortexM3_Core' of module 'cortexm3ds_logic' has 122 connections declared, but only 71 given [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v:283]
+INFO: [Synth 8-6157] synthesizing module 'DMA' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DMA/DMA.v:1]
+	Parameter IDLE bound to: 4'b0001 
+	Parameter READ bound to: 4'b0010 
+	Parameter WRITE bound to: 4'b0100 
+	Parameter WAIT bound to: 4'b1000 
+INFO: [Synth 8-6157] synthesizing module 'FIFO_U' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DMA/FIFO.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'FIFO_U' (6#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DMA/FIFO.v:4]
+WARNING: [Synth 8-6014] Unused sequential element SrcEnd_reg was removed.  [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DMA/DMA.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'DMA' (7#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DMA/DMA.v:1]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1.v:51]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_InStg' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_InStg.v:32]
+INFO: [Synth 8-226] default block is never used [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_InStg.v:417]
+INFO: [Synth 8-226] default block is never used [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_InStg.v:433]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_InStg' (8#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_InStg.v:32]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_DecS0' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS0.v:36]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_default_slave' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_default_slave.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_default_slave' (9#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_default_slave.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_DecS0' (10#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS0.v:36]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_DecS1' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS1.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_DecS1' (11#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS1.v:36]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_DecS2' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS2.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_DecS2' (12#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS2.v:36]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_DecS3' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS3.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_DecS3' (13#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS3.v:36]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_DecS4' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS4.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_DecS4' (14#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS4.v:36]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_DecS5' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS5.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_DecS5' (15#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_DecS5.v:36]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_OutStgM0' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM0.v:35]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_ArbM0' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM0.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_ArbM0' (16#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM0.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_OutStgM0' (17#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM0.v:35]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_OutStgM1' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM1.v:35]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_ArbM1' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM1.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_ArbM1' (18#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM1.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_OutStgM1' (19#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM1.v:35]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_OutStgM2' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM2.v:35]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_ArbM2' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM2.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_ArbM2' (20#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM2.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_OutStgM2' (21#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM2.v:35]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_OutStgM3' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM3.v:35]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_ArbM3' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM3.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_ArbM3' (22#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM3.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_OutStgM3' (23#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM3.v:35]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_OutStgM4' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM4.v:35]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_ArbM4' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM4.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_ArbM4' (24#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM4.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_OutStgM4' (25#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM4.v:35]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_OutStgM5' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM5.v:38]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_ArbM5' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM5.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_ArbM5' (26#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM5.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_OutStgM5' (27#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM5.v:38]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_OutStgM6' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM6.v:38]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_ArbM6' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM6.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_ArbM6' (28#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM6.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_OutStgM6' (29#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM6.v:38]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_OutStgM7' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM7.v:38]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L1_ArbM7' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM7.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_ArbM7' (30#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_ArbM7.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1_OutStgM7' (31#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1_OutStgM7.v:38]
+WARNING: [Synth 8-3848] Net SCANOUTHCLK in module/entity AhbMtx_L1 does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1.v:676]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L1' (32#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L1/AhbMtx_L1.v:51]
+WARNING: [Synth 8-7023] instance 'AHBMTXL1' of module 'AhbMtx_L1' has 244 connections declared, but only 202 given [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v:571]
+INFO: [Synth 8-6157] synthesizing module 'cmsdk_ahb_to_sram' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Sram/cmsdk_ahb_to_sram.v:26]
+	Parameter AW bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'cmsdk_ahb_to_sram' (33#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Sram/cmsdk_ahb_to_sram.v:26]
+INFO: [Synth 8-6157] synthesizing module 'cmsdk_fpga_sram' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Sram/cmsdk_fpga_sram.v:27]
+	Parameter AW bound to: 14 - type: integer 
+	Parameter AWT bound to: 16383 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'G:/SoC/Projects/CortexM3_soc/Keil/image.hex' is read successfully [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Sram/cmsdk_fpga_sram.v:55]
+INFO: [Synth 8-6155] done synthesizing module 'cmsdk_fpga_sram' (34#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Sram/cmsdk_fpga_sram.v:27]
+INFO: [Synth 8-6157] synthesizing module 'DDR' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/DDR.v:2]
+INFO: [Synth 8-6157] synthesizing module 'AHB_to_AXI' [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/AHB_to_AXI_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'AHB_to_AXI' (35#1) [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/AHB_to_AXI_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'FIFO' [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/FIFO_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'FIFO' (36#1) [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/FIFO_stub.v:6]
+WARNING: [Synth 8-7023] instance 'u_FIFO' of module 'FIFO' has 83 connections declared, but only 81 given [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/DDR.v:175]
+INFO: [Synth 8-6157] synthesizing module 'MIG' [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/MIG_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MIG' (37#1) [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/MIG_stub.v:5]
+WARNING: [Synth 8-689] width (32) of port connection 's_axi_araddr' does not match port width (30) of module 'MIG' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/DDR.v:319]
+WARNING: [Synth 8-7023] instance 'u_MIG' of module 'MIG' has 68 connections declared, but only 67 given [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/DDR.v:259]
+INFO: [Synth 8-6157] synthesizing module 'MMCM' [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/MMCM_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MMCM' (38#1) [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/MMCM_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'DDR' (39#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/DDR.v:2]
+INFO: [Synth 8-6157] synthesizing module 'DMAC' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DMA/DMAC.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'DMAC' (40#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DMA/DMAC.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ACC' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:2]
+	Parameter idle bound to: 2'b00 
+	Parameter wr_fb bound to: 2'b01 
+	Parameter wr_w bound to: 2'b10 
+	Parameter calcu bound to: 2'b11 
+	Parameter done bound to: 4'b0001 
+	Parameter pool bound to: 4'b0010 
+	Parameter back bound to: 4'b0100 
+	Parameter pre_back bound to: 4'b1000 
+WARNING: [Synth 8-3848] Net n_rt_addr in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:231]
+WARNING: [Synth 8-3848] Net conv_cnt_plus in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:173]
+WARNING: [Synth 8-3848] Net cnt16 in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:135]
+WARNING: [Synth 8-3848] Net cnt15 in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:139]
+WARNING: [Synth 8-3848] Net cnt14 in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:139]
+WARNING: [Synth 8-3848] Net cnt6 in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:135]
+WARNING: [Synth 8-3848] Net cnt4 in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:138]
+WARNING: [Synth 8-3848] Net cnt13 in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:139]
+WARNING: [Synth 8-3848] Net cnt11 in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:139]
+WARNING: [Synth 8-3848] Net cnt12 in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:139]
+WARNING: [Synth 8-3848] Net pool_status in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:46]
+WARNING: [Synth 8-3848] Net conv_status in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:45]
+WARNING: [Synth 8-3848] Net n_trans in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:230]
+WARNING: [Synth 8-3848] Net c_trans in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:174]
+WARNING: [Synth 8-3848] Net HWRITEM in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:12]
+WARNING: [Synth 8-3848] Net conv_out_bus in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:172]
+WARNING: [Synth 8-3848] Net final_result in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:231]
+WARNING: [Synth 8-3848] Net no_face_detected in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:40]
+WARNING: [Synth 8-3848] Net you_can_rd_result in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:41]
+WARNING: [Synth 8-3848] Net conv_done2 in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:176]
+WARNING: [Synth 8-3848] Net nms_status in module/entity ACC does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'ACC' (41#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:2]
+WARNING: [Synth 8-689] width (2) of port connection 'HMASTERM' does not match port width (4) of module 'ACC' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v:983]
+INFO: [Synth 8-6157] synthesizing module 'Resizer' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/Resizer.v:1]
+	Parameter CameraAddr bound to: 1077979648 - type: integer 
+	Parameter ACCInAddr bound to: 1081540608 - type: integer 
+	Parameter IDLE bound to: 2'b00 
+	Parameter FETCH bound to: 2'b01 
+	Parameter CALCU bound to: 2'b10 
+	Parameter RETURN bound to: 2'b11 
+INFO: [Synth 8-6157] synthesizing module 'ROM_8bit_260' [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/ROM_8bit_260_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ROM_8bit_260' (42#1) [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/ROM_8bit_260_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ROM_9bit_260' [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/ROM_9bit_260_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ROM_9bit_260' (43#1) [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/ROM_9bit_260_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'UROM' [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/UROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'UROM' (44#1) [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/UROM_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'VROM' [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/VROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'VROM' (45#1) [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/VROM_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mult_8_8_16' [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/mult_8_8_16_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mult_8_8_16' (46#1) [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/mult_8_8_16_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'CalcuArray' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/CalcuArray.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mult_16_8_24' [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/mult_16_8_24_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mult_16_8_24' (47#1) [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/.Xil/Vivado-7164-MINGO-ASUS/realtime/mult_16_8_24_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'CalcuArray' (48#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/CalcuArray.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Resizer' (49#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/Resizer.v:1]
+WARNING: [Synth 8-689] width (2) of port connection 'HMASTERM' does not match port width (4) of module 'Resizer' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v:1036]
+INFO: [Synth 8-6157] synthesizing module 'cmsdk_ahb_to_ahb_sync' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbSyncBridge/cmsdk_ahb_to_ahb_sync.v:30]
+	Parameter AW bound to: 32 - type: integer 
+	Parameter DW bound to: 32 - type: integer 
+	Parameter MW bound to: 2 - type: integer 
+	Parameter BURST bound to: 1 - type: integer 
+	Parameter HSIZE_W bound to: 2 - type: integer 
+	Parameter HSIZE_MAX bound to: 1 - type: integer 
+	Parameter TRN_IDLE bound to: 2'b00 
+	Parameter TRN_BUSY bound to: 2'b01 
+	Parameter TRN_NONSEQ bound to: 2'b10 
+	Parameter TRN_SEQ bound to: 2'b11 
+	Parameter RESP_OKAY bound to: 1'b0 
+	Parameter RESP_ERR bound to: 1'b1 
+	Parameter BUR_SINGLE bound to: 3'b000 
+	Parameter BUR_INCR bound to: 3'b001 
+	Parameter BUR_WRAP4 bound to: 3'b010 
+	Parameter BUR_INCR4 bound to: 3'b011 
+	Parameter BUR_WRAP8 bound to: 3'b100 
+	Parameter BUR_INCR8 bound to: 3'b101 
+	Parameter BUR_WRAP16 bound to: 3'b110 
+	Parameter BUR_INCR16 bound to: 3'b111 
+	Parameter FSM_IDLE bound to: 4'b0100 
+	Parameter FSM_ADDR bound to: 4'b0001 
+	Parameter FSM_UNLOCK bound to: 4'b0000 
+	Parameter FSM_WAIT bound to: 4'b0010 
+	Parameter FSM_DONE bound to: 4'b0110 
+	Parameter FSM_ERR1 bound to: 4'b1000 
+	Parameter FSM_ERR2 bound to: 4'b1100 
+INFO: [Synth 8-6157] synthesizing module 'cmsdk_ahb_to_ahb_sync_error_canc' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbSyncBridge/cmsdk_ahb_to_ahb_sync_error_canc.v:31]
+	Parameter TRN_IDLE bound to: 2'b00 
+	Parameter TRN_BUSY bound to: 2'b01 
+	Parameter TRN_NONSEQ bound to: 2'b10 
+	Parameter TRN_SEQ bound to: 2'b11 
+	Parameter RSP_OKAY bound to: 1'b0 
+	Parameter RSP_ERROR bound to: 1'b1 
+	Parameter ST_CONTROL_IDLE bound to: 1'b0 
+	Parameter ST_CONTROL_ERROR bound to: 1'b1 
+	Parameter ST_GEN_IDLE bound to: 2'b01 
+	Parameter ST_GEN_ERROR1 bound to: 2'b10 
+	Parameter ST_GEN_ERROR2 bound to: 2'b11 
+INFO: [Synth 8-226] default block is never used [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbSyncBridge/cmsdk_ahb_to_ahb_sync_error_canc.v:163]
+INFO: [Synth 8-6155] done synthesizing module 'cmsdk_ahb_to_ahb_sync_error_canc' (50#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbSyncBridge/cmsdk_ahb_to_ahb_sync_error_canc.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'cmsdk_ahb_to_ahb_sync' (51#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbSyncBridge/cmsdk_ahb_to_ahb_sync.v:30]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L2' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2.v:46]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L2_InStg' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_InStg.v:32]
+INFO: [Synth 8-226] default block is never used [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_InStg.v:417]
+INFO: [Synth 8-226] default block is never used [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_InStg.v:433]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L2_InStg' (52#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_InStg.v:32]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L2_DecS0' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_DecS0.v:36]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L2_default_slave' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_default_slave.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L2_default_slave' (53#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_default_slave.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L2_DecS0' (54#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_DecS0.v:36]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L2_OutStg' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_OutStg.v:35]
+INFO: [Synth 8-6157] synthesizing module 'AhbMtx_L2_Arb' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_Arb.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L2_Arb' (55#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_Arb.v:35]
+WARNING: [Synth 8-6014] Unused sequential element data_in_port_reg was removed.  [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_OutStg.v:317]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L2_OutStg' (56#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2_OutStg.v:35]
+WARNING: [Synth 8-3848] Net SCANOUTHCLK in module/entity AhbMtx_L2 does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2.v:251]
+INFO: [Synth 8-6155] done synthesizing module 'AhbMtx_L2' (57#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Ahb_Sys/AhbMtx_L2/AhbMtx_L2.v:46]
+WARNING: [Synth 8-7023] instance 'AHBMTXL2' of module 'AhbMtx_L2' has 74 connections declared, but only 62 given [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v:1151]
+INFO: [Synth 8-6157] synthesizing module 'ahb_to_camera' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/ahb_to_camera.v:12]
+	Parameter SimPresent bound to: 0 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/ahb_to_camera.v:67]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/ahb_to_camera.v:79]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/ahb_to_camera.v:80]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Syn.SCCBBUF'. This will prevent further optimization [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/ahb_to_camera.v:130]
+INFO: [Synth 8-6155] done synthesizing module 'ahb_to_camera' (58#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/ahb_to_camera.v:12]
+INFO: [Synth 8-6157] synthesizing module 'camera' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/camera.v:1]
+	Parameter idle bound to: 2'b00 
+	Parameter sdb bound to: 2'b01 
+	Parameter cap bound to: 2'b10 
+	Parameter rele bound to: 2'b11 
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/camera.v:5]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/camera.v:37]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/camera.v:46]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/camera.v:49]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/camera.v:50]
+INFO: [Synth 8-6157] synthesizing module 'Block_DualPort_RAM' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/Block_DualPort_RAM.v:1]
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "block" *) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/Block_DualPort_RAM.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'Block_DualPort_RAM' (59#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/Block_DualPort_RAM.v:1]
+WARNING: [Synth 8-689] width (32) of port connection 'dina' does not match port width (16) of module 'Block_DualPort_RAM' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/camera.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'camera' (60#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Camera/camera.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ahb_lcd' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/LCD_DMA.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'ahb_lcd' (61#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/LCD_DMA.v:2]
+INFO: [Synth 8-6157] synthesizing module 'ahb_to_gpio' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/GPIO/ahb_to_gpio.v:1]
+	Parameter GPIO_WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ahb_to_gpio' (62#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/GPIO/ahb_to_gpio.v:1]
+INFO: [Synth 8-6157] synthesizing module 'gpio' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/GPIO/gpio.v:1]
+	Parameter GPIO_WIDTH bound to: 16 - type: integer 
+	Parameter SimPresent bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'gpio' (63#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/GPIO/gpio.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cmsdk_ahb_to_apb' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Apb_Sys/cmsdk_ahb_to_apb.v:31]
+	Parameter ADDRWIDTH bound to: 16 - type: integer 
+	Parameter REGISTER_RDATA bound to: 1 - type: integer 
+	Parameter REGISTER_WDATA bound to: 1 - type: integer 
+	Parameter ST_BITS bound to: 3 - type: integer 
+	Parameter ST_IDLE bound to: 3'b000 
+	Parameter ST_APB_WAIT bound to: 3'b001 
+	Parameter ST_APB_TRNF bound to: 3'b010 
+	Parameter ST_APB_TRNF2 bound to: 3'b011 
+	Parameter ST_APB_ENDOK bound to: 3'b100 
+	Parameter ST_APB_ERR1 bound to: 3'b101 
+	Parameter ST_APB_ERR2 bound to: 3'b110 
+	Parameter ST_ILLEGAL bound to: 3'b111 
+INFO: [Synth 8-6155] done synthesizing module 'cmsdk_ahb_to_apb' (64#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Apb_Sys/cmsdk_ahb_to_apb.v:31]
+INFO: [Synth 8-6157] synthesizing module 'cmsdk_apb_slave_mux' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Apb_Sys/cmsdk_apb_slave_mux.v:26]
+	Parameter PORT0_ENABLE bound to: 1 - type: integer 
+	Parameter PORT1_ENABLE bound to: 1 - type: integer 
+	Parameter PORT2_ENABLE bound to: 0 - type: integer 
+	Parameter PORT3_ENABLE bound to: 0 - type: integer 
+	Parameter PORT4_ENABLE bound to: 0 - type: integer 
+	Parameter PORT5_ENABLE bound to: 0 - type: integer 
+	Parameter PORT6_ENABLE bound to: 0 - type: integer 
+	Parameter PORT7_ENABLE bound to: 0 - type: integer 
+	Parameter PORT8_ENABLE bound to: 0 - type: integer 
+	Parameter PORT9_ENABLE bound to: 0 - type: integer 
+	Parameter PORT10_ENABLE bound to: 0 - type: integer 
+	Parameter PORT11_ENABLE bound to: 0 - type: integer 
+	Parameter PORT12_ENABLE bound to: 0 - type: integer 
+	Parameter PORT13_ENABLE bound to: 0 - type: integer 
+	Parameter PORT14_ENABLE bound to: 0 - type: integer 
+	Parameter PORT15_ENABLE bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'cmsdk_apb_slave_mux' (65#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Bus/Apb_Sys/cmsdk_apb_slave_mux.v:26]
+INFO: [Synth 8-6157] synthesizing module 'cmsdk_apb_uart' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/cmsdk_apb_uart.v:53]
+	Parameter ARM_CMSDK_APB_UART_PID4 bound to: 8'b00000100 
+	Parameter ARM_CMSDK_APB_UART_PID5 bound to: 8'b00000000 
+	Parameter ARM_CMSDK_APB_UART_PID6 bound to: 8'b00000000 
+	Parameter ARM_CMSDK_APB_UART_PID7 bound to: 8'b00000000 
+	Parameter ARM_CMSDK_APB_UART_PID0 bound to: 8'b00100001 
+	Parameter ARM_CMSDK_APB_UART_PID1 bound to: 8'b10111000 
+	Parameter ARM_CMSDK_APB_UART_PID2 bound to: 8'b00011011 
+	Parameter ARM_CMSDK_APB_UART_PID3 bound to: 4'b0000 
+	Parameter ARM_CMSDK_APB_UART_CID0 bound to: 8'b00001101 
+	Parameter ARM_CMSDK_APB_UART_CID1 bound to: 8'b11110000 
+	Parameter ARM_CMSDK_APB_UART_CID2 bound to: 8'b00000101 
+	Parameter ARM_CMSDK_APB_UART_CID3 bound to: 8'b10110001 
+INFO: [Synth 8-226] default block is never used [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/cmsdk_apb_uart.v:260]
+INFO: [Synth 8-226] default block is never used [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/cmsdk_apb_uart.v:271]
+INFO: [Synth 8-6155] done synthesizing module 'cmsdk_apb_uart' (66#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/cmsdk_apb_uart.v:53]
+INFO: [Synth 8-6157] synthesizing module 'apb_timer' [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/apb_timer.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'apb_timer' (67#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/apb_timer.v:1]
+WARNING: [Synth 8-3848] Net HMASTERDM in module/entity CortexM3_Soc does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v:236]
+WARNING: [Synth 8-3848] Net HMASTERLOCKDM in module/entity CortexM3_Soc does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v:237]
+WARNING: [Synth 8-3848] Net HMASTERLOCKAC in module/entity CortexM3_Soc does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v:262]
+WARNING: [Synth 8-3848] Net HMASTERLOCKRE in module/entity CortexM3_Soc does not have driver. [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v:277]
+INFO: [Synth 8-6155] done synthesizing module 'CortexM3_Soc' (68#1) [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/Soc_System.v:2]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PADDR[11]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PADDR[10]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PADDR[9]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PADDR[8]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PADDR[7]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PADDR[6]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PADDR[5]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PADDR[4]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[31]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[30]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[29]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[28]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[27]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[26]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[25]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[24]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[23]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[22]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[21]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[20]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[19]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[18]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[17]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[16]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[15]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[14]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[13]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[12]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[11]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[10]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[9]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[8]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[7]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[6]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[5]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[4]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[3]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[2]
+WARNING: [Synth 8-3331] design apb_timer has unconnected port PWDATA[1]
+WARNING: [Synth 8-3331] design cmsdk_apb_uart has unconnected port PWDATA[31]
+WARNING: [Synth 8-3331] design cmsdk_apb_uart has unconnected port PWDATA[30]
+WARNING: [Synth 8-3331] design cmsdk_apb_uart has unconnected port PWDATA[29]
+WARNING: [Synth 8-3331] design cmsdk_apb_uart has unconnected port PWDATA[28]
+WARNING: [Synth 8-3331] design cmsdk_apb_uart has unconnected port PWDATA[27]
+WARNING: [Synth 8-3331] design cmsdk_apb_uart has unconnected port PWDATA[26]
+WARNING: [Synth 8-3331] design cmsdk_apb_uart has unconnected port PWDATA[25]
+WARNING: [Synth 8-3331] design cmsdk_apb_uart has unconnected port PWDATA[24]
+WARNING: [Synth 8-3331] design cmsdk_apb_uart has unconnected port PWDATA[23]
+WARNING: [Synth 8-3331] design cmsdk_apb_uart has unconnected port PWDATA[22]
+WARNING: [Synth 8-3331] design cmsdk_apb_uart has unconnected port PWDATA[21]
+WARNING: [Synth 8-3331] design cmsdk_apb_uart has unconnected port PWDATA[20]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PREADY2
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[31]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[30]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[29]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[28]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[27]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[26]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[25]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[24]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[23]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[22]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[21]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[20]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[19]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[18]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[17]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[16]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[15]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[14]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[13]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[12]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[11]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[10]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[9]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[8]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[7]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[6]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[5]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[4]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[3]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[2]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[1]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA2[0]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PSLVERR2
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PREADY3
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA3[31]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA3[30]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA3[29]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA3[28]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA3[27]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA3[26]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA3[25]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA3[24]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA3[23]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA3[22]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA3[21]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA3[20]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA3[19]
+WARNING: [Synth 8-3331] design cmsdk_apb_slave_mux has unconnected port PRDATA3[18]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:07 ; elapsed = 00:01:11 . Memory (MB): peak = 2205.047 ; gain = 1494.840
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:23 ; elapsed = 00:01:29 . Memory (MB): peak = 2205.047 ; gain = 1494.840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:23 ; elapsed = 00:01:29 . Memory (MB): peak = 2205.047 ; gain = 1494.840
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.844 . Memory (MB): peak = 2205.047 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_8_8_16/mult_8_8_16/mult_8_8_16_in_context.xdc] for cell 'IMG_Resizer/GENERATE_W00'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_8_8_16/mult_8_8_16/mult_8_8_16_in_context.xdc] for cell 'IMG_Resizer/GENERATE_W00'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_8_8_16/mult_8_8_16/mult_8_8_16_in_context.xdc] for cell 'IMG_Resizer/GENERATE_W01'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_8_8_16/mult_8_8_16/mult_8_8_16_in_context.xdc] for cell 'IMG_Resizer/GENERATE_W01'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_8_8_16/mult_8_8_16/mult_8_8_16_in_context.xdc] for cell 'IMG_Resizer/GENERATE_W10'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_8_8_16/mult_8_8_16/mult_8_8_16_in_context.xdc] for cell 'IMG_Resizer/GENERATE_W10'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_8_8_16/mult_8_8_16/mult_8_8_16_in_context.xdc] for cell 'IMG_Resizer/GENERATE_W11'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_8_8_16/mult_8_8_16/mult_8_8_16_in_context.xdc] for cell 'IMG_Resizer/GENERATE_W11'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/MMCM/MMCM/MMCM_in_context.xdc] for cell 'DDR/u_MMCM'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/MMCM/MMCM/MMCM_in_context.xdc] for cell 'DDR/u_MMCM'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/RCalcu/M00'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/RCalcu/M00'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/RCalcu/M01'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/RCalcu/M01'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/RCalcu/M10'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/RCalcu/M10'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/RCalcu/M11'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/RCalcu/M11'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/GCalcu/M00'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/GCalcu/M00'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/GCalcu/M01'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/GCalcu/M01'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/GCalcu/M10'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/GCalcu/M10'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/GCalcu/M11'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/GCalcu/M11'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/BCalcu/M00'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/BCalcu/M00'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/BCalcu/M01'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/BCalcu/M01'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/BCalcu/M10'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/BCalcu/M10'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/BCalcu/M11'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/mult_16_8_24/mult_16_8_24/mult_16_8_24_in_context.xdc] for cell 'IMG_Resizer/BCalcu/M11'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/ROM_8bit_260/ROM_8bit_260/ROM_8bit_260_in_context.xdc] for cell 'IMG_Resizer/SRCI'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/ROM_8bit_260/ROM_8bit_260/ROM_8bit_260_in_context.xdc] for cell 'IMG_Resizer/SRCI'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/MIG/MIG/MIG_in_context.xdc] for cell 'DDR/u_MIG'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/MIG/MIG/MIG_in_context.xdc] for cell 'DDR/u_MIG'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/FIFO/FIFO/FIFO_in_context.xdc] for cell 'DDR/u_FIFO'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/FIFO/FIFO/FIFO_in_context.xdc] for cell 'DDR/u_FIFO'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/UROM/UROM/UROM_in_context.xdc] for cell 'IMG_Resizer/UROM'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/UROM/UROM/UROM_in_context.xdc] for cell 'IMG_Resizer/UROM'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/VROM/VROM/VROM_in_context.xdc] for cell 'IMG_Resizer/VROM'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/VROM/VROM/VROM_in_context.xdc] for cell 'IMG_Resizer/VROM'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/AHB_to_AXI_1/AHB_to_AXI/AHB_to_AXI_in_context.xdc] for cell 'DDR/u_AHB_to_AXI'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/DDR/ip/AHB_to_AXI_1/AHB_to_AXI/AHB_to_AXI_in_context.xdc] for cell 'DDR/u_AHB_to_AXI'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/ROM_9bit_260/ROM_9bit_260/ROM_9bit_260_in_context.xdc] for cell 'IMG_Resizer/SRCJ'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/ROM_9bit_260/ROM_9bit_260/ROM_9bit_260_in_context.xdc] for cell 'IMG_Resizer/SRCJ'
+Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/IP/PLL/PLL/PLL_in_context.xdc] for cell 'SynClock.Global_CLK_PLL'
+Finished Parsing XDC File [g:/SoC/Projects/CortexM3_soc/Rtl_camera/Top/IP/PLL/PLL/PLL_in_context.xdc] for cell 'SynClock.Global_CLK_PLL'
+Parsing XDC File [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.srcs/constrs_1/new/con_pin.xdc]
+WARNING: [Vivado 12-507] No nets matched 'CAMERA_PCLK_IBUF'. [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.srcs/constrs_1/new/con_pin.xdc:4]
+Finished Parsing XDC File [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.srcs/constrs_1/new/con_pin.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.srcs/constrs_1/new/con_pin.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/CortexM3_Soc_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.srcs/constrs_1/new/con_pin.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/CortexM3_Soc_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/CortexM3_Soc_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2205.047 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 18 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 18 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.547 . Memory (MB): peak = 2205.047 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:54 ; elapsed = 00:02:04 . Memory (MB): peak = 2205.047 ; gain = 1494.840
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg484-2
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Core/cortexm3ds_logic.v:13205]
+INFO: [Synth 8-802] inferred FSM for state register 'gen_state_reg' in module 'cmsdk_ahb_to_ahb_sync_error_canc'
+INFO: [Synth 8-802] inferred FSM for state register 'reg_fsm_state_reg' in module 'cmsdk_ahb_to_ahb_sync'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'camera'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'cmsdk_ahb_to_apb'
+WARNING: [Synth 8-6841] Block RAM (BRAM_reg) originally specified as a Byte Wide Write Enable RAM cannot take advantage of ByteWide feature and is implemented with single write enable per RAM due to following reason.
+(address width (14) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired.)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             ST_GEN_IDLE |                              100 |                               01
+           ST_GEN_ERROR1 |                              010 |                               10
+           ST_GEN_ERROR2 |                              001 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_state_reg' using encoding 'one-hot' in module 'cmsdk_ahb_to_ahb_sync_error_canc'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                FSM_IDLE |                          0000001 |                             0100
+                FSM_ADDR |                          0000010 |                             0001
+                FSM_WAIT |                          0000100 |                             0010
+                FSM_ERR1 |                          0001000 |                             1000
+                FSM_ERR2 |                          0010000 |                             1100
+                FSM_DONE |                          0100000 |                             0110
+              FSM_UNLOCK |                          1000000 |                             0000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'reg_fsm_state_reg' using encoding 'one-hot' in module 'cmsdk_ahb_to_ahb_sync'
+INFO: [Synth 8-6159] Found Keep on FSM register 'state_reg' in module 'camera', re-encoding will not be performed
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                     sdb |                               01 |                               01
+                     cap |                               10 |                               10
+                    rele |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 ST_IDLE |                          0001000 |                              000
+             ST_APB_WAIT |                          0000100 |                              001
+             ST_APB_TRNF |                          0000010 |                              010
+            ST_APB_TRNF2 |                          1000000 |                              011
+             ST_APB_ERR1 |                          0010000 |                              101
+             ST_APB_ERR2 |                          0000001 |                              110
+            ST_APB_ENDOK |                          0100000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'one-hot' in module 'cmsdk_ahb_to_apb'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:04:04 ; elapsed = 00:04:16 . Memory (MB): peak = 2205.047 ; gain = 1494.840
+---------------------------------------------------------------------------------
+RAM Pipeline Warning: Read Address Register Found For RAM BRAM_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM BRAM_reg. We will not be able to pipeline it. This may degrade performance. 
+
+Report RTL Partitions: 
++------+----------------------+------------+----------+
+|      |RTL Partition         |Replication |Instances |
++------+----------------------+------------+----------+
+|1     |cortexm3ds_logic__GB0 |           1|     32317|
+|2     |cortexm3ds_logic__GB1 |           1|     22685|
+|3     |cortexm3ds_logic__GB2 |           1|     22064|
+|4     |ahb_to_camera__GC0    |           1|       159|
+|5     |gpio__GC0             |           1|        16|
+|6     |CortexM3_Soc__GC0     |           1|     19838|
++------+----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     34 Bit       Adders := 11    
+	   2 Input     33 Bit       Adders := 6     
+	   2 Input     32 Bit       Adders := 9     
+	   3 Input     32 Bit       Adders := 6     
+	   3 Input     31 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 3     
+	   2 Input     24 Bit       Adders := 1     
+	   4 Input     24 Bit       Adders := 3     
+	   2 Input     23 Bit       Adders := 1     
+	   2 Input     21 Bit       Adders := 3     
+	   2 Input     18 Bit       Adders := 2     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 3     
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 7     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 6     
+	   3 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   3 Input      5 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 17    
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1256  
+	   4 Input      1 Bit         XORs := 1     
+	   3 Input      1 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 32    
+	               20 Bit    Registers := 1     
+	               18 Bit    Registers := 1     
+	               16 Bit    Registers := 8     
+	               14 Bit    Registers := 5     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 25    
+	                7 Bit    Registers := 3     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 47    
+	                3 Bit    Registers := 36    
+	                2 Bit    Registers := 24    
+	                1 Bit    Registers := 5814  
++---Multipliers : 
+	                 4x32  Multipliers := 2     
+	                 9x32  Multipliers := 1     
++---RAMs : 
+	            4096K Bit         RAMs := 1     
+	             512K Bit         RAMs := 2     
+	              512 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 95    
+	   4 Input     32 Bit        Muxes := 9     
+	   3 Input     32 Bit        Muxes := 8     
+	   9 Input     32 Bit        Muxes := 3     
+	   6 Input     32 Bit        Muxes := 2     
+	   5 Input     32 Bit        Muxes := 3     
+	   3 Input     31 Bit        Muxes := 1     
+	   2 Input     22 Bit        Muxes := 1     
+	   4 Input     21 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input     17 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 5     
+	   4 Input     16 Bit        Muxes := 2     
+	   2 Input     14 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 14    
+	   2 Input      7 Bit        Muxes := 20    
+	   7 Input      7 Bit        Muxes := 2     
+	   7 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 78    
+	   5 Input      4 Bit        Muxes := 2     
+	   8 Input      4 Bit        Muxes := 1     
+	   3 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 3     
+	   9 Input      4 Bit        Muxes := 1     
+	   7 Input      4 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 5     
+	   2 Input      3 Bit        Muxes := 55    
+	   9 Input      3 Bit        Muxes := 5     
+	   5 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 2     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 53    
+	   3 Input      2 Bit        Muxes := 4     
+	   9 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 3     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2325  
+	   6 Input      1 Bit        Muxes := 10    
+	   5 Input      1 Bit        Muxes := 8     
+	   4 Input      1 Bit        Muxes := 14    
+	   3 Input      1 Bit        Muxes := 10    
+	   9 Input      1 Bit        Muxes := 9     
+	   7 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module CortexM3_Soc 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module cortexm3ds_logic 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     34 Bit       Adders := 11    
+	   2 Input     33 Bit       Adders := 6     
+	   2 Input     32 Bit       Adders := 3     
+	   3 Input     32 Bit       Adders := 2     
+	   3 Input     31 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input     24 Bit       Adders := 1     
+	   2 Input     21 Bit       Adders := 1     
+	   2 Input     18 Bit       Adders := 2     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     14 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 3     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 3     
+	   3 Input      7 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
+	   3 Input      5 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1256  
+	   4 Input      1 Bit         XORs := 1     
+	   3 Input      1 Bit         XORs := 2     
++---Registers : 
+	                1 Bit    Registers := 5662  
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2130  
+Module ahb_to_camera 
+Detailed RTL Component Info : 
++---Registers : 
+	               18 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+	   6 Input      1 Bit        Muxes := 5     
+Module KeyBoard 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module FIFO_U 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---RAMs : 
+	              512 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 2     
+Module DMA 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   4 Input     32 Bit        Muxes := 2     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+	   5 Input      1 Bit        Muxes := 1     
+Module AhbMtx_L1_InStg__1 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+Module AhbMtx_L1_InStg__2 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+Module AhbMtx_L1_InStg__3 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+Module AhbMtx_L1_InStg__4 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+Module AhbMtx_L1_InStg__5 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+Module AhbMtx_L1_InStg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+Module AhbMtx_L1_default_slave 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module AhbMtx_L1_DecS0 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 3     
+Module AhbMtx_L1_default_slave__5 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module AhbMtx_L1_DecS1 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 3     
+Module AhbMtx_L1_default_slave__4 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module AhbMtx_L1_DecS2 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   9 Input     32 Bit        Muxes := 2     
+	   8 Input      4 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 5     
+	   9 Input      2 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 9     
+Module AhbMtx_L1_default_slave__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module AhbMtx_L1_DecS3 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 2     
+	   5 Input      4 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 5     
+Module AhbMtx_L1_default_slave__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module AhbMtx_L1_DecS4 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 3     
+Module AhbMtx_L1_default_slave__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module AhbMtx_L1_DecS5 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 2     
+	   3 Input      4 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module AhbMtx_L1_ArbM0 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module AhbMtx_L1_OutStgM0 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 10    
+	   2 Input      4 Bit        Muxes := 6     
+	   2 Input      3 Bit        Muxes := 5     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 11    
+Module AhbMtx_L1_ArbM1 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module AhbMtx_L1_OutStgM1 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 10    
+	   2 Input      4 Bit        Muxes := 6     
+	   2 Input      3 Bit        Muxes := 5     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 11    
+Module AhbMtx_L1_ArbM2 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module AhbMtx_L1_OutStgM2 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 10    
+	   2 Input      4 Bit        Muxes := 6     
+	   2 Input      3 Bit        Muxes := 5     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 11    
+Module AhbMtx_L1_ArbM3 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module AhbMtx_L1_OutStgM3 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input     32 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 3     
+Module AhbMtx_L1_ArbM4 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module AhbMtx_L1_OutStgM4 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 3     
+Module AhbMtx_L1_ArbM5 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module AhbMtx_L1_OutStgM5 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module AhbMtx_L1_ArbM6 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module AhbMtx_L1_OutStgM6 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module AhbMtx_L1_ArbM7 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module AhbMtx_L1_OutStgM7 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module cmsdk_ahb_to_sram__1 
+Detailed RTL Component Info : 
++---Registers : 
+	               14 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
+Module cmsdk_fpga_sram__1 
+Detailed RTL Component Info : 
++---Registers : 
+	               14 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---RAMs : 
+	             512K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+	   2 Input      8 Bit        Muxes := 1     
+Module cmsdk_ahb_to_sram 
+Detailed RTL Component Info : 
++---Registers : 
+	               14 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
+Module cmsdk_fpga_sram 
+Detailed RTL Component Info : 
++---Registers : 
+	               14 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---RAMs : 
+	             512K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+	   2 Input      8 Bit        Muxes := 1     
+Module DMAC 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   5 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module ACC 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 4     
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     23 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 3     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 3     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 7     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Multipliers : 
+	                 4x32  Multipliers := 2     
+	                 9x32  Multipliers := 1     
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 3     
+	   9 Input     32 Bit        Muxes := 1     
+	   2 Input     22 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 2     
+	   2 Input     17 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 4     
+	   9 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 16    
+Module CalcuArray__xdcDup__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     24 Bit       Adders := 1     
+Module CalcuArray__xdcDup__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     24 Bit       Adders := 1     
+Module CalcuArray 
+Detailed RTL Component Info : 
++---Adders : 
+	   4 Input     24 Bit       Adders := 1     
+Module Resizer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 2     
+	   2 Input     21 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 12    
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   3 Input     31 Bit        Muxes := 1     
+	   4 Input     21 Bit        Muxes := 1     
+	   4 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+	   5 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+Module cmsdk_ahb_to_ahb_sync_error_canc 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module cmsdk_ahb_to_ahb_sync 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   7 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 8     
+	   2 Input      4 Bit        Muxes := 1     
+	   7 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 5     
+Module AhbMtx_L2_InStg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+Module AhbMtx_L2_default_slave 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module AhbMtx_L2_DecS0 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   5 Input     32 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 2     
+Module AhbMtx_L2_Arb__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module AhbMtx_L2_OutStg__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module AhbMtx_L2_Arb__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module AhbMtx_L2_OutStg__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module AhbMtx_L2_Arb 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module AhbMtx_L2_OutStg 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module Block_DualPort_RAM 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---RAMs : 
+	            4096K Bit         RAMs := 1     
+Module camera 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 2     
+Module ahb_lcd 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module ahb_to_gpio 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 3     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 1     
+Module cmsdk_ahb_to_apb 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	               14 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   7 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 10    
+	   7 Input      3 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module cmsdk_apb_uart 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 5     
++---Registers : 
+	               20 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                7 Bit    Registers := 2     
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module apb_timer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 6     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                4 Bit    Registers := 12    
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+	   7 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 12    
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 13    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+DSP Report: Generating DSP Glym17, operation Mode is: A*B.
+DSP Report: operator Glym17 is absorbed into DSP Glym17.
+DSP Report: operator Glym17 is absorbed into DSP Glym17.
+DSP Report: Generating DSP Glym17, operation Mode is: A*B.
+DSP Report: operator Glym17 is absorbed into DSP Glym17.
+DSP Report: operator Glym17 is absorbed into DSP Glym17.
+DSP Report: Generating DSP Glym17, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator Glym17 is absorbed into DSP Glym17.
+DSP Report: operator Glym17 is absorbed into DSP Glym17.
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:479]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:479]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/ACC/ACC.v:479]
+DSP Report: Generating DSP c_w_start_addr2, operation Mode is: A*(B:0x9).
+DSP Report: operator c_w_start_addr2 is absorbed into DSP c_w_start_addr2.
+DSP Report: Generating DSP c_w_start_addr1, operation Mode is: PCIN+(D+(A:0x1))*(B:0x240).
+DSP Report: operator c_w_start_addr1 is absorbed into DSP c_w_start_addr1.
+DSP Report: operator c_w_start_addr3 is absorbed into DSP c_w_start_addr1.
+DSP Report: operator c_w_start_addr4 is absorbed into DSP c_w_start_addr1.
+DSP Report: Generating DSP c_f_start_addr3, operation Mode is: A*B.
+DSP Report: operator c_f_start_addr3 is absorbed into DSP c_f_start_addr3.
+DSP Report: operator c_f_start_addr3 is absorbed into DSP c_f_start_addr3.
+DSP Report: Generating DSP c_f_start_addr3, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator c_f_start_addr3 is absorbed into DSP c_f_start_addr3.
+DSP Report: operator c_f_start_addr3 is absorbed into DSP c_f_start_addr3.
+DSP Report: Generating DSP c_f_start_addr5, operation Mode is: A*B.
+DSP Report: operator c_f_start_addr5 is absorbed into DSP c_f_start_addr5.
+DSP Report: operator c_f_start_addr5 is absorbed into DSP c_f_start_addr5.
+DSP Report: Generating DSP c_f_start_addr5, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator c_f_start_addr5 is absorbed into DSP c_f_start_addr5.
+DSP Report: operator c_f_start_addr5 is absorbed into DSP c_f_start_addr5.
+DSP Report: Generating DSP c_f_start_addr3, operation Mode is: A*B.
+DSP Report: operator c_f_start_addr3 is absorbed into DSP c_f_start_addr3.
+DSP Report: operator c_f_start_addr3 is absorbed into DSP c_f_start_addr3.
+DSP Report: Generating DSP c_f_start_addr3, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator c_f_start_addr3 is absorbed into DSP c_f_start_addr3.
+DSP Report: operator c_f_start_addr3 is absorbed into DSP c_f_start_addr3.
+DSP Report: Generating DSP c_f_start_addr3, operation Mode is: (A:0x1189)*B.
+DSP Report: operator c_f_start_addr3 is absorbed into DSP c_f_start_addr3.
+DSP Report: Generating DSP c_f_start_addr2, operation Mode is: PCIN+(A:0x0):B+C.
+DSP Report: operator c_f_start_addr2 is absorbed into DSP c_f_start_addr2.
+DSP Report: Generating DSP c_rt_addr2, operation Mode is: C+A*B.
+DSP Report: operator c_rt_addr2 is absorbed into DSP c_rt_addr2.
+DSP Report: operator c_rt_addr3 is absorbed into DSP c_rt_addr2.
+DSP Report: Generating DSP DstbRAddr, operation Mode is: C+(D+(A:0x1))*(B:0x106)+1.
+DSP Report: operator DstbRAddr is absorbed into DSP DstbRAddr.
+DSP Report: operator DstbRAddr0 is absorbed into DSP DstbRAddr.
+DSP Report: operator DstbRAddr1 is absorbed into DSP DstbRAddr.
+RAM Pipeline Warning: Read Address Register Found For RAM BRAM_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM BRAM_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6841] Block RAM (BRAM_reg) originally specified as a Byte Wide Write Enable RAM cannot take advantage of ByteWide feature and is implemented with single write enable per RAM due to following reason.
+(address width (14) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired.)
+RAM Pipeline Warning: Read Address Register Found For RAM BRAM_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM BRAM_reg. We will not be able to pipeline it. This may degrade performance. 
+WARNING: [Synth 8-6841] Block RAM (BRAM_reg) originally specified as a Byte Wide Write Enable RAM cannot take advantage of ByteWide feature and is implemented with single write enable per RAM due to following reason.
+(address width (14) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired.)
+INFO: [Synth 8-5784] Optimized 16 bits of RAM "DuRAM/mem_reg" due to constant propagation. Old ram width 32 bits, new ram width 16 bits.
+RAM Pipeline Warning: Read Address Register Found For RAM BRAM_reg. We will not be able to pipeline it. This may degrade performance. 
+RAM Pipeline Warning: Read Address Register Found For RAM BRAM_reg. We will not be able to pipeline it. This may degrade performance. 
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL2/\u_ahbmtx_l2_outstg_2/u_output_arb/iaddr_in_port_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL2/\u_ahbmtx_l2_outstg_1/u_output_arb/iaddr_in_port_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_ahbmtx_l1_outstgm2_2/\u_output_arb/iaddr_in_port_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\B11_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\B11_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\B11_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\B10_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\B10_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\B10_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\B01_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\B01_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\B01_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\B00_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\B00_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\B00_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\R11_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\R11_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\R11_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\R10_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\R10_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\R10_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\R01_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\R01_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\R01_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\R00_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\R00_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\R00_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\G11_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\G11_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\G10_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\G10_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\G01_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\G01_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\G00_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/IMG_Resizer/\G00_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/reg_mastlock_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/data_valid_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_ahbmtx_l1_outstgm1_1/\u_output_arb/iaddr_in_port_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_1/reg_mastlock_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_0/reg_mastlock_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_ahbmtx_l1_outstgm0_0/\u_output_arb/iaddr_in_port_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_ahbmtx_l1_outstgm0_0/\u_output_arb/iaddr_in_port_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL2/\u_ahbmtx_l2_outstg_0/u_output_arb/iaddr_in_port_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_3/reg_mastlock_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_5/reg_mastlock_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_ahbmtx_l1_outstgm7_7/\u_output_arb/iaddr_in_port_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_ahbmtx_l1_outstgm7_7/\u_output_arb/iaddr_in_port_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_ahbmtx_l1_outstgm6_6/\u_output_arb/iaddr_in_port_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_ahbmtx_l1_outstgm6_6/\u_output_arb/iaddr_in_port_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_ahbmtx_l1_outstgm5_5/\u_output_arb/iaddr_in_port_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_ahbmtx_l1_outstgm5_5/\u_output_arb/iaddr_in_port_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_5/\reg_burst_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_burst_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_3/\reg_burst_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_5/\reg_burst_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_burst_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_3/\reg_burst_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_5/\reg_burst_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_5/\reg_trans_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_burst_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_trans_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_trans_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_3/\reg_burst_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_3/\reg_trans_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/reg_write_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_5/\reg_size_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_size_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_size_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_5/\reg_size_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_size_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_3/\reg_size_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_prot_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_prot_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_5/\reg_prot_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_prot_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_3/\reg_prot_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_5/\reg_prot_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_prot_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_3/\reg_prot_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_5/\reg_addr_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_addr_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_5/\reg_addr_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_addr_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_addr_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_addr_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_addr_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_addr_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_addr_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_addr_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_addr_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_addr_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_addr_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_addr_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_addr_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_addr_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_addr_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_4/\reg_addr_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_5/\reg_addr_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_5/\reg_addr_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/AHBMTXL1/u_AhbMtx_L1_InStg_5/\reg_addr_reg[26] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (DuRAM/mem_reg_mux_sel) is unused and will be removed from module camera.
+WARNING: [Synth 8-3332] Sequential element (DuRAM/mem_reg_mux_sel__0) is unused and will be removed from module camera.
+WARNING: [Synth 8-3332] Sequential element (DuRAM/mem_reg_mux_sel__1) is unused and will be removed from module camera.
+WARNING: [Synth 8-3332] Sequential element (DuRAM/mem_reg_mux_sel__2) is unused and will be removed from module camera.
+WARNING: [Synth 8-3332] Sequential element (DuRAM/mem_reg_mux_sel__3) is unused and will be removed from module camera.
+WARNING: [Synth 8-3332] Sequential element (DuRAM/mem_reg_mux_sel__4) is unused and will be removed from module camera.
+WARNING: [Synth 8-3332] Sequential element (DuRAM/mem_reg_mux_sel__5) is unused and will be removed from module camera.
+WARNING: [Synth 8-3332] Sequential element (DuRAM/mem_reg_mux_sel__6) is unused and will be removed from module camera.
+WARNING: [Synth 8-3332] Sequential element (DuRAM/mem_reg_mux_sel__7) is unused and will be removed from module camera.
+WARNING: [Synth 8-3332] Sequential element (DuRAM/mem_reg_mux_sel__8) is unused and will be removed from module camera.
+WARNING: [Synth 8-3332] Sequential element (DuRAM/mem_reg_mux_sel__9) is unused and will be removed from module camera.
+WARNING: [Synth 8-3332] Sequential element (DuRAM/mem_reg_mux_sel__10) is unused and will be removed from module camera.
+WARNING: [Synth 8-3332] Sequential element (DuRAM/mem_reg_mux_sel__11) is unused and will be removed from module camera.
+WARNING: [Synth 8-3332] Sequential element (DuRAM/mem_reg_mux_sel__12) is unused and will be removed from module camera.
+WARNING: [Synth 8-3332] Sequential element (DuRAM/mem_reg_mux_sel__13) is unused and will be removed from module camera.
+WARNING: [Synth 8-3332] Sequential element (DuRAM/mem_reg_mux_sel__14) is unused and will be removed from module camera.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_state_reg_reg[4]) is unused and will be removed from module cmsdk_ahb_to_apb.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_state_reg_reg[0]) is unused and will be removed from module cmsdk_ahb_to_apb.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:09:54 ; elapsed = 00:10:11 . Memory (MB): peak = 2337.414 ; gain = 1627.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping	Report (see note below)
++------------+---------------+------------------------+---+---+-------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object    | PORT A (Depth x Width) | W | R | PORT B (Depth x Width)  | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+---------------+------------------------+---+---+-------------------------+---+---+------------------+--------+--------+
+|i_0/ITCM    | BRAM_reg      | 16 K x 32(WRITE_FIRST) | W | R |                         |   |   | Port A           | 0      | 16     | 
+|i_0/DTCM    | BRAM_reg      | 16 K x 32(WRITE_FIRST) | W | R |                         |   |   | Port A           | 0      | 16     | 
+|i_0/CAMEARA | DuRAM/mem_reg | 128 K x 16(NO_CHANGE)  | W |   | 128 K x 32(WRITE_FIRST) |   | R | Port A and B     | 0      | 64     | 
++------------+---------------+------------------------+---+---+-------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++------------+------------------+-----------+----------------------+-------------+
+|Module Name | RTL Object       | Inference | Size (Depth x Width) | Primitives  | 
++------------+------------------+-----------+----------------------+-------------+
+|i_0/DMA     | u_FIFO_U/mem_reg | Implied   | 16 x 32              | RAM32M x 6	 | 
++------------+------------------+-----------+----------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping	Report (see note below)
++-----------------+----------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name      | DSP Mapping                | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------+----------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|cortexm3ds_logic | A*B                        | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|cortexm3ds_logic | A*B                        | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|cortexm3ds_logic | (PCIN>>17)+A*B             | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ACC              | A*(B:0x9)                  | 7      | 4      | -      | -      | 11     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ACC              | PCIN+(D+(A:0x1))*(B:0x240) | 1      | 10     | -      | 7      | 19     | 0    | 0    | -    | 0    | 0     | 0    | 0    | 
+|ACC              | A*B                        | 18     | 5      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ACC              | (PCIN>>17)+A*B             | 14     | 5      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ACC              | A*B                        | 18     | 5      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ACC              | (PCIN>>17)+A*B             | 14     | 5      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ACC              | A*B                        | 18     | 10     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ACC              | (PCIN>>17)+A*B             | 14     | 10     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ACC              | (A:0x1189)*B               | 7      | 13     | -      | -      | 20     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|ACC              | PCIN+(A:0x0):B+C           | 30     | 12     | 6      | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|ACC              | C+A*B                      | 10     | 9      | 6      | -      | 20     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|Resizer          | C+(D+(A:0x1))*(B:0x106)+1  | 1      | 9      | 9      | 9      | 20     | 0    | 0    | 0    | 0    | 0     | 0    | 0    | 
++-----------------+----------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/Resizer.v:177]
+
+Report RTL Partitions: 
++------+----------------------+------------+----------+
+|      |RTL Partition         |Replication |Instances |
++------+----------------------+------------+----------+
+|1     |cortexm3ds_logic__GB0 |           1|     23237|
+|2     |cortexm3ds_logic__GB1 |           1|     17828|
+|3     |cortexm3ds_logic__GB2 |           1|     15468|
+|4     |ahb_to_camera__GC0    |           1|       105|
+|5     |gpio__GC0             |           1|        16|
+|6     |CortexM3_Soc__GC0     |           1|     11391|
++------+----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:10:10 ; elapsed = 00:10:28 . Memory (MB): peak = 2337.414 ; gain = 1627.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:10:16 ; elapsed = 00:10:34 . Memory (MB): peak = 2337.414 ; gain = 1627.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping	Report
++------------+---------------+------------------------+---+---+-------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object    | PORT A (Depth x Width) | W | R | PORT B (Depth x Width)  | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+---------------+------------------------+---+---+-------------------------+---+---+------------------+--------+--------+
+|i_0/ITCM    | BRAM_reg      | 16 K x 32(WRITE_FIRST) | W | R |                         |   |   | Port A           | 0      | 16     | 
+|i_0/DTCM    | BRAM_reg      | 16 K x 32(WRITE_FIRST) | W | R |                         |   |   | Port A           | 0      | 16     | 
+|i_0/CAMEARA | DuRAM/mem_reg | 128 K x 16(NO_CHANGE)  | W |   | 128 K x 32(WRITE_FIRST) |   | R | Port A and B     | 0      | 64     | 
++------------+---------------+------------------------+---+---+-------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping	Report
++------------+------------------+-----------+----------------------+-------------+
+|Module Name | RTL Object       | Inference | Size (Depth x Width) | Primitives  | 
++------------+------------------+-----------+----------------------+-------------+
+|i_0/DMA     | u_FIFO_U/mem_reg | Implied   | 16 x 32              | RAM32M x 6	 | 
++------------+------------------+-----------+----------------------+-------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------------+------------+----------+
+|      |RTL Partition         |Replication |Instances |
++------+----------------------+------------+----------+
+|1     |cortexm3ds_logic__GB0 |           1|     23237|
+|2     |cortexm3ds_logic__GB1 |           1|     17828|
+|3     |cortexm3ds_logic__GB2 |           1|     15468|
+|4     |ahb_to_camera__GC0    |           1|       105|
+|5     |gpio__GC0             |           1|        16|
+|6     |CortexM3_Soc__GC0     |           1|     11391|
++------+----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7053] The timing for the instance CAMEARA/DuRAM/mem_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance CAMEARA/DuRAM/mem_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance CAMEARA/DuRAM/mem_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance CAMEARA/DuRAM/mem_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance CAMEARA/DuRAM/mem_reg_1_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance CAMEARA/DuRAM/mem_reg_1_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance CAMEARA/DuRAM/mem_reg_1_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance CAMEARA/DuRAM/mem_reg_1_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance CAMEARA/DuRAM/mem_reg_1_8 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance CAMEARA/DuRAM/mem_reg_1_9 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance CAMEARA/DuRAM/mem_reg_1_10 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance CAMEARA/DuRAM/mem_reg_1_11 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance CAMEARA/DuRAM/mem_reg_1_12 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance CAMEARA/DuRAM/mem_reg_1_13 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance CAMEARA/DuRAM/mem_reg_1_14 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance CAMEARA/DuRAM/mem_reg_1_15 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/Resizer.v:177]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [G:/SoC/Projects/CortexM3_soc/Rtl_camera/Peripherals/Resizer/Resizer.v:178]
+INFO: [Synth 8-7053] The timing for the instance ITCM/BRAM_reg_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance ITCM/BRAM_reg_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance ITCM/BRAM_reg_0_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance ITCM/BRAM_reg_0_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance ITCM/BRAM_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance ITCM/BRAM_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance ITCM/BRAM_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance ITCM/BRAM_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance ITCM/BRAM_reg_2_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance ITCM/BRAM_reg_2_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance ITCM/BRAM_reg_2_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance ITCM/BRAM_reg_2_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance ITCM/BRAM_reg_3_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance ITCM/BRAM_reg_3_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance ITCM/BRAM_reg_3_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance ITCM/BRAM_reg_3_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance DTCM/BRAM_reg_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance DTCM/BRAM_reg_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance DTCM/BRAM_reg_0_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance DTCM/BRAM_reg_0_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance DTCM/BRAM_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance DTCM/BRAM_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance DTCM/BRAM_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance DTCM/BRAM_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance DTCM/BRAM_reg_2_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance DTCM/BRAM_reg_2_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance DTCM/BRAM_reg_2_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance DTCM/BRAM_reg_2_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance DTCM/BRAM_reg_3_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance DTCM/BRAM_reg_3_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance DTCM/BRAM_reg_3_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7053] The timing for the instance DTCM/BRAM_reg_3_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:10:36 ; elapsed = 00:10:54 . Memory (MB): peak = 2337.414 ; gain = 1627.207
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:10:43 ; elapsed = 00:11:01 . Memory (MB): peak = 2337.414 ; gain = 1627.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:10:43 ; elapsed = 00:11:02 . Memory (MB): peak = 2337.414 ; gain = 1627.207
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:10:44 ; elapsed = 00:11:02 . Memory (MB): peak = 2337.414 ; gain = 1627.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:10:44 ; elapsed = 00:11:03 . Memory (MB): peak = 2337.414 ; gain = 1627.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:10:44 ; elapsed = 00:11:03 . Memory (MB): peak = 2337.414 ; gain = 1627.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:10:44 ; elapsed = 00:11:03 . Memory (MB): peak = 2337.414 ; gain = 1627.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |PLL           |         1|
+|2     |AHB_to_AXI    |         1|
+|3     |FIFO          |         1|
+|4     |MIG           |         1|
+|5     |MMCM          |         1|
+|6     |ROM_8bit_260  |         1|
+|7     |ROM_9bit_260  |         1|
+|8     |UROM          |         1|
+|9     |VROM          |         1|
+|10    |mult_8_8_16   |         4|
+|11    |mult_16_8_24  |        12|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-----------------+------+
+|      |Cell             |Count |
++------+-----------------+------+
+|1     |AHB_to_AXI       |     1|
+|2     |FIFO             |     1|
+|3     |MIG              |     1|
+|4     |MMCM             |     1|
+|5     |PLL              |     1|
+|6     |ROM_8bit_260     |     1|
+|7     |ROM_9bit_260     |     1|
+|8     |UROM             |     1|
+|9     |VROM             |     1|
+|10    |mult_16_8_24     |     1|
+|11    |mult_16_8_24__10 |     1|
+|12    |mult_16_8_24__11 |     1|
+|13    |mult_16_8_24__12 |     1|
+|14    |mult_16_8_24__13 |     1|
+|15    |mult_16_8_24__3  |     1|
+|16    |mult_16_8_24__4  |     1|
+|17    |mult_16_8_24__5  |     1|
+|18    |mult_16_8_24__6  |     1|
+|19    |mult_16_8_24__7  |     1|
+|20    |mult_16_8_24__8  |     1|
+|21    |mult_16_8_24__9  |     1|
+|22    |mult_8_8_16      |     1|
+|23    |mult_8_8_16__4   |     1|
+|24    |mult_8_8_16__5   |     1|
+|25    |mult_8_8_16__6   |     1|
+|26    |BUFG             |     2|
+|27    |CARRY4           |   404|
+|28    |DSP48E1          |     3|
+|29    |DSP48E1_1        |     1|
+|30    |LUT1             |   307|
+|31    |LUT2             |  1387|
+|32    |LUT3             |  1727|
+|33    |LUT4             |  2784|
+|34    |LUT5             |  3995|
+|35    |LUT6             |  8934|
+|36    |MUXF7            |    26|
+|37    |MUXF8            |     3|
+|38    |RAM32M           |     6|
+|39    |RAMB36E1         |     2|
+|40    |RAMB36E1_1       |     2|
+|41    |RAMB36E1_10      |     2|
+|42    |RAMB36E1_11      |     2|
+|43    |RAMB36E1_12      |     2|
+|44    |RAMB36E1_13      |     2|
+|45    |RAMB36E1_14      |     2|
+|46    |RAMB36E1_15      |     2|
+|47    |RAMB36E1_16      |    16|
+|48    |RAMB36E1_17      |    16|
+|49    |RAMB36E1_2       |     2|
+|50    |RAMB36E1_3       |     2|
+|51    |RAMB36E1_4       |     2|
+|52    |RAMB36E1_5       |     2|
+|53    |RAMB36E1_6       |     2|
+|54    |RAMB36E1_7       |     2|
+|55    |RAMB36E1_8       |     2|
+|56    |RAMB36E1_9       |     2|
+|57    |FDCE             |  4166|
+|58    |FDPE             |   104|
+|59    |FDRE             |  2369|
+|60    |IBUF             |    19|
+|61    |IOBUF            |    18|
+|62    |OBUF             |    44|
++------+-----------------+------+
+
+Report Instance Areas: 
++------+-----------------------------------------+---------------------------------+------+
+|      |Instance                                 |Module                           |Cells |
++------+-----------------------------------------+---------------------------------+------+
+|1     |top                                      |                                 | 27268|
+|2     |  AHB_to_CAMERA                          |ahb_to_camera                    |    62|
+|3     |  CAMEARA                                |camera                           |   120|
+|4     |    DuRAM                                |Block_DualPort_RAM               |    36|
+|5     |  ACC                                    |ACC                              |   395|
+|6     |  AHBMTXL1                               |AhbMtx_L1                        |  1102|
+|7     |    u_AhbMtx_L1_InStg_0                  |AhbMtx_L1_InStg                  |    65|
+|8     |    u_AhbMtx_L1_InStg_1                  |AhbMtx_L1_InStg_6                |    64|
+|9     |    u_AhbMtx_L1_InStg_2                  |AhbMtx_L1_InStg_7                |   212|
+|10    |    u_AhbMtx_L1_InStg_3                  |AhbMtx_L1_InStg_8                |   106|
+|11    |    u_AhbMtx_L1_InStg_5                  |AhbMtx_L1_InStg_9                |    44|
+|12    |    u_ahbmtx_l1_decs0                    |AhbMtx_L1_DecS0                  |     4|
+|13    |      u_AhbMtx_L1_default_slave          |AhbMtx_L1_default_slave_13       |     3|
+|14    |    u_ahbmtx_l1_decs1                    |AhbMtx_L1_DecS1                  |     4|
+|15    |      u_AhbMtx_L1_default_slave          |AhbMtx_L1_default_slave_12       |     3|
+|16    |    u_ahbmtx_l1_decs2                    |AhbMtx_L1_DecS2                  |    85|
+|17    |      u_AhbMtx_L1_default_slave          |AhbMtx_L1_default_slave_11       |     4|
+|18    |    u_ahbmtx_l1_decs3                    |AhbMtx_L1_DecS3                  |   103|
+|19    |      u_AhbMtx_L1_default_slave          |AhbMtx_L1_default_slave_10       |     6|
+|20    |    u_ahbmtx_l1_decs5                    |AhbMtx_L1_DecS5                  |    13|
+|21    |      u_AhbMtx_L1_default_slave          |AhbMtx_L1_default_slave          |     9|
+|22    |    u_ahbmtx_l1_outstgm0_0               |AhbMtx_L1_OutStgM0               |    45|
+|23    |      u_output_arb                       |AhbMtx_L1_ArbM0                  |    44|
+|24    |    u_ahbmtx_l1_outstgm1_1               |AhbMtx_L1_OutStgM1               |    49|
+|25    |      u_output_arb                       |AhbMtx_L1_ArbM1                  |    15|
+|26    |    u_ahbmtx_l1_outstgm2_2               |AhbMtx_L1_OutStgM2               |    22|
+|27    |      u_output_arb                       |AhbMtx_L1_ArbM2                  |    19|
+|28    |    u_ahbmtx_l1_outstgm3_3               |AhbMtx_L1_OutStgM3               |    80|
+|29    |      u_output_arb                       |AhbMtx_L1_ArbM3                  |    60|
+|30    |    u_ahbmtx_l1_outstgm4_4               |AhbMtx_L1_OutStgM4               |    99|
+|31    |      u_output_arb                       |AhbMtx_L1_ArbM4                  |    63|
+|32    |    u_ahbmtx_l1_outstgm5_5               |AhbMtx_L1_OutStgM5               |    45|
+|33    |      u_output_arb                       |AhbMtx_L1_ArbM5                  |    11|
+|34    |    u_ahbmtx_l1_outstgm6_6               |AhbMtx_L1_OutStgM6               |    49|
+|35    |      u_output_arb                       |AhbMtx_L1_ArbM6                  |    15|
+|36    |    u_ahbmtx_l1_outstgm7_7               |AhbMtx_L1_OutStgM7               |    13|
+|37    |      u_output_arb                       |AhbMtx_L1_ArbM7                  |    11|
+|38    |  AHBMTXL2                               |AhbMtx_L2                        |   123|
+|39    |    u_AhbMtx_L2_InStg_0                  |AhbMtx_L2_InStg                  |    88|
+|40    |    u_ahbmtx_l2_decs0                    |AhbMtx_L2_DecS0                  |    25|
+|41    |      u_AhbMtx_L2_default_slave          |AhbMtx_L2_default_slave          |     8|
+|42    |    u_ahbmtx_l2_outstg_0                 |AhbMtx_L2_OutStg                 |     3|
+|43    |      u_output_arb                       |AhbMtx_L2_Arb_5                  |     1|
+|44    |    u_ahbmtx_l2_outstg_1                 |AhbMtx_L2_OutStg_2               |     3|
+|45    |      u_output_arb                       |AhbMtx_L2_Arb_4                  |     1|
+|46    |    u_ahbmtx_l2_outstg_2                 |AhbMtx_L2_OutStg_3               |     4|
+|47    |      u_output_arb                       |AhbMtx_L2_Arb                    |     2|
+|48    |  AHBSyncBridge                          |cmsdk_ahb_to_ahb_sync            |   135|
+|49    |    \gen_burst_support.u_ahb_error_canc  |cmsdk_ahb_to_ahb_sync_error_canc |    20|
+|50    |  AHB_LCD                                |ahb_lcd                          |   106|
+|51    |  AHB_to_DTCM                            |cmsdk_ahb_to_sram                |   122|
+|52    |  AHB_to_GPIO                            |ahb_to_gpio                      |    85|
+|53    |  AHB_to_ITCM                            |cmsdk_ahb_to_sram_0              |   159|
+|54    |  APBBridge                              |cmsdk_ahb_to_apb                 |   142|
+|55    |  CortexM3_Core                          |cortexm3ds_logic                 | 21971|
+|56    |  DDR                                    |DDR                              |   535|
+|57    |  DMA                                    |DMA                              |   271|
+|58    |    u_FIFO_U                             |FIFO_U                           |    53|
+|59    |  DMAC                                   |DMAC                             |   313|
+|60    |  DTCM                                   |cmsdk_fpga_sram                  |    21|
+|61    |  GPIO__0                                |gpio                             |    16|
+|62    |  IMG_Resizer                            |Resizer                          |   967|
+|63    |    BCalcu                               |CalcuArray                       |   190|
+|64    |    GCalcu                               |CalcuArray__xdcDup__2            |   190|
+|65    |    RCalcu                               |CalcuArray__xdcDup__1            |   200|
+|66    |  ITCM                                   |cmsdk_fpga_sram_1                |    21|
+|67    |  KeyBoard_IRQ                           |KeyBoard                         |   150|
+|68    |  TIMER                                  |apb_timer                        |   157|
+|69    |  UART                                   |cmsdk_apb_uart                   |   224|
++------+-----------------------------------------+---------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:10:44 ; elapsed = 00:11:03 . Memory (MB): peak = 2337.414 ; gain = 1627.207
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 74 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:09:03 ; elapsed = 00:10:48 . Memory (MB): peak = 2337.414 ; gain = 1627.207
+Synthesis Optimization Complete : Time (s): cpu = 00:10:45 ; elapsed = 00:11:10 . Memory (MB): peak = 2337.414 ; gain = 1627.207
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.343 . Memory (MB): peak = 2337.414 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 525 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'CortexM3_Soc' is not ideal for floorplanning, since the cellview 'cortexm3ds_logic' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2337.414 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 24 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 18 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 6 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+342 Infos, 278 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:10:57 ; elapsed = 00:11:28 . Memory (MB): peak = 2337.414 ; gain = 1956.637
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2337.414 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1/CortexM3_Soc.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file CortexM3_Soc_utilization_synth.rpt -pb CortexM3_Soc_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 13 22:31:37 2021...

@@ -1,0 +1,266 @@
+{
+    "ltx_root": {
+        "version": 4,
+        "minor": 0,
+        "ltx_data": [
+            {
+                "name": "EDA_PROBESET",
+                "active": true,
+                "debug_cores": [
+                    {
+                        "type": "XSDB_V3",
+                        "name": "dbg_hub",
+                        "spec": "labtools_xsdbm_v3",
+                        "clk_input_freq_hz": "50000000"
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "u_ila_0",
+                        "spec": "labtools_ila_v6",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 0,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "23e7d65a79bc59f7bc47406c1714dfae",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 0,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "CAMEARA/Camera_idata",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "CAMEARA/Camera_idata[7]"
+                                            },
+                                            {
+                                                "name": "CAMEARA/Camera_idata[6]"
+                                            },
+                                            {
+                                                "name": "CAMEARA/Camera_idata[5]"
+                                            },
+                                            {
+                                                "name": "CAMEARA/Camera_idata[4]"
+                                            },
+                                            {
+                                                "name": "CAMEARA/Camera_idata[3]"
+                                            },
+                                            {
+                                                "name": "CAMEARA/Camera_idata[2]"
+                                            },
+                                            {
+                                                "name": "CAMEARA/Camera_idata[1]"
+                                            },
+                                            {
+                                                "name": "CAMEARA/Camera_idata[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 1,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 1,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "CAMEARA/state",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "CAMEARA/state[1]",
+                                                "parentNetId": 8
+                                            },
+                                            {
+                                                "name": "CAMEARA/state[0]",
+                                                "parentNetId": 9
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 2,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "CAMEARA/DATA_READY",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe3",
+                                "id": 3,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "CAMEARA/syn_valid",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 4,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 4,
+                                "nets": [
+                                    {
+                                        "name": "CAMEARA/syn_valid_reg__0",
+                                        "isBus": false
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "u_ila_1",
+                        "spec": "labtools_ila_v6",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 1,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "3b505a030738513c98471d25f5b1f848",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 5,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "CAMEARA/DATA_VALID",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 6,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "CAMEARA/HREF",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 7,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "CAMEARA/syn_vsync",
+                                        "isBus": false
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "parent_nets": [
+                    {
+                        "id": 8,
+                        "name": "CAMEARA/state[1]",
+                        "state_reg": [
+                            {
+                                "name": "CAMEARA/state_reg[1]",
+                                "states": [
+                                    {
+                                        "name": "idle",
+                                        "val": "00"
+                                    },
+                                    {
+                                        "name": "sdb",
+                                        "val": "01"
+                                    },
+                                    {
+                                        "name": "cap",
+                                        "val": "10"
+                                    },
+                                    {
+                                        "name": "rele",
+                                        "val": "11"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 9,
+                        "name": "CAMEARA/state[0]",
+                        "state_reg": [
+                            {
+                                "name": "CAMEARA/state_reg[0]",
+                                "states": [
+                                    {
+                                        "name": "idle",
+                                        "val": "00"
+                                    },
+                                    {
+                                        "name": "sdb",
+                                        "val": "01"
+                                    },
+                                    {
+                                        "name": "cap",
+                                        "val": "10"
+                                    },
+                                    {
+                                        "name": "rele",
+                                        "val": "11"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

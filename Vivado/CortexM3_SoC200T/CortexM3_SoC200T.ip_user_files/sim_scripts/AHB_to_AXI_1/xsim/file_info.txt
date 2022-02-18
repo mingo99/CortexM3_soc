@@ -1,0 +1,2 @@
+AHB_to_AXI_sim_netlist.v,verilog,xil_defaultlib,../../../../../../Rtl/Peripherals/DDR/ip/AHB_to_AXI_1/AHB_to_AXI_sim_netlist.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

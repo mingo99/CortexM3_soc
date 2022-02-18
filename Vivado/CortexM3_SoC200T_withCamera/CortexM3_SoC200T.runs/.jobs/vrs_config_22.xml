@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="adder_32bit_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/adder_32bit_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="RAM_14bit_32_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/RAM_14bit_32_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="multi_16bit_p1_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/multi_16bit_p1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="adder_16bit_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/adder_16bit_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="RAM_81bit_32_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/RAM_81bit_32_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ROM_32bit_11952_synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/ROM_32bit_11952_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="adder_32bit_synth_1"/>
+		<Parent Id="RAM_14bit_32_synth_1"/>
+		<Parent Id="multi_16bit_p1_synth_1"/>
+		<Parent Id="adder_16bit_synth_1"/>
+		<Parent Id="RAM_81bit_32_synth_1"/>
+		<Parent Id="ROM_32bit_11952_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="G:/SoC/Projects/CortexM3_soc/Vivado/CortexM3_SoC200T_withCamera/CortexM3_SoC200T.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="adder_32bit_synth_1"/>
+		<Parent Id="RAM_14bit_32_synth_1"/>
+		<Parent Id="multi_16bit_p1_synth_1"/>
+		<Parent Id="adder_16bit_synth_1"/>
+		<Parent Id="RAM_81bit_32_synth_1"/>
+		<Parent Id="ROM_32bit_11952_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

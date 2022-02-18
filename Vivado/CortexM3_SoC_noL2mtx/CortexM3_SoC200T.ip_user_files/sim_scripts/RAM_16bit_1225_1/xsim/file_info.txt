@@ -1,0 +1,2 @@
+RAM_16bit_1225.v,verilog,xil_defaultlib,../../../../../../Rtl_no_l2/Peripherals/ACC/IP/RAM_16bit_1225_1/sim/RAM_16bit_1225.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
